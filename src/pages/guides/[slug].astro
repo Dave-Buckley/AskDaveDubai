@@ -1,0 +1,129 @@
+---
+import { getCollection } from 'astro:content';
+import GuideLayout from '../../layouts/GuideLayout.astro';
+import AuthorBio from '../../components/content/AuthorBio.astro';
+import ReadingTime from '../../components/content/ReadingTime.astro';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides');
+  return guides.map((guide) => ({
+    params: { slug: guide.slug },
+    props: { guide },
+  }));
+}
+
+const { guide } = Astro.props;
+const { Content, headings } = await guide.render();
+
+const formattedUpdatedDate = new Intl.DateTimeFormat('en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+}).format(guide.data.updatedDate);
+
+const categoryLabels: Record<string, string> = {
+  'visa': 'Visa',
+  'buying-process': 'Buying Process',
+  'legal': 'Legal',
+  'investment': 'Investment',
+  'costs': 'Costs',
+};
+
+const whatsappUrl = `https://wa.me/971XXXXXXXXX?text=${encodeURIComponent(`Hi Dave, I read your guide on "${guide.data.title}" and have a question.`)}`;
+---
+<GuideLayout
+  title={`${guide.data.title} | Dubai Property Guide`}
+  description={guide.data.description}
+  ogImage={guide.data.heroImage}
+>
+  <div class="max-w-7xl mx-auto px-4 py-12">
+    <!-- Guide Header -->
+    <header class="max-w-3xl mx-auto mb-10" data-animate>
+      <div class="flex items-center gap-3 mb-4">
+        <span class="inline-block px-3 py-1 text-xs font-medium uppercase tracking-wider bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded">
+          {categoryLabels[guide.data.category] || guide.data.category}
+        </span>
+        {guide.data.readingTime && <ReadingTime minutes={guide.data.readingTime} />}
+      </div>
+      <h1 class="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[var(--color-ink)] leading-tight mb-4">
+        {guide.data.title}
+      </h1>
+      <p class="text-lg text-[var(--color-ink-muted)] mb-4">{guide.data.description}</p>
+      <p class="text-sm text-[var(--color-ink-muted)]">
+        Updated <time datetime={guide.data.updatedDate.toISOString()}>{formattedUpdatedDate}</time>
+      </p>
+    </header>
+
+    <!-- Content + Sidebar -->
+    <div class="grid lg:grid-cols-[1fr_260px] gap-12 max-w-5xl mx-auto">
+      <!-- Main Content -->
+      <div>
+        <div class="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-[var(--color-ink)] prose-a:text-[var(--color-accent)] prose-a:no-underline hover:prose-a:underline">
+          <Content />
+        </div>
+
+        <!-- Bottom Author CTA -->
+        <div class="mt-12 p-6 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-xl">
+          <p class="font-heading text-xl font-semibold mb-2">Have a question about this?</p>
+          <p class="text-[var(--color-paper)]/75 text-sm mb-4">Dave is happy to help. No sales pressure — just straight answers.</p>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] text-white font-medium rounded-lg hover:bg-[#1da851] transition-colors"
+          >
+            Ask Dave on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Sidebar: Table of Contents + Author Bio -->
+      <aside class="lg:sticky lg:top-8 lg:self-start flex flex-col gap-6">
+        {headings && headings.filter((h) => h.depth <= 3).length > 0 && (
+          <div class="p-5 bg-white border border-[var(--color-border)] rounded-xl">
+            <p class="text-xs font-semibold uppercase tracking-wider text-[var(--color-ink-muted)] mb-3">In This Guide</p>
+            <nav>
+              <ul class="space-y-2">
+                {headings.filter((h) => h.depth <= 3).map((heading) => (
+                  <li style={`padding-left: ${(heading.depth - 2) * 12}px`}>
+                    <a
+                      href={`#${heading.slug}`}
+                      class="toc-link text-sm text-[var(--color-ink-muted)] hover:text-[var(--color-ink)] transition-colors block"
+                    >
+                      {heading.text}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </div>
+        )}
+
+        <AuthorBio />
+      </aside>
+    </div>
+  </div>
+</GuideLayout>
+
+<script>
+  // Scroll-spy: highlight active TOC link based on scroll position
+  const tocLinks = document.querySelectorAll<HTMLAnchorElement>('.toc-link');
+  const headingEls = document.querySelectorAll<HTMLHeadingElement>('h2[id], h3[id]');
+
+  function updateActiveToc() {
+    let activeId = '';
+    headingEls.forEach((el) => {
+      if (el.getBoundingClientRect().top < 120) {
+        activeId = el.id;
+      }
+    });
+    tocLinks.forEach((link) => {
+      const isActive = link.getAttribute('href') === `#${activeId}`;
+      link.classList.toggle('text-[var(--color-ink)]', isActive);
+      link.classList.toggle('font-medium', isActive);
+    });
+  }
+
+  window.addEventListener('scroll', updateActiveToc, { passive: true });
+  updateActiveToc();
+</script>

@@ -1,0 +1,146 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+
+export async function getStaticPaths() {
+  const developers = await getCollection('developers');
+  return developers.map((developer) => ({
+    params: { slug: developer.data.slug ?? developer.id },
+    props: { developer },
+  }));
+}
+
+const { developer } = Astro.props;
+const { Content } = await developer.render();
+
+const whatsappMessage = encodeURIComponent(`Hi Dave, I'm looking at a ${developer.data.name} property and would like your advice.`);
+const whatsappUrl = `https://wa.me/971XXXXXXXXX?text=${whatsappMessage}`;
+
+const tierLabels: Record<string, string> = {
+  'tier-1': 'Tier 1 Developer',
+  'tier-2': 'Tier 2 Developer',
+  'tier-3': 'Tier 3 Developer',
+};
+
+// Generate initials for logo placeholder
+const initials = developer.data.name
+  .split(' ')
+  .map((w: string) => w[0])
+  .slice(0, 2)
+  .join('')
+  .toUpperCase();
+---
+<PageLayout
+  title={`${developer.data.name} Developer Profile | Dubai Real Estate`}
+  description={`${developer.data.tagline}. Learn about ${developer.data.name}'s track record, notable projects and areas from RERA-registered agent Dave Bhatt.`}
+  ogImage={developer.data.logo}
+>
+  <div class="max-w-7xl mx-auto px-4 py-12">
+    <!-- Header -->
+    <div class="flex items-start gap-6 mb-10" data-animate>
+      {developer.data.logo ? (
+        <img
+          src={developer.data.logo}
+          alt={`${developer.data.name} logo`}
+          width={100}
+          height={100}
+          class="w-24 h-24 object-contain rounded-lg bg-[var(--color-paper-muted)] p-2 border border-[var(--color-border)]"
+        />
+      ) : (
+        <div class="w-24 h-24 rounded-lg bg-[var(--color-paper-muted)] border border-[var(--color-border)] flex items-center justify-center text-[var(--color-ink-muted)] text-2xl font-heading font-bold shrink-0">
+          {initials}
+        </div>
+      )}
+      <div>
+        <div class="flex items-center gap-3 mb-2">
+          <span class="px-2.5 py-0.5 text-xs font-medium bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded">
+            {tierLabels[developer.data.tier] || developer.data.tier}
+          </span>
+          {developer.data.founded && (
+            <span class="text-sm text-[var(--color-ink-muted)]">Est. {developer.data.founded}</span>
+          )}
+        </div>
+        <h1 class="font-heading text-3xl md:text-4xl font-bold text-[var(--color-ink)] mb-2">
+          {developer.data.name}
+        </h1>
+        <p class="text-lg text-[var(--color-ink-muted)]">{developer.data.tagline}</p>
+        <p class="text-sm text-[var(--color-ink-muted)] mt-1">{developer.data.headquarters}</p>
+      </div>
+    </div>
+
+    <div class="grid lg:grid-cols-[1fr_300px] gap-12">
+      <!-- Main Content -->
+      <div>
+        <!-- Notable Projects -->
+        <section class="mb-8">
+          <h2 class="font-heading text-2xl font-semibold text-[var(--color-ink)] mb-4">Notable Projects</h2>
+          <div class="grid sm:grid-cols-2 gap-3">
+            {developer.data.notableProjects.map((project) => (
+              <div class="flex items-center gap-3 p-3 bg-[var(--color-paper-muted)] rounded-lg border border-[var(--color-border)]">
+                <span class="w-2 h-2 rounded-full bg-[var(--color-accent)] shrink-0" aria-hidden="true"></span>
+                <span class="text-sm font-medium text-[var(--color-ink)]">{project}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <!-- Markdown body -->
+        <div class="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-[var(--color-ink)] prose-a:text-[var(--color-accent)] prose-a:no-underline hover:prose-a:underline mb-10">
+          <Content />
+        </div>
+
+        <!-- Bottom CTA -->
+        <div class="p-6 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-xl">
+          <p class="font-heading text-xl font-semibold mb-2">Looking at a {developer.data.name} property?</p>
+          <p class="text-[var(--color-paper)]/75 text-sm mb-4">Dave can give you an honest, independent assessment. No developer kickbacks.</p>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] text-white font-medium rounded-lg hover:bg-[#1da851] transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Ask Dave about {developer.data.name}
+          </a>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="lg:sticky lg:top-8 lg:self-start">
+        <div class="p-5 bg-white border border-[var(--color-border)] rounded-xl shadow-sm">
+          <h2 class="font-heading text-lg font-semibold text-[var(--color-ink)] mb-4">Areas Active</h2>
+          <div class="flex flex-wrap gap-2">
+            {developer.data.areasActive.map((area) => (
+              <a
+                href={`/areas/${area.toLowerCase().replace(/\s+/g, '-')}`}
+                class="px-3 py-1 text-sm bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded-full border border-[var(--color-border)] hover:border-[var(--color-ink)] hover:text-[var(--color-ink)] transition-colors"
+              >
+                {area}
+              </a>
+            ))}
+          </div>
+
+          {developer.data.website && (
+            <div class="mt-4 pt-4 border-t border-[var(--color-border)]">
+              <a
+                href={developer.data.website}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="text-sm text-[var(--color-accent)] hover:underline flex items-center gap-1"
+              >
+                Official Website
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+          )}
+        </div>
+      </aside>
+    </div>
+  </div>
+</PageLayout>

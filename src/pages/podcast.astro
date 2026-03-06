@@ -1,0 +1,36 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Section from '../components/ui/Section.astro';
+import Button from '../components/ui/Button.astro';
+---
+<PageLayout
+  title="The AskDave Podcast — Coming Soon | AskDaveDowntown"
+  description="The AskDave Podcast — real talk about Dubai real estate. Coming soon. Sign up to be notified on launch."
+>
+  <Section dark>
+    <div class="text-center max-w-2xl mx-auto py-16" data-animate>
+      <span class="inline-block px-3 py-1 bg-accent/20 text-accent text-xs tracking-widest uppercase font-semibold mb-6">Coming Soon</span>
+      <h1 class="font-heading text-5xl sm:text-6xl font-bold text-paper leading-none mb-6">
+        The AskDave Podcast
+      </h1>
+      <p class="text-paper/70 leading-relaxed text-lg mb-10">
+        Real talk about Dubai real estate. Market updates, buyer stories, expert interviews — straight from Downtown. Sign up to be notified at launch.
+      </p>
+      <!-- Newsletter signup stub — full integration in Phase 3 -->
+      <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST">
+        <input type="hidden" name="_subject" value="Podcast waitlist signup" />
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="your@email.com"
+          class="flex-1 px-4 py-3 bg-paper/10 border border-paper/20 text-paper placeholder-paper/40 focus:outline-none focus:ring-2 focus:ring-accent"
+        />
+        <button type="submit"
+          class="px-6 py-3 bg-accent text-ink font-semibold hover:bg-accent/90 transition-colors duration-200 whitespace-nowrap">
+          Notify Me
+        </button>
+      </form>
+    </div>
+  </Section>
+</PageLayout>

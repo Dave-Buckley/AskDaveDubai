@@ -1,0 +1,34 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Section from '../components/ui/Section.astro';
+---
+<PageLayout
+  title="Privacy Policy | AskDaveDowntown"
+  description="Privacy policy for AskDaveDowntown — how we collect, use, and protect your personal data."
+  noindex={true}
+>
+  <Section>
+    <div class="max-w-3xl mx-auto prose prose-lg">
+      <h1 class="font-heading text-4xl font-bold text-ink">Privacy Policy</h1>
+      <p class="text-ink-muted text-sm">Last updated: {new Date().toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+
+      <h2>Information We Collect</h2>
+      <p>When you use the contact form, we collect your name, email address, phone number (optional), and message. This information is processed by Formspree and sent directly to Dave.</p>
+
+      <h2>How We Use Your Information</h2>
+      <p>Your contact details are used solely to respond to your enquiry. We do not sell, rent, or share your personal data with third parties, except as required to deliver services (e.g. Formspree for form processing, Calendly for appointment booking).</p>
+
+      <h2>Cookies and Analytics</h2>
+      <p>This site uses Google Analytics 4 to understand how visitors use the site. GA4 may set cookies to track sessions. You can opt out via your browser settings or the Google Analytics opt-out browser add-on.</p>
+
+      <h2>Third-Party Services</h2>
+      <p>This site integrates with Formspree (form processing), Calendly (appointment booking), and Google Fonts. Each service has its own privacy policy.</p>
+
+      <h2>Your Rights</h2>
+      <p>You may request access to, correction of, or deletion of any personal data we hold. Contact Dave directly at dave@askdavedowntown.com.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy? Email dave@askdavedowntown.com.</p>
+    </div>
+  </Section>
+</PageLayout>

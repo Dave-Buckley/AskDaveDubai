@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import ComparisonCard from '../../components/content/ComparisonCard.astro';
+
+const allComparisons = await getCollection('comparisons');
+const comparisons = allComparisons.sort(
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+---
+<PageLayout
+  title="Community Comparisons | Side-by-Side Dubai Areas | Dave Bhatt"
+  description="Side-by-side neighbourhood comparisons to help you decide where to buy in Dubai. Real stats and honest analysis by RERA-registered agent Dave Bhatt."
+>
+  <section class="pt-16 pb-16 px-4 max-w-7xl mx-auto">
+    <div class="mb-12" data-animate>
+      <h1 class="font-heading text-4xl md:text-5xl font-bold text-[var(--color-ink)] mb-4">
+        Community Comparisons
+      </h1>
+      <p class="text-lg text-[var(--color-ink-muted)] max-w-2xl">
+        Side-by-side neighbourhood comparisons to help you decide — real stats, honest assessments, clear verdicts.
+      </p>
+    </div>
+
+    {comparisons.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-animate>
+        {comparisons.map((comparison) => (
+          <ComparisonCard comparison={comparison} />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-20 text-[var(--color-ink-muted)]" data-animate>
+        <p class="text-lg">Comparisons coming soon.</p>
+        <p class="text-sm mt-2">Dave is writing side-by-side analyses of Dubai's most popular neighbourhoods.</p>
+      </div>
+    )}
+  </section>
+</PageLayout>

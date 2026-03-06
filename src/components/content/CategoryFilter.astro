@@ -1,0 +1,68 @@
+---
+interface Props {
+  categories: string[];
+  activeCategory?: string;
+}
+const { categories, activeCategory = 'all' } = Astro.props;
+
+const categoryLabels: Record<string, string> = {
+  'all': 'All',
+  'buying-guide': 'Buying Guide',
+  'market-update': 'Market Update',
+  'area-insight': 'Area Insight',
+  'investment': 'Investment',
+  'legal': 'Legal',
+  'lifestyle': 'Lifestyle',
+};
+---
+<div class="category-filter flex flex-wrap gap-2" role="group" aria-label="Filter by category">
+  {['all', ...categories].map((cat) => (
+    <button
+      type="button"
+      class="filter-btn px-4 py-1.5 text-sm rounded-full border transition-all duration-200"
+      class:list={[
+        cat === activeCategory
+          ? 'border-[var(--color-ink)] bg-[var(--color-ink)] text-[var(--color-paper)]'
+          : 'border-[var(--color-border)] bg-white text-[var(--color-ink-muted)] hover:border-[var(--color-ink)] hover:text-[var(--color-ink)]'
+      ]}
+      data-filter={cat}
+      aria-pressed={cat === activeCategory ? 'true' : 'false'}
+    >
+      {categoryLabels[cat] || cat}
+    </button>
+  ))}
+</div>
+
+<script>
+  function initCategoryFilter() {
+    const filterBtns = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+    const blogCards = document.querySelectorAll<HTMLElement>('.blog-card');
+
+    filterBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const selectedCategory = btn.dataset.filter || 'all';
+
+        // Update button states
+        filterBtns.forEach((b) => {
+          const isActive = b.dataset.filter === selectedCategory;
+          b.classList.toggle('border-[var(--color-ink)]', isActive);
+          b.classList.toggle('bg-[var(--color-ink)]', isActive);
+          b.classList.toggle('text-[var(--color-paper)]', isActive);
+          b.classList.toggle('border-[var(--color-border)]', !isActive);
+          b.classList.toggle('bg-white', !isActive);
+          b.classList.toggle('text-[var(--color-ink-muted)]', !isActive);
+          b.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        });
+
+        // Filter cards
+        blogCards.forEach((card) => {
+          const cardCategory = card.dataset.category || '';
+          const shouldShow = selectedCategory === 'all' || cardCategory === selectedCategory;
+          card.style.display = shouldShow ? '' : 'none';
+        });
+      });
+    });
+  }
+
+  initCategoryFilter();
+</script>

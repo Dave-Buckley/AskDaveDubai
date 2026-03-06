@@ -1,0 +1,39 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  area: CollectionEntry<'areas'>;
+}
+const { area } = Astro.props;
+---
+<article class="group flex flex-col bg-white border border-[var(--color-border)] rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
+  <a href={`/areas/${area.data.slug ?? area.id}`} class="block overflow-hidden aspect-[16/9]">
+    <img
+      src={area.data.heroImage}
+      alt={area.data.heroImageAlt}
+      width={640}
+      height={360}
+      class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+      loading="lazy"
+    />
+  </a>
+  <div class="flex flex-col flex-1 p-5">
+    <h3 class="font-heading text-xl font-semibold text-[var(--color-ink)] mb-1">
+      <a href={`/areas/${area.data.slug ?? area.id}`} class="hover:text-[var(--color-accent)] transition-colors">
+        {area.data.name}
+      </a>
+    </h3>
+    <p class="text-sm text-[var(--color-ink-muted)] mb-4 leading-relaxed">{area.data.tagline}</p>
+    <div class="mt-auto flex items-center justify-between text-sm">
+      <div class="flex gap-4 text-[var(--color-ink-muted)]">
+        <span><span class="font-medium text-[var(--color-ink)]">{area.data.stats.avgPricePerSqft}</span> /sqft</span>
+        <span><span class="font-medium text-[var(--color-ink)]">{area.data.stats.rentalYield}</span> yield</span>
+      </div>
+      {area.data.stats.freehold && (
+        <span class="px-2 py-0.5 text-xs font-medium bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded">
+          Freehold
+        </span>
+      )}
+    </div>
+  </div>
+</article>

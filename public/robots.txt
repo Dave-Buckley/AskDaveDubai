@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://askdavedowntown.com/sitemap-index.xml

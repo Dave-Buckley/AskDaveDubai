@@ -1,0 +1,200 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import AuthorBio from '../../components/content/AuthorBio.astro';
+
+export async function getStaticPaths() {
+  const areas = await getCollection('areas');
+  return areas.map((area) => ({
+    params: { slug: area.data.slug ?? area.id },
+    props: { area },
+  }));
+}
+
+const { area } = Astro.props;
+const { Content } = await area.render();
+
+const whatsappMessage = encodeURIComponent(`Hi Dave, I'm interested in property in ${area.data.name}. Can you help?`);
+const whatsappUrl = `https://wa.me/971XXXXXXXXX?text=${whatsappMessage}`;
+---
+<PageLayout
+  title={`${area.data.name} Area Guide | Dave Bhatt Dubai`}
+  description={area.data.metaDescription}
+  ogImage={area.data.heroImage}
+>
+  <!-- Full-width hero -->
+  <div class="relative h-64 md:h-96 overflow-hidden">
+    <img
+      src={area.data.heroImage}
+      alt={area.data.heroImageAlt}
+      width={1440}
+      height={600}
+      class="w-full h-full object-cover"
+      loading="eager"
+    />
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+    <div class="absolute bottom-0 left-0 right-0 px-6 pb-8 max-w-7xl mx-auto">
+      <h1 class="font-heading text-3xl md:text-5xl font-bold text-white mb-2">{area.data.name}</h1>
+      <p class="text-white/85 text-lg">{area.data.tagline}</p>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 py-12">
+    <div class="grid lg:grid-cols-[1fr_300px] gap-12">
+      <!-- Main Content -->
+      <div>
+        <!-- Highlights -->
+        {area.data.highlights && area.data.highlights.length > 0 && (
+          <div class="mb-8 p-5 bg-[var(--color-paper-muted)] rounded-lg border border-[var(--color-border)]">
+            <h2 class="font-heading text-xl font-semibold text-[var(--color-ink)] mb-3">Area Highlights</h2>
+            <ul class="grid sm:grid-cols-2 gap-2">
+              {area.data.highlights.map((highlight) => (
+                <li class="flex items-start gap-2 text-sm text-[var(--color-ink-muted)]">
+                  <span class="text-[var(--color-accent)] mt-0.5" aria-hidden="true">★</span>
+                  {highlight}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <!-- Lifestyle -->
+        <section class="mb-8">
+          <h2 class="font-heading text-2xl font-semibold text-[var(--color-ink)] mb-3">About the Neighbourhood</h2>
+          <div class="text-[var(--color-ink-muted)] leading-relaxed" set:html={area.data.lifestyle} />
+        </section>
+
+        <!-- Investment -->
+        <section class="mb-8">
+          <h2 class="font-heading text-2xl font-semibold text-[var(--color-ink)] mb-3">Investment Potential</h2>
+          <div class="text-[var(--color-ink-muted)] leading-relaxed" set:html={area.data.investment} />
+        </section>
+
+        <!-- Transport -->
+        <section class="mb-8">
+          <h2 class="font-heading text-2xl font-semibold text-[var(--color-ink)] mb-3">Getting Around</h2>
+          <div class="text-[var(--color-ink-muted)] leading-relaxed" set:html={area.data.transport} />
+        </section>
+
+        <!-- Additional markdown body -->
+        <div class="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-[var(--color-ink)] prose-a:text-[var(--color-accent)]">
+          <Content />
+        </div>
+
+        <!-- Pros / Cons -->
+        <div class="grid sm:grid-cols-2 gap-6 mt-10">
+          <div class="p-5 bg-green-50 rounded-lg border border-green-100">
+            <h3 class="font-heading text-lg font-semibold text-green-800 mb-3">Pros</h3>
+            <ul class="space-y-2">
+              {area.data.pros.map((pro) => (
+                <li class="flex items-start gap-2 text-sm text-green-700">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="mt-0.5 shrink-0" aria-hidden="true">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  {pro}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div class="p-5 bg-red-50 rounded-lg border border-red-100">
+            <h3 class="font-heading text-lg font-semibold text-red-800 mb-3">Cons</h3>
+            <ul class="space-y-2">
+              {area.data.cons.map((con) => (
+                <li class="flex items-start gap-2 text-sm text-red-700">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="mt-0.5 shrink-0" aria-hidden="true">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                  </svg>
+                  {con}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        <!-- Nearby Areas -->
+        {area.data.nearbyAreas && area.data.nearbyAreas.length > 0 && (
+          <div class="mt-8">
+            <h3 class="font-heading text-lg font-semibold text-[var(--color-ink)] mb-3">Nearby Areas</h3>
+            <div class="flex flex-wrap gap-2">
+              {area.data.nearbyAreas.map((slug) => (
+                <a
+                  href={`/areas/${slug}`}
+                  class="px-3 py-1 text-sm bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded-full border border-[var(--color-border)] hover:border-[var(--color-ink)] hover:text-[var(--color-ink)] transition-colors"
+                >
+                  {slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Bottom CTA -->
+        <div class="mt-12 p-6 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-xl text-center">
+          <p class="font-heading text-xl font-semibold mb-2">Interested in property in {area.data.name}?</p>
+          <p class="text-[var(--color-paper)]/75 text-sm mb-4">Talk to Dave — RERA-registered, no-nonsense advice.</p>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white font-medium rounded-lg hover:bg-[#1da851] transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Talk to Dave about {area.data.name}
+          </a>
+        </div>
+      </div>
+
+      <!-- Sidebar: Key Stats -->
+      <aside class="lg:sticky lg:top-8 lg:self-start">
+        <div class="p-5 bg-white border border-[var(--color-border)] rounded-xl shadow-sm">
+          <h2 class="font-heading text-lg font-semibold text-[var(--color-ink)] mb-4">Key Stats</h2>
+          <dl class="space-y-3">
+            <div class="flex justify-between items-start py-2 border-b border-[var(--color-border)]">
+              <dt class="text-sm text-[var(--color-ink-muted)]">Avg Price/sqft</dt>
+              <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{area.data.stats.avgPricePerSqft}</dd>
+            </div>
+            <div class="flex justify-between items-start py-2 border-b border-[var(--color-border)]">
+              <dt class="text-sm text-[var(--color-ink-muted)]">Rental Yield</dt>
+              <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{area.data.stats.rentalYield}</dd>
+            </div>
+            <div class="flex justify-between items-start py-2 border-b border-[var(--color-border)]">
+              <dt class="text-sm text-[var(--color-ink-muted)]">Service Charge</dt>
+              <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{area.data.stats.serviceCharge}</dd>
+            </div>
+            {area.data.stats.completionYear && (
+              <div class="flex justify-between items-start py-2 border-b border-[var(--color-border)]">
+                <dt class="text-sm text-[var(--color-ink-muted)]">Built</dt>
+                <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{area.data.stats.completionYear}</dd>
+              </div>
+            )}
+            <div class="flex justify-between items-center py-2 border-b border-[var(--color-border)]">
+              <dt class="text-sm text-[var(--color-ink-muted)]">Ownership</dt>
+              <dd>
+                {area.data.stats.freehold ? (
+                  <span class="px-2 py-0.5 text-xs font-medium bg-green-100 text-green-700 rounded">Freehold</span>
+                ) : (
+                  <span class="px-2 py-0.5 text-xs font-medium bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded">Leasehold</span>
+                )}
+              </dd>
+            </div>
+            {area.data.stats.beachfront && (
+              <div class="flex justify-between items-center py-2">
+                <dt class="text-sm text-[var(--color-ink-muted)]">Beachfront</dt>
+                <dd>
+                  <span class="px-2 py-0.5 text-xs font-medium bg-blue-100 text-blue-700 rounded">Yes</span>
+                </dd>
+              </div>
+            )}
+          </dl>
+        </div>
+
+        <div class="mt-6">
+          <AuthorBio />
+        </div>
+      </aside>
+    </div>
+  </div>
+</PageLayout>

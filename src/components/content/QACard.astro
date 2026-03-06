@@ -1,0 +1,47 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  qa: CollectionEntry<'qa'>;
+}
+const { qa } = Astro.props;
+
+const categoryLabels: Record<string, string> = {
+  'buying': 'Buying',
+  'visa': 'Visa',
+  'legal': 'Legal',
+  'mortgage': 'Mortgage',
+  'investment': 'Investment',
+  'lifestyle': 'Lifestyle',
+  'fees': 'Fees',
+};
+---
+<article
+  class="qa-card group flex flex-col bg-white border border-[var(--color-border)] rounded-lg p-5 transition-all duration-300 hover:shadow-md hover:border-[var(--color-ink-muted)]"
+  data-question={qa.data.question.toLowerCase()}
+>
+  <div class="flex items-center gap-2 mb-3">
+    <span class="inline-block px-2.5 py-0.5 text-xs font-medium uppercase tracking-wider bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded">
+      {categoryLabels[qa.data.category] || qa.data.category}
+    </span>
+    {qa.data.featured && (
+      <span class="inline-block px-2.5 py-0.5 text-xs font-medium uppercase tracking-wider bg-[var(--color-accent)] text-white rounded">
+        Featured
+      </span>
+    )}
+  </div>
+  <h3 class="font-heading text-lg font-semibold text-[var(--color-ink)] mb-2 leading-snug">
+    <a href={`/ask-dave/${qa.slug}`} class="hover:text-[var(--color-accent)] transition-colors">
+      {qa.data.question}
+    </a>
+  </h3>
+  <a
+    href={`/ask-dave/${qa.slug}`}
+    class="mt-auto inline-flex items-center gap-1 text-sm text-[var(--color-accent)] hover:underline"
+  >
+    Read Dave's answer
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+  </a>
+</article>

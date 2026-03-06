@@ -1,0 +1,30 @@
+---
+const navItems = [
+  { label: 'About', href: '/about' },
+  { label: 'Areas', href: '/areas' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Guides', href: '/guides' },
+  { label: 'Ask Dave', href: '/ask-dave' },
+  { label: 'Tools', href: '/tools' },
+];
+const currentPath = Astro.url.pathname;
+---
+<nav aria-label="Main navigation">
+  <ul class="hidden md:flex items-center gap-8">
+    {navItems.map(item => (
+      <li>
+        <a
+          href={item.href}
+          class:list={[
+            'text-sm font-medium tracking-wide transition-colors duration-200',
+            currentPath.startsWith(item.href)
+              ? 'text-accent'
+              : 'text-paper hover:text-accent'
+          ]}
+        >
+          {item.label}
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>

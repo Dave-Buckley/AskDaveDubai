@@ -1,0 +1,84 @@
+---
+const year = new Date().getFullYear();
+const socialLinks = [
+  { label: 'LinkedIn', href: 'https://linkedin.com/in/askdavedowntown', icon: 'linkedin' },
+  { label: 'Instagram', href: 'https://instagram.com/askdavedowntown', icon: 'instagram' },
+  { label: 'WhatsApp', href: 'https://wa.me/971XXXXXXXXX', icon: 'whatsapp' },
+  { label: 'YouTube', href: 'https://youtube.com/@askdavedowntown', icon: 'youtube' },
+];
+---
+<footer class="bg-ink text-paper">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+      <!-- Brand -->
+      <div>
+        <a href="/" class="font-heading text-2xl font-bold text-paper">
+          AskDave<span class="text-accent">Downtown</span>
+        </a>
+        <p class="mt-4 text-paper/70 text-sm leading-relaxed">
+          Dubai real estate expertise you can trust. RERA certified, Downtown specialist.
+        </p>
+        <!-- TECH-06: Powered by AI badge -->
+        <p class="mt-6 text-xs text-paper/30 tracking-widest uppercase">Powered by AI</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-xs font-semibold tracking-widest uppercase text-paper/50 mb-4">Explore</h3>
+        <ul class="space-y-2">
+          {[
+            { label: 'About Dave', href: '/about' },
+            { label: 'Area Guides', href: '/areas' },
+            { label: 'Blog', href: '/blog' },
+            { label: 'Ask Dave Q&A', href: '/ask-dave' },
+            { label: 'Tools & Calculators', href: '/tools' },
+            { label: 'Contact', href: '/contact' },
+          ].map(link => (
+            <li>
+              <a href={link.href} class="text-sm text-paper/70 hover:text-accent transition-colors duration-200">
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h3 class="text-xs font-semibold tracking-widest uppercase text-paper/50 mb-4">Get in Touch</h3>
+        <ul class="space-y-3">
+          <li>
+            <a href="https://wa.me/971XXXXXXXXX" class="text-sm text-paper/70 hover:text-accent transition-colors duration-200 flex items-center gap-2">
+              WhatsApp Dave
+            </a>
+          </li>
+          <li>
+            <a href="/contact" class="text-sm text-paper/70 hover:text-accent transition-colors duration-200">
+              Book a Consultation
+            </a>
+          </li>
+        </ul>
+
+        <!-- Social links -->
+        <div class="flex gap-4 mt-6">
+          {socialLinks.map(link => (
+            <a href={link.href} aria-label={link.label} target="_blank" rel="noopener noreferrer"
+               class="text-paper/50 hover:text-accent transition-colors duration-200 text-sm">
+              {link.label}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 pt-6 border-t border-paper/10 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p class="text-xs text-paper/40">
+        &copy; {year} AskDaveDowntown. All rights reserved.
+      </p>
+      <div class="flex gap-6">
+        <a href="/privacy" class="text-xs text-paper/40 hover:text-paper/70 transition-colors duration-200">Privacy Policy</a>
+        <a href="/terms" class="text-xs text-paper/40 hover:text-paper/70 transition-colors duration-200">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>

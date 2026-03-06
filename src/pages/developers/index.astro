@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import DeveloperCard from '../../components/content/DeveloperCard.astro';
+
+const allDevelopers = await getCollection('developers');
+const developers = allDevelopers.sort((a, b) => a.data.order - b.data.order);
+---
+<PageLayout
+  title="Dubai Developer Profiles | Know Who's Building | Dave Bhatt"
+  description="In-depth profiles of Dubai's top property developers — track records, notable projects, areas of operation, and Dave's honest assessment. By RERA-registered agent Dave Bhatt."
+>
+  <section class="pt-16 pb-16 px-4 max-w-7xl mx-auto">
+    <div class="mb-12" data-animate>
+      <h1 class="font-heading text-4xl md:text-5xl font-bold text-[var(--color-ink)] mb-4">
+        Dubai Developer Profiles
+      </h1>
+      <p class="text-lg text-[var(--color-ink-muted)] max-w-2xl">
+        Know who's building before you buy — honest assessments of Dubai's major developers, their track records, and what to look out for.
+      </p>
+    </div>
+
+    {developers.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-animate>
+        {developers.map((developer) => (
+          <DeveloperCard developer={developer} />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-20 text-[var(--color-ink-muted)]" data-animate>
+        <p class="text-lg">Developer profiles coming soon.</p>
+        <p class="text-sm mt-2">Dave is writing detailed profiles of Dubai's major property developers.</p>
+      </div>
+    )}
+  </section>
+</PageLayout>

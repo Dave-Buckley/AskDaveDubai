@@ -1,0 +1,62 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import ReadingTime from './ReadingTime.astro';
+
+interface Props {
+  guide: CollectionEntry<'guides'>;
+}
+const { guide } = Astro.props;
+
+const categoryLabels: Record<string, string> = {
+  'visa': 'Visa',
+  'buying-process': 'Buying Process',
+  'legal': 'Legal',
+  'investment': 'Investment',
+  'costs': 'Costs',
+};
+
+const formattedDate = new Intl.DateTimeFormat('en-GB', {
+  month: 'long',
+  year: 'numeric',
+}).format(guide.data.updatedDate);
+---
+<article class="group flex flex-col bg-white border border-[var(--color-border)] rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
+  <div class="flex items-start gap-4 mb-4">
+    {guide.data.icon ? (
+      <div class="w-12 h-12 rounded-lg bg-[var(--color-paper-muted)] flex items-center justify-center text-[var(--color-ink)] text-xl shrink-0">
+        {guide.data.icon}
+      </div>
+    ) : (
+      <div class="w-12 h-12 rounded-lg bg-[var(--color-paper-muted)] flex items-center justify-center shrink-0">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <line x1="16" y1="13" x2="8" y2="13"/>
+          <line x1="16" y1="17" x2="8" y2="17"/>
+          <polyline points="10 9 9 9 8 9"/>
+        </svg>
+      </div>
+    )}
+    <div class="flex-1 min-w-0">
+      <span class="inline-block px-2.5 py-0.5 text-xs font-medium uppercase tracking-wider bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded mb-2">
+        {categoryLabels[guide.data.category] || guide.data.category}
+      </span>
+      <h3 class="font-heading text-lg font-semibold text-[var(--color-ink)] leading-tight">
+        <a href={`/guides/${guide.slug}`} class="hover:text-[var(--color-accent)] transition-colors">
+          {guide.data.title}
+        </a>
+      </h3>
+    </div>
+  </div>
+  <p class="text-sm text-[var(--color-ink-muted)] mb-4 leading-relaxed flex-1">
+    {guide.data.description}
+  </p>
+  <div class="flex items-center justify-between text-xs text-[var(--color-ink-muted)] pt-3 border-t border-[var(--color-border)]">
+    {guide.data.readingTime ? (
+      <ReadingTime minutes={guide.data.readingTime} />
+    ) : (
+      <span></span>
+    )}
+    <time datetime={guide.data.updatedDate.toISOString()}>Updated {formattedDate}</time>
+  </div>
+</article>

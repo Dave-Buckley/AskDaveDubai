@@ -1,0 +1,50 @@
+---
+interface Props {
+  heading: string;
+  subheading?: string;
+  imageSrc?: string;
+  imageAlt?: string;
+}
+const { heading, subheading, imageSrc, imageAlt = 'Dubai skyline' } = Astro.props;
+---
+<!-- REPLACE: hero-image with professional licensed Dubai skyline photo -->
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-ink">
+  <!-- Background image with desktop-only subtle movement via CSS (no iOS parallax) -->
+  {imageSrc && (
+    <div class="absolute inset-0 z-0">
+      <img
+        src={imageSrc}
+        alt={imageAlt}
+        class="w-full h-full object-cover opacity-40"
+        loading="eager"
+      />
+      <!-- Gradient overlay -->
+      <div class="absolute inset-0 bg-gradient-to-b from-ink/60 via-ink/40 to-ink/80"></div>
+    </div>
+  )}
+  {!imageSrc && (
+    <div class="absolute inset-0 z-0 bg-gradient-to-br from-ink via-ink-muted to-ink/90"></div>
+  )}
+
+  <!-- Content -->
+  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="font-heading text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-paper leading-none tracking-tight">
+      {heading}
+    </h1>
+    {subheading && (
+      <p class="mt-6 text-lg sm:text-xl text-paper/80 max-w-2xl mx-auto leading-relaxed">
+        {subheading}
+      </p>
+    )}
+    <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <slot name="cta" />
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
+    <svg class="w-6 h-6 text-paper/50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </div>
+</section>

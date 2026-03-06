@@ -1,0 +1,27 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Section from '../components/ui/Section.astro';
+import Button from '../components/ui/Button.astro';
+---
+<PageLayout
+  title="Page Not Found | AskDaveDowntown"
+  description="The page you're looking for doesn't exist. Head back to AskDaveDowntown for Dubai real estate expertise."
+  noindex={true}
+>
+  <Section dark>
+    <div class="text-center max-w-xl mx-auto py-20">
+      <p class="font-heading text-[8rem] font-bold text-paper/10 leading-none">404</p>
+      <h1 class="font-heading text-4xl sm:text-5xl font-bold text-paper mt-4 -mt-8 relative">
+        Lost in Dubai?
+      </h1>
+      <p class="mt-6 text-paper/70 leading-relaxed">
+        This page doesn't exist — but Dave does. Head back and explore Dubai real estate expertise.
+      </p>
+      <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+        <Button href="/" variant="accent">Go Home</Button>
+        <Button href="/blog" variant="secondary" class="border-paper text-paper hover:bg-paper hover:text-ink">Read the Blog</Button>
+        <Button href="/contact" variant="ghost" class="text-paper hover:text-accent">Contact Dave</Button>
+      </div>
+    </div>
+  </Section>
+</PageLayout>

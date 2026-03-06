@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import BlogCard from './BlogCard.astro';
+
+interface Props {
+  slugs: string[];
+  currentSlug: string;
+}
+const { slugs, currentSlug } = Astro.props;
+
+if (!slugs || slugs.length === 0) {
+  // Render nothing — handled by conditional below
+}
+
+const allPosts = slugs.length > 0 ? await getCollection('blog') : [];
+const relatedPosts = allPosts
+  .filter((post) => slugs.includes(post.slug) && post.slug !== currentSlug)
+  .slice(0, 3);
+---
+{relatedPosts.length > 0 && (
+  <aside class="related-posts">
+    <h2 class="font-heading text-xl font-semibold text-[var(--color-ink)] mb-4">Related Articles</h2>
+    <div class="flex flex-col gap-4">
+      {relatedPosts.map((post) => (
+        <BlogCard post={post} />
+      ))}
+    </div>
+  </aside>
+)}

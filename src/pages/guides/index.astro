@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import GuideCard from '../../components/content/GuideCard.astro';
+
+const allGuides = await getCollection('guides');
+const guides = allGuides.sort((a, b) => a.data.order - b.data.order);
+---
+<PageLayout
+  title="Dubai Property Guides | Everything You Need to Know"
+  description="Comprehensive guides on buying property in Dubai — visa rules, buying process, legal requirements, investment strategy and cost breakdown. By RERA-registered agent Dave Bhatt."
+>
+  <section class="pt-16 pb-16 px-4 max-w-7xl mx-auto">
+    <div class="mb-12" data-animate>
+      <h1 class="font-heading text-4xl md:text-5xl font-bold text-[var(--color-ink)] mb-4">
+        Dubai Property Guides
+      </h1>
+      <p class="text-lg text-[var(--color-ink-muted)] max-w-2xl">
+        Everything you need to know before buying property in Dubai — written clearly, without the jargon.
+      </p>
+    </div>
+
+    {guides.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-animate>
+        {guides.map((guide) => (
+          <GuideCard guide={guide} />
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-20 text-[var(--color-ink-muted)]" data-animate>
+        <p class="text-lg">Guides coming soon.</p>
+        <p class="text-sm mt-2">Dave is writing comprehensive guides on the Dubai property buying process.</p>
+      </div>
+    )}
+  </section>
+</PageLayout>

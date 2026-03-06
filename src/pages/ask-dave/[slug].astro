@@ -1,0 +1,106 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import FAQSchema from '../../components/seo/FAQSchema.astro';
+
+export async function getStaticPaths() {
+  const qaItems = await getCollection('qa');
+  return qaItems.map((qa) => ({
+    params: { slug: qa.slug },
+    props: { qa },
+  }));
+}
+
+const { qa } = Astro.props;
+const { Content, remarkPluginFrontmatter } = await qa.render();
+
+// Get related questions
+const allQA = await getCollection('qa');
+const relatedQA = allQA.filter(
+  (item) => qa.data.relatedQuestions.includes(item.slug) && item.slug !== qa.slug
+);
+
+const categoryLabels: Record<string, string> = {
+  'buying': 'Buying',
+  'visa': 'Visa',
+  'legal': 'Legal',
+  'mortgage': 'Mortgage',
+  'investment': 'Investment',
+  'lifestyle': 'Lifestyle',
+  'fees': 'Fees',
+};
+
+const whatsappUrl = `https://wa.me/971XXXXXXXXX?text=${encodeURIComponent(`Hi Dave, I have a question related to: "${qa.data.question}"`)}`;
+
+// For FAQ schema, use the question and a simplified text answer
+// We use a placeholder since the full body is markdown-rendered
+const faqItems = [{
+  question: qa.data.question,
+  answer: `See Dave's full answer at: https://askdavedowntown.com/ask-dave/${qa.slug}`,
+}];
+---
+<PageLayout
+  title={`${qa.data.question} | Ask Dave Dubai`}
+  description={`Dave Bhatt answers: ${qa.data.question}. Expert advice from a RERA-registered agent.`}
+>
+  <FAQSchema slot="head" items={faqItems} />
+
+  <div class="max-w-4xl mx-auto px-4 py-12">
+    <!-- Header -->
+    <header class="mb-8" data-animate>
+      <div class="flex items-center gap-2 mb-4">
+        <a href="/ask-dave" class="text-sm text-[var(--color-ink-muted)] hover:text-[var(--color-ink)] transition-colors">
+          Ask Dave
+        </a>
+        <span class="text-[var(--color-ink-muted)]" aria-hidden="true">/</span>
+        <span class="px-2.5 py-0.5 text-xs font-medium uppercase tracking-wider bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded">
+          {categoryLabels[qa.data.category] || qa.data.category}
+        </span>
+      </div>
+      <h1 class="font-heading text-3xl md:text-4xl font-bold text-[var(--color-ink)] leading-tight">
+        {qa.data.question}
+      </h1>
+    </header>
+
+    <!-- Answer -->
+    <div class="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-[var(--color-ink)] prose-a:text-[var(--color-accent)] prose-a:no-underline hover:prose-a:underline mb-10" data-animate>
+      <Content />
+    </div>
+
+    <!-- Related Questions -->
+    {relatedQA.length > 0 && (
+      <div class="mb-10 p-5 bg-[var(--color-paper-muted)] rounded-xl border border-[var(--color-border)]" data-animate>
+        <h2 class="font-heading text-lg font-semibold text-[var(--color-ink)] mb-4">Related Questions</h2>
+        <ul class="space-y-2">
+          {relatedQA.map((item) => (
+            <li>
+              <a
+                href={`/ask-dave/${item.slug}`}
+                class="flex items-start gap-2 text-sm text-[var(--color-ink-muted)] hover:text-[var(--color-ink)] transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-0.5 shrink-0 text-[var(--color-accent)]" aria-hidden="true">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+                {item.data.question}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <!-- Bottom CTA -->
+    <div class="p-6 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-xl text-center" data-animate>
+      <p class="font-heading text-xl font-semibold mb-2">Have a different question?</p>
+      <p class="text-[var(--color-paper)]/75 text-sm mb-4">Ask Dave directly — he responds to genuine questions from serious buyers.</p>
+      <a
+        href={whatsappUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] text-white font-medium rounded-lg hover:bg-[#1da851] transition-colors"
+      >
+        Ask Dave on WhatsApp
+      </a>
+    </div>
+  </div>
+</PageLayout>

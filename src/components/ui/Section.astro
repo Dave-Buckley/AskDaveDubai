@@ -1,0 +1,22 @@
+---
+interface Props {
+  class?: string;
+  dark?: boolean;
+  id?: string;
+  animate?: boolean;
+}
+const { class: className, dark = false, id, animate = true } = Astro.props;
+---
+<section
+  id={id}
+  class:list={[
+    'py-20 px-4 sm:px-6 lg:px-8',
+    dark ? 'bg-ink text-paper' : 'bg-paper text-ink',
+    className,
+  ]}
+  data-animate={animate ? '' : undefined}
+>
+  <div class="max-w-7xl mx-auto">
+    <slot />
+  </div>
+</section>

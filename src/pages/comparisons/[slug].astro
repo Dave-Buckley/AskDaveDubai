@@ -1,0 +1,161 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+
+export async function getStaticPaths() {
+  const comparisons = await getCollection('comparisons');
+  return comparisons.map((comparison) => ({
+    params: { slug: comparison.slug },
+    props: { comparison },
+  }));
+}
+
+const { comparison } = Astro.props;
+const { Content } = await comparison.render();
+
+// Try to load the two area entries for live stats
+const allAreas = await getCollection('areas');
+const areaOne = allAreas.find((a) => (a.data.slug ?? a.id) === comparison.data.areaOne);
+const areaTwo = allAreas.find((a) => (a.data.slug ?? a.id) === comparison.data.areaTwo);
+
+const whatsappUrl = `https://wa.me/971XXXXXXXXX?text=${encodeURIComponent(`Hi Dave, I'm trying to decide between ${comparison.data.areaOne} and ${comparison.data.areaTwo}. Can you help?`)}`;
+
+// Helper to determine "better" stat for investment metrics
+function compareValues(a: string, b: string): 'one' | 'two' | 'tie' {
+  // Parse numeric ranges by taking the midpoint
+  const parseNum = (s: string) => {
+    const nums = s.match(/[\d.]+/g)?.map(Number) || [];
+    if (nums.length === 0) return null;
+    return nums.reduce((a, b) => a + b, 0) / nums.length;
+  };
+  const va = parseNum(a);
+  const vb = parseNum(b);
+  if (va === null || vb === null) return 'tie';
+  if (va > vb) return 'one';
+  if (vb > va) return 'two';
+  return 'tie';
+}
+---
+<PageLayout
+  title={`${comparison.data.title} | Dubai Community Comparison`}
+  description={comparison.data.summary}
+>
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <!-- Header -->
+    <div class="mb-10 text-center" data-animate>
+      <h1 class="font-heading text-3xl md:text-5xl font-bold text-[var(--color-ink)] mb-4">
+        {comparison.data.title}
+      </h1>
+      <p class="text-lg text-[var(--color-ink-muted)] max-w-2xl mx-auto">{comparison.data.summary}</p>
+    </div>
+
+    <!-- Stats Comparison Table (only if both areas have data) -->
+    {areaOne && areaTwo && (
+      <div class="mb-12 overflow-x-auto" data-animate>
+        <table class="w-full border-collapse">
+          <thead>
+            <tr class="border-b-2 border-[var(--color-ink)]">
+              <th class="py-3 px-4 text-left text-sm font-medium text-[var(--color-ink-muted)] w-1/3">Metric</th>
+              <th class="py-3 px-4 text-center font-heading text-lg font-semibold text-[var(--color-ink)]">
+                {areaOne.data.name}
+              </th>
+              <th class="py-3 px-4 text-center font-heading text-lg font-semibold text-[var(--color-ink)]">
+                {areaTwo.data.name}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              { label: 'Avg Price/sqft', one: areaOne.data.stats.avgPricePerSqft, two: areaTwo.data.stats.avgPricePerSqft, lowerIsBetter: true },
+              { label: 'Rental Yield', one: areaOne.data.stats.rentalYield, two: areaTwo.data.stats.rentalYield, lowerIsBetter: false },
+              { label: 'Service Charge', one: areaOne.data.stats.serviceCharge, two: areaTwo.data.stats.serviceCharge, lowerIsBetter: true },
+            ].map(({ label, one, two, lowerIsBetter }, i) => {
+              const rawWinner = compareValues(one, two);
+              const winner = lowerIsBetter
+                ? (rawWinner === 'one' ? 'two' : rawWinner === 'two' ? 'one' : 'tie')
+                : rawWinner;
+              return (
+                <tr class:list={[i % 2 === 0 ? 'bg-[var(--color-paper-muted)]' : 'bg-white']}>
+                  <td class="py-3 px-4 text-sm text-[var(--color-ink-muted)]">{label}</td>
+                  <td class="py-3 px-4 text-center">
+                    <span class:list={[
+                      'text-sm font-medium',
+                      winner === 'one' ? 'text-green-700 font-semibold' : 'text-[var(--color-ink)]'
+                    ]}>
+                      {one}
+                      {winner === 'one' && <span class="ml-1 text-green-600 text-xs">✓</span>}
+                    </span>
+                  </td>
+                  <td class="py-3 px-4 text-center">
+                    <span class:list={[
+                      'text-sm font-medium',
+                      winner === 'two' ? 'text-green-700 font-semibold' : 'text-[var(--color-ink)]'
+                    ]}>
+                      {two}
+                      {winner === 'two' && <span class="ml-1 text-green-600 text-xs">✓</span>}
+                    </span>
+                  </td>
+                </tr>
+              );
+            })}
+            <tr class="bg-white">
+              <td class="py-3 px-4 text-sm text-[var(--color-ink-muted)]">Freehold</td>
+              <td class="py-3 px-4 text-center text-sm">
+                {areaOne.data.stats.freehold
+                  ? <span class="text-green-700 font-medium">Yes ✓</span>
+                  : <span class="text-[var(--color-ink-muted)]">No</span>
+                }
+              </td>
+              <td class="py-3 px-4 text-center text-sm">
+                {areaTwo.data.stats.freehold
+                  ? <span class="text-green-700 font-medium">Yes ✓</span>
+                  : <span class="text-[var(--color-ink-muted)]">No</span>
+                }
+              </td>
+            </tr>
+            <tr class="bg-[var(--color-paper-muted)]">
+              <td class="py-3 px-4 text-sm text-[var(--color-ink-muted)]">Beachfront</td>
+              <td class="py-3 px-4 text-center text-sm">
+                {areaOne.data.stats.beachfront
+                  ? <span class="text-blue-700 font-medium">Yes</span>
+                  : <span class="text-[var(--color-ink-muted)]">No</span>
+                }
+              </td>
+              <td class="py-3 px-4 text-center text-sm">
+                {areaTwo.data.stats.beachfront
+                  ? <span class="text-blue-700 font-medium">Yes</span>
+                  : <span class="text-[var(--color-ink-muted)]">No</span>
+                }
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    )}
+
+    <!-- Narrative comparison -->
+    <div class="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-[var(--color-ink)] prose-a:text-[var(--color-accent)] mb-10" data-animate>
+      <Content />
+    </div>
+
+    <!-- Verdict -->
+    <div class="mb-12 p-6 border-2 border-[var(--color-ink)] rounded-xl" data-animate>
+      <p class="text-xs font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-2">Dave's Verdict</p>
+      <p class="font-heading text-xl text-[var(--color-ink)] leading-relaxed">{comparison.data.verdict}</p>
+    </div>
+
+    <!-- CTA -->
+    <div class="p-6 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-xl text-center" data-animate>
+      <p class="font-heading text-xl font-semibold mb-2">Not sure which is right for you?</p>
+      <p class="text-[var(--color-paper)]/75 text-sm mb-4">Ask Dave — he'll give you a straight answer based on your budget and goals.</p>
+      <a
+        href={whatsappUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] text-white font-medium rounded-lg hover:bg-[#1da851] transition-colors"
+      >
+        Ask Dave on WhatsApp
+      </a>
+    </div>
+  </div>
+</PageLayout>

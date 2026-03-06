@@ -1,0 +1,118 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Section from '../components/ui/Section.astro';
+import Button from '../components/ui/Button.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Dave [Surname]",
+    "jobTitle": "RERA-Certified Real Estate Agent",
+    "url": "https://askdavedowntown.com/about",
+    "description": "Dubai-based real estate specialist focusing on Downtown Dubai, Marina, and premium off-plan properties."
+  }
+};
+
+const timeline = [
+  { year: '2016', event: 'Moved to Dubai, began career in real estate' },
+  { year: '2018', event: 'Achieved RERA certification' },
+  { year: '2020', event: 'Specialised in Downtown Dubai and luxury off-plan' },
+  { year: '2022', event: 'Expanded to serve international buyers across 12 areas' },
+  { year: '2024', event: 'Launched AskDaveDowntown to share expertise online' },
+];
+
+const credentials = [
+  'RERA Certified Agent — Dubai Land Department',
+  '8+ Years Dubai Real Estate Experience',
+  '150+ Successful Transactions',
+  'Specialist: Downtown, Marina, Off-Plan, Golden Visa',
+];
+---
+<PageLayout
+  title="About Dave — RERA-Certified Dubai Real Estate Expert | AskDaveDowntown"
+  description="Meet Dave — RERA-certified Dubai real estate specialist with 8+ years experience. Helping buyers and investors navigate Dubai property with honest, expert guidance."
+  schema={schema}
+>
+  <!-- HERO -->
+  <Section dark>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div data-animate>
+        <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-4">About Dave</p>
+        <h1 class="font-heading text-5xl sm:text-6xl font-bold text-paper leading-none">
+          Your Man on the Ground in Dubai
+        </h1>
+        <p class="mt-6 text-paper/80 leading-relaxed text-lg">
+          <!-- REPLACE: Write Dave's authentic opening statement in his voice -->
+          Dubai real estate can feel overwhelming from abroad. I built AskDaveDowntown to change that — giving buyers and investors honest, practical guidance without the sales pressure.
+        </p>
+        <div class="mt-8 flex gap-4">
+          <Button href="/contact" variant="accent">Book a Free Consultation</Button>
+          <Button href="https://wa.me/971XXXXXXXXX" variant="ghost" class="text-paper hover:text-accent" target="_blank" rel="noopener noreferrer">WhatsApp Me</Button>
+        </div>
+      </div>
+      <!-- Professional photo placeholder -->
+      <div class="relative" data-animate>
+        <div class="aspect-[3/4] bg-ink-muted/40 border border-paper/10 flex items-center justify-center">
+          <!-- REPLACE: professional headshot photo -->
+          <p class="text-paper/30 text-sm text-center px-6">Professional photo<br/>coming soon</p>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <!-- CREDENTIALS -->
+  <Section>
+    <div class="text-center mb-12" data-animate>
+      <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-3">Credentials</p>
+      <h2 class="font-heading text-4xl font-bold text-ink">Why Dave?</h2>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+      {credentials.map(cred => (
+        <div class="flex items-start gap-3 p-4 border border-border" data-animate>
+          <svg class="w-5 h-5 text-accent flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="text-sm text-ink font-medium">{cred}</span>
+        </div>
+      ))}
+    </div>
+  </Section>
+
+  <!-- EXPERIENCE TIMELINE -->
+  <Section dark>
+    <div class="text-center mb-12" data-animate>
+      <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-3">Journey</p>
+      <h2 class="font-heading text-4xl font-bold text-paper">My Dubai Story</h2>
+    </div>
+    <div class="max-w-2xl mx-auto">
+      <div class="relative border-l border-paper/20 pl-8 space-y-8">
+        {timeline.map((item) => (
+          <div class="relative" data-animate>
+            <div class="absolute -left-10 flex items-center justify-center w-5 h-5 rounded-full bg-accent border-2 border-ink"></div>
+            <p class="text-accent text-sm font-semibold tracking-wide mb-1">{item.year}</p>
+            <p class="text-paper/80">{item.event}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </Section>
+
+  <!-- PERSONAL STORY -->
+  <Section>
+    <div class="max-w-3xl mx-auto" data-animate>
+      <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-4">My Approach</p>
+      <h2 class="font-heading text-4xl font-bold text-ink mb-6">Straight Talk, No Fluff</h2>
+      <!-- REPLACE: Dave's authentic personal story and philosophy in his own voice -->
+      <div class="prose prose-lg max-w-none text-ink-muted leading-relaxed space-y-4">
+        <p>I've seen buyers rush into bad decisions because they didn't have the right information. That's why I built this site — to give you the same frank conversations I have with every client, before you ever pick up the phone.</p>
+        <p>My focus is Downtown Dubai and the premium freehold zones, with a particular expertise in off-plan deals and helping international buyers navigate the Golden Visa pathway. If it's in Dubai real estate, I've either dealt with it personally or helped a client through it.</p>
+        <p><!-- REPLACE: Continue Dave's story here --></p>
+      </div>
+      <div class="mt-8">
+        <Button href="/contact" variant="primary">Start the Conversation</Button>
+      </div>
+    </div>
+  </Section>
+</PageLayout>

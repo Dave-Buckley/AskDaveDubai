@@ -1,0 +1,73 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  developer: CollectionEntry<'developers'>;
+}
+const { developer } = Astro.props;
+
+const tierLabels: Record<string, string> = {
+  'tier-1': 'Tier 1',
+  'tier-2': 'Tier 2',
+  'tier-3': 'Tier 3',
+};
+
+// Generate initials from developer name for logo placeholder
+const initials = developer.data.name
+  .split(' ')
+  .map((w) => w[0])
+  .slice(0, 2)
+  .join('')
+  .toUpperCase();
+---
+<article class="group flex flex-col bg-white border border-[var(--color-border)] rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
+  <div class="flex items-center gap-4 mb-4">
+    {developer.data.logo ? (
+      <img
+        src={developer.data.logo}
+        alt={`${developer.data.name} logo`}
+        width={80}
+        height={80}
+        class="w-20 h-20 object-contain rounded bg-[var(--color-paper-muted)] p-2"
+        loading="lazy"
+      />
+    ) : (
+      <div class="w-20 h-20 rounded bg-[var(--color-paper-muted)] flex items-center justify-center text-[var(--color-ink-muted)] text-lg font-heading font-bold shrink-0">
+        {initials}
+      </div>
+    )}
+    <div>
+      <div class="flex items-center gap-2 mb-1">
+        <span class="px-2 py-0.5 text-xs font-medium bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded">
+          {tierLabels[developer.data.tier] || developer.data.tier}
+        </span>
+      </div>
+      <h3 class="font-heading text-lg font-semibold text-[var(--color-ink)]">
+        <a href={`/developers/${developer.data.slug ?? developer.id}`} class="hover:text-[var(--color-accent)] transition-colors">
+          {developer.data.name}
+        </a>
+      </h3>
+      <p class="text-sm text-[var(--color-ink-muted)]">{developer.data.tagline}</p>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <p class="text-xs font-medium uppercase tracking-wider text-[var(--color-ink-muted)] mb-1">Notable Projects</p>
+    <ul class="text-sm text-[var(--color-ink-muted)] space-y-0.5">
+      {developer.data.notableProjects.slice(0, 3).map((project) => (
+        <li class="flex items-center gap-1.5">
+          <span class="w-1 h-1 rounded-full bg-[var(--color-accent)] shrink-0"></span>
+          {project}
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <div class="flex flex-wrap gap-1.5 mt-auto pt-3 border-t border-[var(--color-border)]">
+    {developer.data.areasActive.map((area) => (
+      <span class="px-2 py-0.5 text-xs bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded">
+        {area}
+      </span>
+    ))}
+  </div>
+</article>

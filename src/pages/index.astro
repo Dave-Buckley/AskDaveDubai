@@ -1,0 +1,159 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Hero from '../components/ui/Hero.astro';
+import Section from '../components/ui/Section.astro';
+import Button from '../components/ui/Button.astro';
+import Card from '../components/ui/Card.astro';
+import { StatsCounter } from '../components/ui/StatsCounter';
+
+const stats = [
+  { label: 'Transactions Completed', value: 150, suffix: '+' },
+  { label: 'Areas Covered', value: 12 },
+  { label: 'Years Experience', value: 8, suffix: '+' },
+];
+
+const featuredContent = [
+  {
+    title: 'Area Guides',
+    description: 'Detailed neighbourhood profiles — lifestyle, pricing, investment data.',
+    href: '/areas',
+    tag: 'Explore',
+  },
+  {
+    title: 'Ask Dave Q&A',
+    description: 'Expert answers to the most common Dubai property questions.',
+    href: '/ask-dave',
+    tag: 'Learn',
+  },
+  {
+    title: 'Free Calculators',
+    description: 'DLD fees, mortgage affordability, ROI yield — instant results.',
+    href: '/tools',
+    tag: 'Calculate',
+  },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "AskDaveDowntown — Dubai Real Estate Expert",
+  "url": "https://askdavedowntown.com",
+  "description": "Dubai real estate expertise from a RERA-certified Downtown specialist. Expert area guides, calculators, and direct access to Dave."
+};
+---
+<PageLayout
+  title="AskDaveDowntown — Dubai Real Estate Expert"
+  description="Dubai real estate expertise from a RERA-certified Downtown specialist. Buy, invest, or explore Dubai property with confidence. Book a free consultation."
+  schema={schema}
+>
+  <!-- HERO -->
+  <!-- REPLACE: hero-image — use licensed Dubai skyline photo at public/images/hero/dubai-skyline.jpg -->
+  <Hero
+    heading="Your Dubai Property Expert"
+    subheading="RERA-certified specialist helping buyers and investors navigate Dubai real estate with confidence. No pressure. No jargon. Just straight answers."
+    imageSrc="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1920&q=80&auto=format"
+    imageAlt="Dubai skyline at dusk"
+  >
+    <Fragment slot="cta">
+      <Button href="https://wa.me/971XXXXXXXXX" variant="accent" size="lg" target="_blank" rel="noopener noreferrer">
+        WhatsApp Dave Now
+      </Button>
+      <Button href="/contact" variant="secondary" size="lg" class="border-paper text-paper hover:bg-paper hover:text-ink">
+        Book a Free Call
+      </Button>
+    </Fragment>
+  </Hero>
+
+  <!-- STATS -->
+  <Section dark animate={false}>
+    <StatsCounter stats={stats} client:visible />
+  </Section>
+
+  <!-- VALUE PROPOSITION -->
+  <Section>
+    <div class="text-center max-w-3xl mx-auto mb-16" data-animate>
+      <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-3">Why Dave?</p>
+      <h2 class="font-heading text-4xl sm:text-5xl font-bold text-ink leading-tight">
+        Real Expertise. Real Results.
+      </h2>
+      <p class="mt-6 text-ink-muted leading-relaxed">
+        Dubai's property market moves fast. I help buyers and investors cut through the noise — from first question to handing over keys — with honest, RERA-certified guidance.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {featuredContent.map(item => (
+        <Card href={item.href} animate>
+          <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-3">{item.tag}</p>
+          <h3 class="font-heading text-2xl font-bold text-ink mb-3">{item.title}</h3>
+          <p class="text-ink-muted text-sm leading-relaxed">{item.description}</p>
+          <div class="mt-4 text-sm font-medium text-ink hover:text-accent transition-colors duration-200">
+            Explore →
+          </div>
+        </Card>
+      ))}
+    </div>
+  </Section>
+
+  <!-- TESTIMONIALS PLACEHOLDER -->
+  <Section dark>
+    <div class="text-center mb-12" data-animate>
+      <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-3">What Clients Say</p>
+      <h2 class="font-heading text-4xl sm:text-5xl font-bold text-paper">Trusted by Buyers Worldwide</h2>
+    </div>
+    <!-- Testimonial cards placeholder — will be populated with real content -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {[1,2,3].map(i => (
+        <div class="border border-paper/10 p-6" data-animate>
+          <div class="flex gap-1 mb-4">
+            {[1,2,3,4,5].map(() => (
+              <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+            ))}
+          </div>
+          <p class="text-paper/80 text-sm leading-relaxed italic">
+            "<!-- REPLACE: Add real client testimonial {i} -->"
+          </p>
+          <div class="mt-4 pt-4 border-t border-paper/10">
+            <p class="text-paper font-semibold text-sm">Client Name {i}</p>
+            <p class="text-paper/50 text-xs">Location</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </Section>
+
+  <!-- AS SEEN IN MEDIA BAR PLACEHOLDER (LEAD-07) -->
+  <Section class="py-12">
+    <div class="text-center" data-animate>
+      <p class="text-xs tracking-widest uppercase text-ink-muted font-semibold mb-8">As Seen In</p>
+      <!-- REPLACE: Add real press logos here -->
+      <div class="flex flex-wrap justify-center gap-12 items-center opacity-30">
+        {['Publication 1', 'Publication 2', 'Publication 3', 'Publication 4'].map(pub => (
+          <span class="text-xl font-heading font-bold text-ink tracking-wide">{pub}</span>
+        ))}
+      </div>
+    </div>
+  </Section>
+
+  <!-- CTA SECTION -->
+  <Section dark>
+    <div class="text-center max-w-2xl mx-auto" data-animate>
+      <h2 class="font-heading text-4xl sm:text-5xl font-bold text-paper leading-tight">
+        Ready to Make Your Move?
+      </h2>
+      <p class="mt-6 text-paper/70 leading-relaxed">
+        Whether you're buying your first property, investing, or just exploring — I'm here to answer every question. No obligation, ever.
+      </p>
+      <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+        <Button href="https://wa.me/971XXXXXXXXX" variant="accent" size="lg" target="_blank" rel="noopener noreferrer">
+          WhatsApp Dave
+        </Button>
+        <Button href="/contact" variant="secondary" size="lg" class="border-paper text-paper hover:bg-paper hover:text-ink">
+          Book a Consultation
+        </Button>
+      </div>
+    </div>
+  </Section>
+</PageLayout>
