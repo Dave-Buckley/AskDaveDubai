@@ -5,8 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://dave-buckley.github.io',
-  base: '/AskDaveDubai',
+  site: 'https://dave-buckley.github.io/AskDaveDubai',
   output: 'static',
   integrations: [
     react(),
