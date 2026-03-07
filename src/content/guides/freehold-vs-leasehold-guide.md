@@ -1,5 +1,5 @@
 ---
-title: "Freehold vs Leasehold in Dubai — What Foreigners Need to Know"
+title: "Freehold vs Leasehold in Dubai - What Foreigners Need to Know"
 description: "Foreigners can only buy freehold property in Dubai. Here's what freehold means, where the freehold zones are, and what leasehold means for expats."
 category: "legal"
 updatedDate: "2025-01-01"
@@ -13,17 +13,17 @@ Freehold vs leasehold is the foundational legal distinction in Dubai property. G
 
 Freehold means you own the property and the land it sits on, permanently and outright. There is no expiry date. Your rights include:
 
-- **Sell** — whenever and to whoever you choose
-- **Rent** — short or long term, with or without restrictions
-- **Mortgage** — use as security for financing
-- **Gift** — transfer to family members
-- **Inherit / bequeath** — pass to heirs under your estate
+- **Sell** - whenever and to whoever you choose
+- **Rent** - short or long term, with or without restrictions
+- **Mortgage** - use as security for financing
+- **Gift** - transfer to family members
+- **Inherit / bequeath** - pass to heirs under your estate
 
 Freehold title in Dubai is registered with the Dubai Land Department and evidenced by a title deed. It is protected under UAE federal and Dubai emirate law. This is the strongest form of property ownership available in the UAE.
 
 ## What is Leasehold Property?
 
-Leasehold means you hold a long-term lease on the property — typically 99 years from the date of the original development. The land ownership remains with the developer, government entity, or landlord.
+Leasehold means you hold a long-term lease on the property - typically 99 years from the date of the original development. The land ownership remains with the developer, government entity, or landlord.
 
 Leasehold gives you use rights for the term of the lease, but:
 - At the end of the lease term, the property technically reverts to the land owner (in practice, leases are usually extended)
@@ -38,7 +38,7 @@ In Dubai's context, leasehold properties are primarily found in older communitie
 Under UAE Federal Law No. 7 of 2006, foreign nationals (non-GCC citizens) can only own property in designated **freehold zones**. Outside these zones, foreigners can hold leasehold interests but not freehold ownership.
 
 This means:
-- You cannot buy freehold property in older residential areas of Dubai like Jumeirah, Umm Suqeim, Al Barsha, or Mirdif — these are not freehold zones
+- You cannot buy freehold property in older residential areas of Dubai like Jumeirah, Umm Suqeim, Al Barsha, or Mirdif - these are not freehold zones
 - You CAN buy both freehold and leasehold property in freehold zones
 - Always confirm a property is in a freehold zone before investing
 
@@ -69,11 +69,11 @@ The UAE government has designated 40+ areas across Dubai as freehold zones for f
 - Discovery Gardens
 - Motor City, Sports City, Green Community
 
-This is not an exhaustive list — the full register of freehold zones is maintained by the DLD. When in doubt, verify at [dld.gov.ae](https://www.dld.gov.ae).
+This is not an exhaustive list - the full register of freehold zones is maintained by the DLD. When in doubt, verify at [dld.gov.ae](https://www.dld.gov.ae).
 
 ## Commonhold: The Third Category
 
-Beyond freehold and leasehold, Dubai has a concept called **commonhold** — which applies to strata-title developments (apartment buildings, townhouse communities).
+Beyond freehold and leasehold, Dubai has a concept called **commonhold** - which applies to strata-title developments (apartment buildings, townhouse communities).
 
 In a commonhold arrangement:
 - You own your individual unit freehold
@@ -90,11 +90,11 @@ Understanding commonhold matters for investors because:
 
 ## Non-Freehold Areas: What Applies
 
-Dubai's older residential areas — Jumeirah, Umm Suqeim, Al Safa, Al Barsha (main road villas), Mirdif, and others — are primarily non-freehold. In these areas:
+Dubai's older residential areas - Jumeirah, Umm Suqeim, Al Safa, Al Barsha (main road villas), Mirdif, and others - are primarily non-freehold. In these areas:
 
 - UAE nationals and GCC citizens can buy freehold
 - Foreign nationals can hold long-term leasehold interests (typically via 99-year lease)
-- Some developments in these areas have received special designation allowing foreign freehold — check on a project-by-project basis
+- Some developments in these areas have received special designation allowing foreign freehold - check on a project-by-project basis
 
 ## Dave's Advice
 
@@ -108,4 +108,4 @@ The only scenario where leasehold makes sense for an international buyer is if a
 
 When you receive documents from a developer or seller, look for the DLD title deed. If the registration document is not a DLD title deed, ask why.
 
-Questions about specific areas or properties? [Ask me directly.](https://wa.me/971XXXXXXXXX)
+Questions about specific areas or properties? [Ask me directly.](https://wa.me/971503019926)

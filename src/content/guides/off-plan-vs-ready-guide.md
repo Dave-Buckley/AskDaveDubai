@@ -1,6 +1,6 @@
 ---
-title: "Off-Plan vs Ready Property in Dubai — The Complete Comparison"
-description: "Pros, cons, and who each type of Dubai property is right for — off-plan vs ready explained for buyers and investors."
+title: "Off-Plan vs Ready Property in Dubai - The Complete Comparison"
+description: "Pros, cons, and who each type of Dubai property is right for - off-plan vs ready explained for buyers and investors."
 category: "investment"
 updatedDate: "2025-01-01"
 featured: false
@@ -11,11 +11,11 @@ Off-plan or ready property is the first strategic decision every Dubai buyer fac
 
 ## What is Off-Plan Property?
 
-Off-plan property is purchased before construction is complete — sometimes before it has started. You buy from the developer based on approved floor plans, render images, and a payment plan tied to construction milestones.
+Off-plan property is purchased before construction is complete - sometimes before it has started. You buy from the developer based on approved floor plans, render images, and a payment plan tied to construction milestones.
 
-**The transaction:** You sign a Sales and Purchase Agreement (SPA) directly with the developer and pay according to a construction-linked schedule. Your purchase is registered in the DLD's Oqood system — this is legal proof of your purchase but is not a full title deed. You receive a full title deed when construction completes and the DLD registers the handover.
+**The transaction:** You sign a Sales and Purchase Agreement (SPA) directly with the developer and pay according to a construction-linked schedule. Your purchase is registered in the DLD's Oqood system - this is legal proof of your purchase but is not a full title deed. You receive a full title deed when construction completes and the DLD registers the handover.
 
-**Timeline:** Typically 2–4 years from purchase to keys, though this varies by project stage at purchase and developer pace.
+**Timeline:** Typically 2-4 years from purchase to keys, though this varies by project stage at purchase and developer pace.
 
 ## What is Ready Property?
 
@@ -29,7 +29,7 @@ You inspect the actual unit before buying. Transfer happens within weeks of sign
 
 ### Lower Entry Price
 
-Off-plan launches are typically priced 5–15% below the equivalent ready market rate. Developers discount for early commitment and cash flow — they need buyer deposits to fund construction. You are compensated for taking on construction risk and the wait.
+Off-plan launches are typically priced 5-15% below the equivalent ready market rate. Developers discount for early commitment and cash flow - they need buyer deposits to fund construction. You are compensated for taking on construction risk and the wait.
 
 ### Payment Plan Flexibility
 
@@ -37,7 +37,7 @@ Off-plan developers offer construction-linked payment plans that spread the cost
 
 - **20/80:** Pay 20% during construction, 80% at handover
 - **40/60:** Pay 40% during construction, 60% at handover
-- **Post-handover plans:** Some developers allow up to 30–40% to be paid after you receive keys — giving you time to establish rental income before completing payment
+- **Post-handover plans:** Some developers allow up to 30-40% to be paid after you receive keys - giving you time to establish rental income before completing payment
 
 Payment plans allow buyers with less capital today to acquire property with a lower upfront commitment.
 
@@ -45,7 +45,7 @@ Payment plans allow buyers with less capital today to acquire property with a lo
 
 In a rising market, an off-plan purchase at AED 1,200/sqft may be worth AED 1,500/sqft by completion. You have gained 25% on the total value while only paying a fraction of it during construction. This is inherent leverage without taking a mortgage.
 
-Between 2022 and 2025, well-chosen Dubai off-plan purchases have appreciated 30–50% from launch to handover in strong sub-markets.
+Between 2022 and 2025, well-chosen Dubai off-plan purchases have appreciated 30-50% from launch to handover in strong sub-markets.
 
 ### New-Build Quality
 
@@ -55,11 +55,11 @@ Fresh unit, modern specifications, current building codes, developer warranty. N
 
 ### Delivery Delays
 
-This is the most predictable risk. Delays of 1–3 years beyond the stated completion date are common across the Dubai off-plan market — not exceptional, normal. If the developer says Q4 2026, budget mentally for Q4 2027 or Q1 2028. Plan your finances accordingly.
+This is the most predictable risk. Delays of 1-3 years beyond the stated completion date are common across the Dubai off-plan market - not exceptional, normal. If the developer says Q4 2026, budget mentally for Q4 2027 or Q1 2028. Plan your finances accordingly.
 
 ### Developer Risk
 
-A small number of developers have cancelled projects or gone into administration. Post-2009 reform means this is less common today, but it still happens — primarily with smaller, less capitalised developers.
+A small number of developers have cancelled projects or gone into administration. Post-2009 reform means this is less common today, but it still happens - primarily with smaller, less capitalised developers.
 
 ### RERA Escrow Protection Explained
 
@@ -116,12 +116,12 @@ There is no payment plan. You pay the full purchase price (or deposit + mortgage
 
 ### Less Capital Upside
 
-If you are buying at current market rates, your upside is limited to future market appreciation — which is more modest than the construction-period appreciation available to off-plan buyers at launch.
+If you are buying at current market rates, your upside is limited to future market appreciation - which is more modest than the construction-period appreciation available to off-plan buyers at launch.
 
 ## Decision Framework
 
 **Buy off-plan if you:**
-- Have a 2–4 year investment horizon and patience for delays
+- Have a 2-4 year investment horizon and patience for delays
 - Want a lower deposit and spread payment obligations
 - Have capital you do not need access to
 - Are investing in a developer with a strong completion track record (Emaar, Sobha, Nakheel)
@@ -147,4 +147,4 @@ Before committing to any off-plan purchase, research:
 
 Tier-1 developers (Emaar, Sobha, Nakheel, Meraas) carry significantly less off-plan risk than smaller or newer market entrants.
 
-[Not sure which is right for your situation? Let's talk through the numbers.](https://wa.me/971XXXXXXXXX)
+[Not sure which is right for your situation? Let's talk through the numbers.](https://wa.me/971503019926)

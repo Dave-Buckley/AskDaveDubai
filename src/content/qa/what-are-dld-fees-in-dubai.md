@@ -12,7 +12,7 @@ publishDate: "2025-01-01"
 The Dubai Land Department (DLD) charges several fees when you buy property in Dubai. Here is the complete breakdown:
 
 **DLD Transfer Fee: 4% of purchase price**
-This is the main cost. Payable to the DLD at transfer. By convention, often split 50/50 between buyer and seller — but legally the buyer pays. Always clarify the split in your MOU before signing.
+This is the main cost. Payable to the DLD at transfer. By convention, often split 50/50 between buyer and seller - but legally the buyer pays. Always clarify the split in your MOU before signing.
 
 **DLD Admin Fee: ~AED 5,250** (for properties above AED 500,000)
 A fixed administrative processing fee. Approximately AED 4,200 for properties at AED 500K or under.
@@ -20,8 +20,8 @@ A fixed administrative processing fee. Approximately AED 4,200 for properties at
 **Title Deed Issuance Fee: AED 250**
 The nominal fee for the actual title deed document.
 
-**Trustee Office Fee: ~AED 4,000–5,250**
-Dubai transfers are processed at registered trustee offices (not DLD head office). The trustee charges a facilitation fee — approximately AED 4,000 for cash purchases and AED 5,250 for mortgage purchases.
+**Trustee Office Fee: ~AED 4,000-5,250**
+Dubai transfers are processed at registered trustee offices (not DLD head office). The trustee charges a facilitation fee - approximately AED 4,000 for cash purchases and AED 5,250 for mortgage purchases.
 
 **Mortgage Registration Fee: 0.25% of loan amount + AED 290**
 Only applicable if buying with a mortgage. Registers the bank's charge on the title.
@@ -40,6 +40,6 @@ Paid to the buyer's real estate agent. RERA-regulated standard rate.
 | Agent Commission | AED 40,000 |
 | **Total** | **~AED 129,500** |
 
-**The rule of thumb:** Budget 6–7% of purchase price on top for a cash purchase. Budget 7–8% with a mortgage.
+**The rule of thumb:** Budget 6-7% of purchase price on top for a cash purchase. Budget 7-8% with a mortgage.
 
-This is the most important number to know before you negotiate — because you need this cash available at transfer, on top of the purchase price. [Message me](https://wa.me/971XXXXXXXXX) if you want a precise breakdown for a specific transaction.
+This is the most important number to know before you negotiate - because you need this cash available at transfer, on top of the purchase price. [Message me](https://wa.me/971503019926) if you want a precise breakdown for a specific transaction.

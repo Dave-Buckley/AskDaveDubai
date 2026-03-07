@@ -1,0 +1,50 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Section from '../../components/ui/Section.astro';
+import OutdoorsMap from '../../components/map/OutdoorsMap';
+---
+<PageLayout
+  title="Parks, Beaches & Outdoors Near Downtown Dubai - Interactive Map | AskDaveDowntown"
+  description="Find parks, beaches, running tracks, cycling paths, and pet-friendly spots near Downtown Dubai. Outdoor lifestyle options mapped with drive times."
+>
+  <Section dark class="py-12">
+    <div class="text-center max-w-2xl mx-auto" data-animate>
+      <div class="inline-flex items-center gap-2 px-4 py-2 border border-accent/30 mb-6">
+        <div class="w-2 h-2 rounded-full bg-accent"></div>
+        <span class="text-xs tracking-[0.2em] uppercase text-accent font-medium">Parks & Outdoors</span>
+      </div>
+      <h1 class="font-heading text-4xl sm:text-5xl font-bold text-paper leading-none">
+        Parks, Beaches & Outdoors
+      </h1>
+      <p class="mt-4 text-paper/50 leading-relaxed text-sm">
+        Parks, beaches, running tracks, cycling paths, and pet-friendly spots accessible from Downtown Dubai. Green spaces and outdoor lifestyle.
+      </p>
+      <a href="/explore" class="inline-flex items-center gap-1 mt-4 text-accent/60 text-xs hover:text-accent transition-colors">
+        <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" /></svg>
+        All Explore Maps
+      </a>
+    </div>
+  </Section>
+
+  <section class="px-4 sm:px-6 lg:px-8 pb-8 max-w-[1400px] mx-auto">
+    <OutdoorsMap client:visible />
+  </section>
+
+  <Section dark class="py-12">
+    <div class="text-center max-w-2xl mx-auto" data-animate>
+      <h2 class="font-heading text-2xl font-bold text-paper mb-3">Active Lifestyle Questions?</h2>
+      <p class="text-paper/50 text-sm mb-6">Running groups, cycling clubs, beach access from Downtown - I can share what the outdoor lifestyle really looks like day-to-day.</p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="https://wa.me/971503019926?text=Hi%20Dave%2C%20what%27s%20the%20outdoor%20lifestyle%20like%20in%20Downtown%20Dubai%3F"
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366] text-white text-sm font-semibold hover:bg-[#20BD5A] transition-colors duration-200">
+          Ask Dave on WhatsApp
+        </a>
+        <a href="mailto:dave.buckley@paragonproperties.ae?subject=Outdoor%20Lifestyle%20Downtown"
+           class="inline-flex items-center justify-center gap-2 px-6 py-3 border border-accent/40 text-accent text-sm font-semibold hover:bg-accent/10 transition-colors duration-200">
+          Email Dave
+        </a>
+      </div>
+    </div>
+  </Section>
+</PageLayout>

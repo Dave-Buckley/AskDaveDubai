@@ -8,111 +8,151 @@ const schema = {
   "@type": "ProfilePage",
   "mainEntity": {
     "@type": "Person",
-    "name": "Dave [Surname]",
-    "jobTitle": "RERA-Certified Real Estate Agent",
+    "name": "Dave Buckley",
+    "jobTitle": "Licensed Real Estate Broker - Paragon Properties",
     "url": "https://askdavedowntown.com/about",
-    "description": "Dubai-based real estate specialist focusing on Downtown Dubai, Marina, and premium off-plan properties."
+    "description": "Dubai-based RERA-certified real estate broker helping buyers, tenants, and investors navigate the Dubai property market."
   }
 };
 
-const timeline = [
-  { year: '2016', event: 'Moved to Dubai, began career in real estate' },
-  { year: '2018', event: 'Achieved RERA certification' },
-  { year: '2020', event: 'Specialised in Downtown Dubai and luxury off-plan' },
-  { year: '2022', event: 'Expanded to serve international buyers across 12 areas' },
-  { year: '2024', event: 'Launched AskDaveDowntown to share expertise online' },
-];
-
 const credentials = [
-  'RERA Certified Agent — Dubai Land Department',
-  '8+ Years Dubai Real Estate Experience',
-  '150+ Successful Transactions',
-  'Specialist: Downtown, Marina, Off-Plan, Golden Visa',
+  { label: 'Licensed Real Estate Broker', detail: 'RERA Certified' },
+  { label: 'Paragon Properties', detail: 'Dubai, UAE' },
+  { label: '8+ Years in Dubai', detail: 'Living & Working in the UAE' },
+  { label: 'Sales & Leasing', detail: 'Buying, Renting, Investing' },
+  { label: 'International Clients', detail: 'UK, Europe, Asia & Beyond' },
+  { label: 'Consultative Approach', detail: 'Transparent, Honest Advice' },
 ];
 ---
 <PageLayout
-  title="About Dave — RERA-Certified Dubai Real Estate Expert | AskDaveDowntown"
-  description="Meet Dave — RERA-certified Dubai real estate specialist with 8+ years experience. Helping buyers and investors navigate Dubai property with honest, expert guidance."
+  title="About Dave - RERA-Certified Dubai Real Estate Broker | AskDaveDowntown"
+  description="Meet Dave Buckley - RERA-certified broker at Paragon Properties, Dubai. Eight years living in the UAE, a background in teaching and coaching, and a consultative approach to helping buyers, tenants, and investors."
   schema={schema}
 >
   <!-- HERO -->
-  <Section dark>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+  <Section dark class="py-24">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
       <div data-animate>
-        <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-4">About Dave</p>
+        <div class="inline-flex items-center gap-2 px-4 py-2 border border-accent/30 mb-8">
+          <div class="w-2 h-2 rounded-full bg-accent"></div>
+          <span class="text-xs tracking-[0.2em] uppercase text-accent font-medium">About Dave</span>
+        </div>
         <h1 class="font-heading text-5xl sm:text-6xl font-bold text-paper leading-none">
           Your Man on the Ground in Dubai
         </h1>
-        <p class="mt-6 text-paper/80 leading-relaxed text-lg">
-          <!-- REPLACE: Write Dave's authentic opening statement in his voice -->
-          Dubai real estate can feel overwhelming from abroad. I built AskDaveDowntown to change that — giving buyers and investors honest, practical guidance without the sales pressure.
+        <p class="mt-8 text-paper/70 leading-relaxed text-lg">
+          I have lived in Dubai since 2017. I know this city as a resident first - the schools, the commutes, the communities, and the reality behind the brochures. When I moved into real estate, I brought that perspective with me: no hard sell, no jargon, just honest guidance from someone who actually lives here.
         </p>
-        <div class="mt-8 flex gap-4">
-          <Button href="/contact" variant="accent">Book a Free Consultation</Button>
-          <Button href="https://wa.me/971XXXXXXXXX" variant="ghost" class="text-paper hover:text-accent" target="_blank" rel="noopener noreferrer">WhatsApp Me</Button>
+        <div class="mt-10 flex flex-wrap gap-4">
+          <Button href="https://wa.me/971503019926" variant="accent" target="_blank" rel="noopener noreferrer">WhatsApp Me</Button>
+          <Button href="mailto:dave.buckley@paragonproperties.ae" variant="ghost" class="text-paper hover:text-accent">Email Me</Button>
         </div>
       </div>
-      <!-- Professional photo placeholder -->
       <div class="relative" data-animate>
-        <div class="aspect-[3/4] bg-ink-muted/40 border border-paper/10 flex items-center justify-center">
-          <!-- REPLACE: professional headshot photo -->
-          <p class="text-paper/30 text-sm text-center px-6">Professional photo<br/>coming soon</p>
+        <div class="aspect-[3/4] border border-paper/10 overflow-hidden relative bg-ink-muted/30">
+          <!-- Replace src with /images/dave-headshot.jpg when ready -->
+          <img
+            src="/images/dave-headshot.jpg"
+            alt="Dave Buckley - Licensed Real Estate Broker, Dubai"
+            class="w-full h-full object-cover"
+            loading="lazy"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="absolute inset-0 items-center justify-center hidden" style="display:none;">
+            <div class="text-center">
+              <div class="w-24 h-24 rounded-full bg-accent/20 border-2 border-accent/40 flex items-center justify-center mx-auto mb-4">
+                <span class="font-heading text-4xl font-bold text-accent">DB</span>
+              </div>
+              <p class="font-heading text-xl font-bold text-paper/60">Photo coming soon</p>
+            </div>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-ink/90 via-transparent to-transparent"></div>
+          <div class="absolute bottom-8 left-8 right-8">
+            <p class="font-heading text-3xl font-bold text-paper">Dave Buckley</p>
+            <p class="text-accent text-sm tracking-wide mt-1">Licensed Real Estate Broker</p>
+            <p class="text-paper/50 text-sm mt-1">Paragon Properties, Dubai</p>
+          </div>
         </div>
       </div>
     </div>
   </Section>
 
+  <!-- GOLD DIVIDER -->
+  <div class="gold-line"></div>
+
   <!-- CREDENTIALS -->
   <Section>
     <div class="text-center mb-12" data-animate>
-      <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-3">Credentials</p>
-      <h2 class="font-heading text-4xl font-bold text-ink">Why Dave?</h2>
+      <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Credentials</p>
+      <h2 class="font-heading text-4xl font-bold text-ink">Why Work With Dave</h2>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border max-w-4xl mx-auto" data-stagger>
       {credentials.map(cred => (
-        <div class="flex items-start gap-3 p-4 border border-border" data-animate>
-          <svg class="w-5 h-5 text-accent flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-          </svg>
-          <span class="text-sm text-ink font-medium">{cred}</span>
+        <div class="bg-paper p-6 flex items-start gap-4" data-animate>
+          <div class="w-8 h-8 rounded-full border border-accent/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <svg class="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <div>
+            <p class="text-sm font-semibold text-ink">{cred.label}</p>
+            <p class="text-xs text-ink-muted mt-0.5">{cred.detail}</p>
+          </div>
         </div>
       ))}
     </div>
   </Section>
 
-  <!-- EXPERIENCE TIMELINE -->
+  <!-- PERSONAL STORY -->
   <Section dark>
-    <div class="text-center mb-12" data-animate>
-      <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-3">Journey</p>
-      <h2 class="font-heading text-4xl font-bold text-paper">My Dubai Story</h2>
-    </div>
-    <div class="max-w-2xl mx-auto">
-      <div class="relative border-l border-paper/20 pl-8 space-y-8">
-        {timeline.map((item) => (
-          <div class="relative" data-animate>
-            <div class="absolute -left-10 flex items-center justify-center w-5 h-5 rounded-full bg-accent border-2 border-ink"></div>
-            <p class="text-accent text-sm font-semibold tracking-wide mb-1">{item.year}</p>
-            <p class="text-paper/80">{item.event}</p>
-          </div>
-        ))}
+    <div class="max-w-3xl mx-auto" data-animate>
+      <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">My Approach</p>
+      <h2 class="font-heading text-4xl font-bold text-paper mb-8">Why I Do This Differently</h2>
+      <div class="space-y-6 text-paper/70 leading-relaxed">
+        <p>Most brokers will tell you what you want to hear. I would rather tell you what you need to know. My background is in teaching and coaching - years of putting other people's goals first, breaking complicated things into plain English, and actually listening before talking. That is not a sales technique. It is how I am wired.</p>
+        <p>I have lived in Dubai since 2017 - done the school run, dealt with landlords, navigated DEWA bills, and explored dozens of communities firsthand. When I recommend an area, it is because I know it personally, not because I read about it on a developer's website. I work with Paragon Properties, a boutique brokerage built on the same values I care about: integrity, transparency, and putting the client first.</p>
+        <p>Whether you are buying your first apartment, relocating your family, or building an investment portfolio - I will give you the full picture, walk you through every step, and make sure you never feel pressured into a decision. That is the only way I work.</p>
       </div>
     </div>
   </Section>
 
-  <!-- PERSONAL STORY -->
+  <!-- WHAT I HELP WITH -->
   <Section>
-    <div class="max-w-3xl mx-auto" data-animate>
-      <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-4">My Approach</p>
-      <h2 class="font-heading text-4xl font-bold text-ink mb-6">Straight Talk, No Fluff</h2>
-      <!-- REPLACE: Dave's authentic personal story and philosophy in his own voice -->
-      <div class="prose prose-lg max-w-none text-ink-muted leading-relaxed space-y-4">
-        <p>I've seen buyers rush into bad decisions because they didn't have the right information. That's why I built this site — to give you the same frank conversations I have with every client, before you ever pick up the phone.</p>
-        <p>My focus is Downtown Dubai and the premium freehold zones, with a particular expertise in off-plan deals and helping international buyers navigate the Golden Visa pathway. If it's in Dubai real estate, I've either dealt with it personally or helped a client through it.</p>
-        <p><!-- REPLACE: Continue Dave's story here --></p>
+    <div class="text-center mb-12" data-animate>
+      <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Services</p>
+      <h2 class="font-heading text-4xl font-bold text-ink">What I Help With</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto" data-stagger>
+      <div class="p-8 border border-border text-center" data-animate>
+        <div class="w-12 h-12 rounded-full border border-accent/30 flex items-center justify-center mx-auto mb-4">
+          <svg class="w-6 h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
+          </svg>
+        </div>
+        <h3 class="font-heading text-xl font-bold text-ink mb-2">Buying</h3>
+        <p class="text-sm text-ink-muted">First-time or experienced - I guide you through the entire Dubai buying process.</p>
       </div>
-      <div class="mt-8">
-        <Button href="/contact" variant="primary">Start the Conversation</Button>
+      <div class="p-8 border border-border text-center" data-animate>
+        <div class="w-12 h-12 rounded-full border border-accent/30 flex items-center justify-center mx-auto mb-4">
+          <svg class="w-6 h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+          </svg>
+        </div>
+        <h3 class="font-heading text-xl font-bold text-ink mb-2">Renting</h3>
+        <p class="text-sm text-ink-muted">Finding the right home to rent in Dubai - location, budget, and lease guidance.</p>
       </div>
+      <div class="p-8 border border-border text-center" data-animate>
+        <div class="w-12 h-12 rounded-full border border-accent/30 flex items-center justify-center mx-auto mb-4">
+          <svg class="w-6 h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+          </svg>
+        </div>
+        <h3 class="font-heading text-xl font-bold text-ink mb-2">Investing</h3>
+        <p class="text-sm text-ink-muted">Off-plan, ready property, rental yields - honest investment guidance for Dubai.</p>
+      </div>
+    </div>
+    <div class="text-center mt-12" data-animate>
+      <Button href="/contact" variant="primary">Start the Conversation</Button>
     </div>
   </Section>
 </PageLayout>

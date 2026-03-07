@@ -1,58 +1,118 @@
 ---
-title: "Top 10 Dubai Property FAQs — Answered by a RERA Agent"
-description: "The most common questions from buyers and investors about Dubai property — answered directly and honestly."
-publishDate: "2024-06-20"
+title: "FAQs About Buying Property in Dubai"
+description: "The most common questions from buyers and investors about Dubai property - taxes, process, financing, agents, and more - answered by a licensed broker."
+publishDate: "2025-10-03"
 category: "buying-guide"
-tags: ["FAQ", "foreigners", "buying", "investment", "visa"]
-featured: false
-heroImage: "/images/blog/dubai-property-faqs-hero.jpg"
+tags: ["FAQ", "foreigners", "buying", "investment", "fees", "mortgage", "agents"]
+featured: true
+heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1400&q=80&auto=format"
 heroImageAlt: "Aerial view of Dubai's residential neighbourhoods"
-author: "Dave Bhatt"
-relatedSlugs: ["dubai-property-buying-process", "dld-fees-explained"]
+author: "Dave Buckley"
+relatedSlugs: ["dubai-property-buying-process", "dld-fees-explained", "complete-guide-to-mortgages-in-dubai"]
 ---
 
-These are the questions I get asked most often — by first-time buyers, seasoned investors, and expats considering their first Dubai purchase. Here are honest answers.
+These are the questions I get asked most often - by first-time buyers, seasoned investors, and expats considering their first Dubai purchase. Here are honest, straight answers.
 
-### Can foreigners buy property in Dubai?
+### What taxes does a property owner need to pay?
 
-Yes. Foreign nationals (non-UAE citizens) can buy freehold property in over 40 designated freehold zones across Dubai. Downtown Dubai, Dubai Marina, Palm Jumeirah, Business Bay, JVC, JBR, and DIFC are among the most popular. No UAE residency is required to purchase — though owning AED 2M+ in ready property can qualify you for the UAE Golden Visa.
+The UAE does not impose property tax or income tax, meaning owners do not pay tax on property ownership or rental income. However, owners must pay annual service charges and maintenance fees to their building's management company, typically AED 10-30 per sq.ft., depending on the community and services provided.
 
-### What is the difference between freehold and leasehold?
+### What is the process of buying a property in Dubai?
 
-Freehold means outright ownership of the property and the land beneath it — permanent, with full rights to sell, rent, mortgage, gift, or inherit. Leasehold is a long-term lease (typically 99 years) — you have use rights but not full ownership of the land. For foreign buyers, always buy freehold in a designated freehold zone. It gives you the strongest legal rights and the most liquid resale market.
+The purchase process differs between secondary market purchases and off-plan purchases but generally includes:
 
-### Is it safe to invest in Dubai property?
+1. **Select a Property** - Choose a unit in a designated freehold area
+2. **Sales Agreement** - Sign a Sales and Purchase Agreement (SPA) or Memorandum of Understanding (MOU) outlining price, payment terms, and penalties
+3. **Deposit** - Usually 10% of purchase price
+4. **No Objection Certificate (NOC)** - Required for secondary sales to confirm no outstanding developer dues
+5. **Transfer of Ownership** - Complete the transfer at Dubai Land Department (DLD), make final payment, and register property in buyer's name
 
-Dubai is one of the most transparent property markets in the region. The Dubai Land Department (DLD) registers all transactions publicly. RERA regulates agents, developers, and landlords. Off-plan buyers have escrow protection — developer funds go into RERA-regulated accounts released only at construction milestones. No market is risk-free, but Dubai has more investor protection infrastructure than most emerging market alternatives.
+For off-plan purchases, property is first registered on the interim Oqood system with a title deed issued upon project completion.
 
-### What is the Golden Visa property threshold?
+### Can a property owner rent out their unit?
 
-AED 2,000,000 (two million dirhams) in a completed, ready, freehold property. Off-plan does not qualify until handover and the DLD issues a title deed. If buying with a mortgage, your equity (market value minus outstanding mortgage balance) must equal AED 2M+. The Golden Visa is a 10-year renewable residence visa — no employer sponsor needed, family included.
+Yes. Under Dubai's tenancy law (Law No. 26 of 2007), any property owner can lease their property. Standard contracts are for one year but are renewable. Owners may appoint licensed property management companies to handle tenant relations and maintenance.
 
-### What are the best areas for property investment in Dubai?
+### What rental income can owners expect?
 
-It depends on your goals. For highest rental yields: Jumeirah Village Circle (7–9% gross), Dubai South (7–9%), Business Bay (6–8%). For capital growth: Downtown Dubai, Creek Harbour, MBR City. For prestige and HNWI demand: Palm Jumeirah, Downtown Dubai. For families: Dubai Hills Estate. There is no single "best" area — but there is a best area for your specific investment thesis.
+Typical net rental yields (after service charges) range between 5% and 10% annually, depending on property type, community, and demand. Prime luxury properties may have lower yield percentages but command higher absolute rental amounts.
 
-### What are the risks of buying off-plan in Dubai?
+### Is it possible to buy or sell without a real estate agent?
 
-The main risks are: (1) construction delays — 1–3 years beyond the stated completion date is common with some developers; (2) developer failure — rare but has happened, particularly with smaller developers; (3) you cannot rent out or occupy until handover; (4) off-plan does not qualify for Golden Visa until handover; (5) financing is limited to 50% LTV. Mitigation: stick to established developers with strong delivery records (Emaar, Sobha, Nakheel), and verify the project is RERA-registered and escrow-protected.
+Yes, but uncommon. Most transactions use licensed brokers who provide market knowledge and ensure DLD compliance. Direct deals are legal, but using a registered agent reduces risks.
 
-### Can I rent out my Dubai property?
+### What are the requirements for real estate agents in Dubai?
 
-Yes. Dubai has a well-established private rental market. As an owner, you can lease your property on long-term contracts (12 months, registered through RERA's Ejari system) or on short-term / holiday rental basis (requires a DTCM holiday home licence). Rental income is not taxed in the UAE. Gross rental yields range from 4–9% depending on area and property type.
+Agents must:
 
-### What taxes apply to Dubai property?
+- Work under a licensed brokerage registered with the Real Estate Regulatory Agency (RERA)
+- Hold a valid Broker Registration Number (BRN)
+- Pass the Dubai Real Estate Institute (DREI) exam
+- Follow RERA's Code of Ethics
 
-This is one of Dubai's greatest attractions: no property tax, no capital gains tax, no income tax on rental income. The main "tax" equivalent is the 4% DLD transfer fee on purchase — paid once at acquisition. Annual service charges (community maintenance fees) are a recurring cost but these are not government taxes. The UAE does have 5% VAT, but residential property sales and rentals are VAT-exempt.
+Always verify agent credentials before working with them.
 
-### How long does it take to buy property in Dubai?
+### Why is it important to deal with a registered agent?
 
-For a ready (completed) property: typically 30–45 days from signed MOU to DLD transfer for a cash purchase. Add 2–4 weeks for a mortgage purchase (bank approval and valuation). Off-plan: you sign within days of agreeing terms, but you don't receive a completed title deed until handover — which can be 2–4 years away. An experienced buyer who is well-prepared can sometimes close in 2 weeks on a cash transaction.
+Registered agents and brokerages provide accountability and transparency. Deposits and documentation are handled professionally, protecting both parties with legal recourse if issues arise.
 
-### Can I get a UAE mortgage as a non-resident?
+### Do I need to register the property to claim ownership?
 
-Yes, though it is harder. Non-residents can get UAE mortgages from a smaller pool of banks, with a maximum LTV of 50% (you need a 50% deposit). Documentation requirements are higher. Some non-residents find it more straightforward to finance elsewhere — for example, releasing equity from a UK or European property — and purchase Dubai cash. Speak to a mortgage broker who specialises in non-resident applications before committing to a strategy.
+Yes. Registration at the Dubai Land Department (DLD) is required to legally transfer ownership and issue a Title Deed. A registration fee of 4% of property value plus a fixed admin fee applies.
+
+### Can foreigners own property in Dubai?
+
+Yes. Since 2006, foreign nationals have been allowed to purchase in designated freehold areas including Dubai Marina, Downtown, Palm Jumeirah, JLT, Business Bay, and Emirates Hills, with 100% freehold rights.
+
+### Do I need a local bank account to buy property?
+
+Not necessarily. Payments can come from international accounts, though opening a UAE bank account is advisable for collecting rental income and managing local expenses.
+
+### Can I buy property through a company?
+
+Yes. Properties can be purchased through UAE-registered companies and, in some cases, foreign entities depending on the developer and area. Legal advice is recommended.
+
+### What documents are needed to buy a property?
+
+- Valid passport copy
+- Sales and Purchase Agreement (SPA) / MOU
+- Title deed (for resale)
+- No Objection Certificate (NOC) from developer (for resale)
+- Proof of funds or mortgage pre-approval
+
+Corporate purchases may require trade licence, incorporation documents, and power of attorney.
+
+### What are the financing options available?
+
+1. **Cash Purchase** - Fastest option
+2. **Mortgage** - Available for residents and non-residents with conditions (typically 20-25% down payment)
+3. **Developer Payment Plans** - Offered mainly for off-plan properties with staged payments until completion
+
+### Can I use cryptocurrency to buy property in Dubai?
+
+Some developers and brokerages accept cryptocurrency, though transactions typically settle in AED. Regulations are evolving, so confirm with the seller and DLD requirements.
+
+### How long does the purchase process take?
+
+On average, 2 to 8 weeks, depending on financing. Cash deals complete fastest; mortgage deals or those involving existing loans take longer.
+
+### What are the additional costs when buying property?
+
+- DLD registration fee: 4%
+- Real estate agent commission: ~2%
+- NOC fee: AED 500-5,000
+- Mortgage registration fee (if applicable): 0.25% of loan amount
+- DEWA connection fee (utilities): AED 2,000-5,000
+- Admin/documentation fees
+
+### What questions should buyers ask before committing?
+
+- What are the annual service charges?
+- Is the property currently tenanted, and what is the rental contract?
+- What fixtures/furniture are included in the sale?
+- Are there outstanding developer fees or maintenance issues?
+- What are the rules regarding short-term rentals (Airbnb/holiday lets)?
 
 ---
 
-Have a question that's not covered here? [Ask me directly on WhatsApp](https://wa.me/971XXXXXXXXX) — I answer every message personally.
+Need advice on your next Dubai property move? [Ask me directly on WhatsApp](https://wa.me/971503019926) - I answer every message personally.

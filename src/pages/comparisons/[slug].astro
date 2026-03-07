@@ -18,7 +18,7 @@ const allAreas = await getCollection('areas');
 const areaOne = allAreas.find((a) => (a.data.slug ?? a.id) === comparison.data.areaOne);
 const areaTwo = allAreas.find((a) => (a.data.slug ?? a.id) === comparison.data.areaTwo);
 
-const whatsappUrl = `https://wa.me/971XXXXXXXXX?text=${encodeURIComponent(`Hi Dave, I'm trying to decide between ${comparison.data.areaOne} and ${comparison.data.areaTwo}. Can you help?`)}`;
+const whatsappUrl = `https://wa.me/971503019926?text=${encodeURIComponent(`Hi Dave, I'm trying to decide between ${comparison.data.areaOne} and ${comparison.data.areaTwo}. Can you help?`)}`;
 
 // Helper to determine "better" stat for investment metrics
 function compareValues(a: string, b: string): 'one' | 'two' | 'tie' {
@@ -147,7 +147,7 @@ function compareValues(a: string, b: string): 'one' | 'two' | 'tie' {
     <!-- CTA -->
     <div class="p-6 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-xl text-center" data-animate>
       <p class="font-heading text-xl font-semibold mb-2">Not sure which is right for you?</p>
-      <p class="text-[var(--color-paper)]/75 text-sm mb-4">Ask Dave — he'll give you a straight answer based on your budget and goals.</p>
+      <p class="text-[var(--color-paper)]/75 text-sm mb-4">Ask Dave - he'll give you a straight answer based on your budget and goals.</p>
       <a
         href={whatsappUrl}
         target="_blank"

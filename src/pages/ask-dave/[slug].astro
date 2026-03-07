@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import PageLayout from '../../layouts/PageLayout.astro';
 import FAQSchema from '../../components/seo/FAQSchema.astro';
+import Disclaimer from '../../components/content/Disclaimer.astro';
 
 export async function getStaticPaths() {
   const qaItems = await getCollection('qa');
@@ -30,7 +31,7 @@ const categoryLabels: Record<string, string> = {
   'fees': 'Fees',
 };
 
-const whatsappUrl = `https://wa.me/971XXXXXXXXX?text=${encodeURIComponent(`Hi Dave, I have a question related to: "${qa.data.question}"`)}`;
+const whatsappUrl = `https://wa.me/971503019926?text=${encodeURIComponent(`Hi Dave, I have a question related to: "${qa.data.question}"`)}`;
 
 // For FAQ schema, use the question and a simplified text answer
 // We use a placeholder since the full body is markdown-rendered
@@ -41,7 +42,7 @@ const faqItems = [{
 ---
 <PageLayout
   title={`${qa.data.question} | Ask Dave Dubai`}
-  description={`Dave Bhatt answers: ${qa.data.question}. Expert advice from a RERA-registered agent.`}
+  description={`Dave Buckley answers: ${qa.data.question}. Expert advice from a RERA-registered agent.`}
 >
   <FAQSchema slot="head" items={faqItems} />
 
@@ -65,6 +66,7 @@ const faqItems = [{
     <!-- Answer -->
     <div class="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-[var(--color-ink)] prose-a:text-[var(--color-accent)] prose-a:no-underline hover:prose-a:underline mb-10" data-animate>
       <Content />
+        <Disclaimer />
     </div>
 
     <!-- Related Questions -->
@@ -92,7 +94,7 @@ const faqItems = [{
     <!-- Bottom CTA -->
     <div class="p-6 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-xl text-center" data-animate>
       <p class="font-heading text-xl font-semibold mb-2">Have a different question?</p>
-      <p class="text-[var(--color-paper)]/75 text-sm mb-4">Ask Dave directly — he responds to genuine questions from serious buyers.</p>
+      <p class="text-[var(--color-paper)]/75 text-sm mb-4">Ask Dave directly - he responds to genuine questions from serious buyers.</p>
       <a
         href={whatsappUrl}
         target="_blank"

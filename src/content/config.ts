@@ -12,7 +12,7 @@ const blog = defineCollection({
     featured: z.boolean().default(false),
     heroImage: z.string().optional(),
     heroImageAlt: z.string().optional(),
-    author: z.string().default('Dave Bhatt'),
+    author: z.string().default('Dave Buckley'),
     readingTime: z.number().optional(),
     relatedSlugs: z.array(z.string()).default([]),
   }),
@@ -35,6 +35,7 @@ const areas = defineCollection({
       beachfront: z.boolean().default(false),
       freehold: z.boolean().default(true),
     }),
+    propertyType: z.enum(['apartment', 'villa', 'mixed']).default('apartment'),
     highlights: z.array(z.string()),       // ["Iconic Burj Khalifa views", ...]
     lifestyle: z.string(),                  // Markdown prose
     investment: z.string(),                 // Markdown prose
@@ -102,4 +103,35 @@ const comparisons = defineCollection({
   }),
 });
 
-export const collections = { blog, areas, guides, developers, qa, comparisons };
+const buildings = defineCollection({
+  type: 'content',
+  schema: z.object({
+    name: z.string(),
+    slug: z.string().optional(),
+    developer: z.string(),
+    completionYear: z.string(),
+    floors: z.string(),
+    totalUnits: z.string().optional(),
+    unitTypes: z.array(z.string()),
+    branded: z.boolean().default(false),
+    brandName: z.string().optional(),
+    serviced: z.boolean().default(false),
+    holidayHome: z.enum(['yes', 'no', 'check']).default('check'),
+    serviceCharge: z.string(),
+    avgPricePerSqft: z.string(),
+    tagline: z.string(),
+    highlights: z.array(z.string()),
+    metaDescription: z.string(),
+    heroImage: z.string(),
+    heroImageAlt: z.string(),
+    location: z.object({
+      lat: z.number(),
+      lng: z.number(),
+      heading: z.number().default(0),
+    }).optional(),
+    developerUrl: z.string().url().optional(),  // link to building page on developer's website
+    order: z.number().default(99),
+  }),
+});
+
+export const collections = { blog, areas, guides, developers, qa, comparisons, buildings };

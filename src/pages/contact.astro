@@ -4,77 +4,34 @@ import Section from '../components/ui/Section.astro';
 import Button from '../components/ui/Button.astro';
 ---
 <PageLayout
-  title="Contact Dave — Book a Dubai Real Estate Consultation | AskDaveDowntown"
-  description="Reach out to Dave directly via WhatsApp, contact form, or book a free Calendly consultation. RERA-certified Dubai real estate expert ready to help."
+  title="Contact Dave - Book a Dubai Real Estate Consultation | AskDaveDowntown"
+  description="Reach out to Dave directly via WhatsApp or book a free consultation. RERA-certified Dubai real estate expert ready to help."
 >
-  <Section dark>
+  <Section dark class="py-24">
     <div class="text-center max-w-2xl mx-auto" data-animate>
-      <p class="text-xs tracking-widest uppercase text-accent font-semibold mb-3">Get in Touch</p>
-      <h1 class="font-heading text-5xl sm:text-6xl font-bold text-paper leading-none">Contact Dave</h1>
-      <p class="mt-6 text-paper/70 leading-relaxed">
-        Whether you have a quick question or you're ready to start your Dubai property search — reach out. No obligation, no pressure.
+      <div class="inline-flex items-center gap-2 px-4 py-2 border border-accent/30 mb-8">
+        <div class="w-2 h-2 rounded-full bg-accent"></div>
+        <span class="text-xs tracking-[0.2em] uppercase text-accent font-medium">Get in Touch</span>
+      </div>
+      <h1 class="font-heading text-5xl sm:text-6xl font-bold text-paper leading-none">Let's Talk</h1>
+      <p class="mt-6 text-paper/60 leading-relaxed">
+        Whether you have a quick question or you are ready to start your property search - I am here to help. Most conversations start with a simple message and go from there. No obligation, no sales pitch.
       </p>
     </div>
   </Section>
 
+  <div class="gold-line"></div>
+
   <Section>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
-      <!-- Contact Form (Formspree) -->
-      <div data-animate>
-        <h2 class="font-heading text-3xl font-bold text-ink mb-6">Send a Message</h2>
-        <!-- REPLACE: Update action URL with your Formspree endpoint after creating an account at formspree.io -->
-        <form action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST" class="space-y-4">
-          <div>
-            <label for="name" class="block text-sm font-medium text-ink mb-1">Full Name *</label>
-            <input type="text" id="name" name="name" required
-              class="w-full px-4 py-3 border border-border bg-paper text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-colors duration-200"
-              placeholder="Your name" />
-          </div>
-          <div>
-            <label for="email" class="block text-sm font-medium text-ink mb-1">Email Address *</label>
-            <input type="email" id="email" name="email" required
-              class="w-full px-4 py-3 border border-border bg-paper text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-colors duration-200"
-              placeholder="your@email.com" />
-          </div>
-          <div>
-            <label for="phone" class="block text-sm font-medium text-ink mb-1">Phone / WhatsApp</label>
-            <input type="tel" id="phone" name="phone"
-              class="w-full px-4 py-3 border border-border bg-paper text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-colors duration-200"
-              placeholder="+1 234 567 8900" />
-          </div>
-          <div>
-            <label for="interest" class="block text-sm font-medium text-ink mb-1">I'm interested in</label>
-            <select id="interest" name="interest"
-              class="w-full px-4 py-3 border border-border bg-paper text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-colors duration-200">
-              <option value="">Select an option</option>
-              <option value="buying">Buying a property</option>
-              <option value="investing">Investment / Buy-to-let</option>
-              <option value="off-plan">Off-plan property</option>
-              <option value="golden-visa">Golden Visa enquiry</option>
-              <option value="general">General question</option>
-            </select>
-          </div>
-          <div>
-            <label for="message" class="block text-sm font-medium text-ink mb-1">Message *</label>
-            <textarea id="message" name="message" required rows="4"
-              class="w-full px-4 py-3 border border-border bg-paper text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-colors duration-200 resize-none"
-              placeholder="Tell me what you're looking for..."></textarea>
-          </div>
-          <button type="submit"
-            class="w-full py-4 bg-ink text-paper font-semibold tracking-wide hover:bg-ink-muted transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent">
-            Send Message
-          </button>
-        </form>
-      </div>
-
-      <!-- Contact Details + Calendly + WhatsApp -->
+      <!-- WhatsApp - Primary CTA -->
       <div class="space-y-8" data-animate>
-        <!-- WhatsApp CTA -->
-        <div class="p-6 bg-[#25D366]/10 border border-[#25D366]/30">
-          <h3 class="font-heading text-2xl font-bold text-ink mb-2">Prefer WhatsApp?</h3>
-          <p class="text-ink-muted text-sm mb-4">98% of my client conversations start on WhatsApp. It's the fastest way to reach me.</p>
-          <!-- REPLACE: Update wa.me number with Dave's actual WhatsApp number -->
-          <a href="https://wa.me/971XXXXXXXXX?text=Hi%20Dave%2C%20I%27m%20interested%20in%20Dubai%20real%20estate"
+        <div class="p-8 bg-[#25D366]/5 border border-[#25D366]/20">
+          <h2 class="font-heading text-3xl font-bold text-ink mb-3">WhatsApp Dave</h2>
+          <p class="text-ink-muted leading-relaxed mb-6">
+            Most of my client conversations start on WhatsApp - it's the fastest way to reach me. Send a message and I'll typically reply within a few hours.
+          </p>
+          <a href="https://wa.me/971503019926?text=Hi%20Dave%2C%20I%27m%20interested%20in%20Dubai%20real%20estate"
              target="_blank" rel="noopener noreferrer"
              class="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white font-semibold hover:bg-[#22c35e] transition-colors duration-200">
             <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor">
@@ -84,43 +41,138 @@ import Button from '../components/ui/Button.astro';
           </a>
         </div>
 
-        <!-- Book a Consultation (Calendly embed) -->
-        <div>
-          <h3 class="font-heading text-2xl font-bold text-ink mb-2">Book a Free Consultation</h3>
-          <p class="text-ink-muted text-sm mb-4">30 minutes, no obligation. I'll answer your questions and help you figure out your next move.</p>
-          <!-- REPLACE: Update src with your Calendly embed URL after creating account -->
-          <div class="border border-border overflow-hidden" style="min-height:500px;">
-            <iframe
-              src="https://calendly.com/REPLACE_WITH_YOUR_USERNAME/30min"
-              width="100%"
-              height="500"
-              frameborder="0"
-              title="Book a consultation with Dave"
-              loading="lazy"
-            ></iframe>
-          </div>
-        </div>
-
-        <!-- Direct contact details -->
-        <div class="p-6 border border-border">
-          <h3 class="font-semibold text-ink mb-4">Direct Contact</h3>
-          <ul class="space-y-3 text-sm text-ink-muted">
-            <!-- REPLACE: Update with real contact details -->
-            <li class="flex items-center gap-2">
-              <svg class="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              <a href="mailto:dave@askdavedowntown.com" class="hover:text-accent transition-colors duration-200">dave@askdavedowntown.com</a>
+        <!-- What to expect -->
+        <div class="p-8 border border-border">
+          <h3 class="font-heading text-2xl font-bold text-ink mb-6">What to Expect</h3>
+          <ul class="space-y-4 text-sm text-ink-muted">
+            <li class="flex items-start gap-4">
+              <div class="w-6 h-6 rounded-full border border-accent/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span>A friendly, no-pressure conversation about your goals</span>
             </li>
-            <li class="flex items-center gap-2">
-              <svg class="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-              <span>Downtown Dubai, UAE</span>
+            <li class="flex items-start gap-4">
+              <div class="w-6 h-6 rounded-full border border-accent/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span>Honest advice - even if it means telling you not to buy</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <div class="w-6 h-6 rounded-full border border-accent/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span>Clear answers on costs, process, and timeline</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <div class="w-6 h-6 rounded-full border border-accent/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <svg class="w-3 h-3 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <span>No obligation - just straight talk from someone on the ground</span>
             </li>
           </ul>
         </div>
+      </div>
+
+      <!-- Direct contact details -->
+      <div class="space-y-8" data-animate>
+        <div class="p-8 border border-border">
+          <h2 class="font-heading text-3xl font-bold text-ink mb-8">Direct Contact</h2>
+          <ul class="space-y-6 text-ink-muted">
+            <li class="flex items-center gap-4">
+              <div class="w-10 h-10 rounded-full border border-accent/30 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                </svg>
+              </div>
+              <a href="tel:+971503019926" class="hover:text-accent transition-colors duration-300 font-medium">+971 50 301 9926</a>
+            </li>
+            <li class="flex items-center gap-4">
+              <div class="w-10 h-10 rounded-full border border-accent/30 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>
+              </div>
+              <a href="mailto:dave.buckley@paragonproperties.ae" class="hover:text-accent transition-colors duration-300 font-medium">dave.buckley@paragonproperties.ae</a>
+            </li>
+            <li class="flex items-center gap-4">
+              <div class="w-10 h-10 rounded-full border border-accent/30 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                </svg>
+              </div>
+              <span class="font-medium">Dubai, UAE</span>
+            </li>
+            <li class="flex items-center gap-4">
+              <div class="w-10 h-10 rounded-full border border-accent/30 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                </svg>
+              </div>
+              <span class="font-medium">Paragon Properties</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Social links -->
+        <div class="p-8 border border-border">
+          <h3 class="font-heading text-2xl font-bold text-ink mb-6">Follow Dave</h3>
+          <div class="space-y-4">
+            <a href="https://instagram.com/askdavedowntown" target="_blank" rel="noopener noreferrer"
+               class="flex items-center gap-4 text-ink-muted hover:text-accent transition-colors duration-300 group">
+              <div class="w-10 h-10 border border-border group-hover:border-accent/30 flex items-center justify-center transition-colors duration-300">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+              </div>
+              <span class="text-sm font-medium">@askdavedowntown</span>
+            </a>
+            <a href="https://linkedin.com/in/askdavedowntown" target="_blank" rel="noopener noreferrer"
+               class="flex items-center gap-4 text-ink-muted hover:text-accent transition-colors duration-300 group">
+              <div class="w-10 h-10 border border-border group-hover:border-accent/30 flex items-center justify-center transition-colors duration-300">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </div>
+              <span class="text-sm font-medium">Dave Buckley</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <!-- WHO I WORK WITH -->
+  <div class="gold-line"></div>
+  <Section dark>
+    <div class="text-center max-w-3xl mx-auto" data-animate>
+      <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Who I Work With</p>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold text-paper mb-8">People Just Like You</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto" data-stagger>
+      <div class="border border-paper/10 p-6" data-animate>
+        <p class="font-heading text-lg font-bold text-paper mb-2">First-Time Buyers</p>
+        <p class="text-sm text-paper/50">Expats and residents buying their first property in Dubai and wanting someone to explain every step.</p>
+      </div>
+      <div class="border border-paper/10 p-6" data-animate>
+        <p class="font-heading text-lg font-bold text-paper mb-2">International Investors</p>
+        <p class="text-sm text-paper/50">Buyers from the UK, Europe, and Asia looking for rental yield, capital growth, or a Golden Visa.</p>
+      </div>
+      <div class="border border-paper/10 p-6" data-animate>
+        <p class="font-heading text-lg font-bold text-paper mb-2">Relocating Families</p>
+        <p class="text-sm text-paper/50">Families moving to Dubai who need help finding the right community, school catchment, and home.</p>
+      </div>
+      <div class="border border-paper/10 p-6" data-animate>
+        <p class="font-heading text-lg font-bold text-paper mb-2">Tenants</p>
+        <p class="text-sm text-paper/50">People looking for the right rental in the right area at the right price - with proper lease guidance.</p>
       </div>
     </div>
   </Section>

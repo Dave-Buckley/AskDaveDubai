@@ -14,7 +14,7 @@ const { developer } = Astro.props;
 const { Content } = await developer.render();
 
 const whatsappMessage = encodeURIComponent(`Hi Dave, I'm looking at a ${developer.data.name} property and would like your advice.`);
-const whatsappUrl = `https://wa.me/971XXXXXXXXX?text=${whatsappMessage}`;
+const whatsappUrl = `https://wa.me/971503019926?text=${whatsappMessage}`;
 
 const tierLabels: Record<string, string> = {
   'tier-1': 'Tier 1 Developer',
@@ -32,7 +32,7 @@ const initials = developer.data.name
 ---
 <PageLayout
   title={`${developer.data.name} Developer Profile | Dubai Real Estate`}
-  description={`${developer.data.tagline}. Learn about ${developer.data.name}'s track record, notable projects and areas from RERA-registered agent Dave Bhatt.`}
+  description={`${developer.data.tagline}. Learn about ${developer.data.name}'s track record, notable projects and areas from RERA-registered agent Dave Buckley.`}
   ogImage={developer.data.logo}
 >
   <div class="max-w-7xl mx-auto px-4 py-12">

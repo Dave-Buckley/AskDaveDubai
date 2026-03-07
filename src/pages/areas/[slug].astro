@@ -15,10 +15,10 @@ const { area } = Astro.props;
 const { Content } = await area.render();
 
 const whatsappMessage = encodeURIComponent(`Hi Dave, I'm interested in property in ${area.data.name}. Can you help?`);
-const whatsappUrl = `https://wa.me/971XXXXXXXXX?text=${whatsappMessage}`;
+const whatsappUrl = `https://wa.me/971503019926?text=${whatsappMessage}`;
 ---
 <PageLayout
-  title={`${area.data.name} Area Guide | Dave Bhatt Dubai`}
+  title={`${area.data.name} Area Guide | Dave Buckley Dubai`}
   description={area.data.metaDescription}
   ogImage={area.data.heroImage}
 >
@@ -132,7 +132,7 @@ const whatsappUrl = `https://wa.me/971XXXXXXXXX?text=${whatsappMessage}`;
         <!-- Bottom CTA -->
         <div class="mt-12 p-6 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-xl text-center">
           <p class="font-heading text-xl font-semibold mb-2">Interested in property in {area.data.name}?</p>
-          <p class="text-[var(--color-paper)]/75 text-sm mb-4">Talk to Dave — RERA-registered, no-nonsense advice.</p>
+          <p class="text-[var(--color-paper)]/75 text-sm mb-4">Talk to Dave - RERA-registered, no-nonsense advice.</p>
           <a
             href={whatsappUrl}
             target="_blank"

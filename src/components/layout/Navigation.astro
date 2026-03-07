@@ -2,15 +2,17 @@
 const navItems = [
   { label: 'About', href: '/about' },
   { label: 'Areas', href: '/areas' },
+  { label: 'Buildings', href: '/buildings' },
+  { label: 'Explore', href: '/explore' },
   { label: 'Blog', href: '/blog' },
   { label: 'Guides', href: '/guides' },
   { label: 'Ask Dave', href: '/ask-dave' },
-  { label: 'Tools', href: '/tools' },
+  { label: 'Contact', href: '/contact' },
 ];
 const currentPath = Astro.url.pathname;
 ---
 <nav aria-label="Main navigation">
-  <ul class="hidden md:flex items-center gap-8">
+  <ul class="hidden md:flex items-center gap-6">
     {navItems.map(item => (
       <li>
         <a

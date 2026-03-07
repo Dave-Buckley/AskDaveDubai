@@ -9,15 +9,15 @@ featured: true
 publishDate: "2025-01-01"
 ---
 
-The minimum property investment for a UAE Golden Visa is **AED 2,000,000 (two million dirhams)** in completed, ready, freehold property.
+The minimum property investment for a UAE Golden Visa is **AED 2,000,000 (two million dirhams)** in freehold property.
 
 The details matter:
 
-**Must be ready (completed).** Off-plan property does NOT qualify — not even if you paid over AED 2M. You must have a full DLD title deed, which is only issued after building completion and handover. An Oqood (off-plan registration) is not sufficient.
+**Off-plan now qualifies.** As of February 2026, off-plan properties are eligible for the Golden Visa provided the total value reaches AED 2M. You no longer need to wait for handover and title deed issuance.
 
 **Must be freehold.** The property must be in a designated freehold zone. Leasehold property, even at AED 2M+, does not qualify.
 
-**Mortgaged properties:** The qualifying amount is your equity — not the market value. If your property is worth AED 3M but you have a AED 1.2M mortgage outstanding, your equity is AED 1.8M. This does NOT qualify. Your equity must reach AED 2M.
+**Mortgaged properties now easier.** The previous requirement to pay 50% upfront (minimum AED 1M) has been removed. The total property value must reach AED 2M - payment schedule is now immaterial.
 
 **DLD valuation certificate required.** The DLD issues an official property value certificate to confirm your property's current market value meets the threshold. Even if you paid AED 2M+, the DLD's current market valuation is what the ICP uses for eligibility assessment.
 
@@ -30,6 +30,6 @@ The details matter:
 - Enter/exit UAE freely without residency lapsing
 - Ability to sponsor domestic workers
 
-**How to apply:** DLD property value certificate → ICP application (icp.gov.ae or Amer Centre) → medical fitness test → Emirates ID → visa issuance. Typical timeline: 4–8 weeks.
+**How to apply:** DLD property value certificate → ICP application (icp.gov.ae or Amer Centre) → medical fitness test → Emirates ID → visa issuance. Typical timeline: 4-8 weeks.
 
-Want to structure a purchase specifically for Golden Visa eligibility? [Let's talk through the options.](https://wa.me/971XXXXXXXXX)
+Want to structure a purchase specifically for Golden Visa eligibility? [Let's talk through the options.](https://wa.me/971503019926)

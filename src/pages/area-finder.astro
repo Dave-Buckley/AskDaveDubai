@@ -1,0 +1,67 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Section from '../components/ui/Section.astro';
+import AreaFinder from '../components/tools/AreaFinder';
+import { getCollection } from 'astro:content';
+
+const allAreas = await getCollection('areas');
+const areaData = allAreas
+  .map(a => ({
+    id: a.id,
+    name: a.data.name,
+    tagline: a.data.tagline,
+    propertyType: a.data.propertyType || 'apartment',
+    avgPricePerSqft: a.data.stats.avgPricePerSqft,
+    rentalYield: a.data.stats.rentalYield,
+    serviceCharge: a.data.stats.serviceCharge,
+    beachfront: a.data.stats.beachfront,
+    freehold: a.data.stats.freehold,
+    highlights: a.data.highlights,
+    pros: a.data.pros,
+    cons: a.data.cons,
+    lifestyle: a.data.lifestyle,
+    nearbyAreas: a.data.nearbyAreas,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+<PageLayout
+  title="Find Your Ideal Dubai Area | AskDaveDowntown"
+  description="Find the right Dubai area for you. Filter by budget, property type, beachfront access, and more. Or find areas similar to one you already like."
+>
+  <Section dark class="py-12">
+    <div class="text-center max-w-2xl mx-auto" data-animate>
+      <div class="inline-flex items-center gap-2 px-4 py-2 border border-accent/30 mb-6">
+        <div class="w-2 h-2 rounded-full bg-accent"></div>
+        <span class="text-xs tracking-[0.2em] uppercase text-accent font-medium">Area Finder</span>
+      </div>
+      <h1 class="font-heading text-4xl sm:text-5xl font-bold text-paper leading-none">
+        Find Your Area
+      </h1>
+      <p class="mt-4 text-paper/50 leading-relaxed text-sm">
+        Filter by budget, property type, and lifestyle preferences - or find areas similar to one you already like. Covering premium communities across Dubai.
+      </p>
+    </div>
+  </Section>
+
+  <section class="px-4 sm:px-6 lg:px-8 pb-8 max-w-6xl mx-auto">
+    <AreaFinder client:visible areas={areaData} />
+  </section>
+
+  <Section dark class="py-12">
+    <div class="text-center max-w-2xl mx-auto" data-animate>
+      <h2 class="font-heading text-2xl font-bold text-paper mb-3">Need Help Narrowing Down?</h2>
+      <p class="text-paper/50 text-sm mb-6">Every client is different. Tell me your budget, lifestyle, and priorities and I will suggest the two or three areas that make the most sense for you.</p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="https://wa.me/971503019926?text=Hi%20Dave%2C%20I%27m%20looking%20for%20the%20right%20area%20in%20Dubai%20and%20need%20some%20guidance"
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366] text-white text-sm font-semibold hover:bg-[#20BD5A] transition-colors duration-200">
+          Ask Dave on WhatsApp
+        </a>
+        <a href="mailto:dave.buckley@paragonproperties.ae?subject=Help%20Finding%20the%20Right%20Area"
+           class="inline-flex items-center justify-center gap-2 px-6 py-3 border border-accent/40 text-accent text-sm font-semibold hover:bg-accent/10 transition-colors duration-200">
+          Email Dave
+        </a>
+      </div>
+    </div>
+  </Section>
+</PageLayout>

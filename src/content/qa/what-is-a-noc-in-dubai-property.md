@@ -25,7 +25,7 @@ NOC stands for No Objection Certificate. In a Dubai secondary market (resale) pr
 1. Seller applies at developer's office (or authorised typing centre)
 2. Developer checks for outstanding balances, flags, or disputes
 3. Seller pays any outstanding service charges or balances
-4. Developer issues the NOC — typically within 5–10 business days
+4. Developer issues the NOC - typically within 5-10 business days
 5. NOC is presented at the DLD trustee office on transfer day
 
 **Cost:** Varies by developer. Ranges from AED 0 to approximately AED 5,000. Some developers charge nothing; others have administrative fees.
@@ -36,4 +36,4 @@ NOC stands for No Objection Certificate. In a Dubai secondary market (resale) pr
 
 **As a buyer:** Always confirm the NOC has been obtained (or is in process) before you book a transfer appointment. A missing or expired NOC is one of the most common causes of last-minute transfer delays.
 
-[Questions about your specific transaction?](https://wa.me/971XXXXXXXXX)
+[Questions about your specific transaction?](https://wa.me/971503019926)

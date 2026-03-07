@@ -1,0 +1,544 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Section from '../components/ui/Section.astro';
+import Button from '../components/ui/Button.astro';
+
+const categories = [
+  {
+    name: 'Adventure & Adrenaline',
+    description: 'Dubai does not do things by halves. Whether you want to jump out of a plane or ski indoors in the desert, it is all here.',
+    image: 'https://images.unsplash.com/photo-1748373491503-bf21fe5ef9e2?w=1400&q=80&auto=format',
+    imageAlt: 'Aerial view of Palm Jumeirah Dubai',
+    items: [
+      {
+        name: 'Ski Dubai',
+        tagline: 'Mall of the Emirates',
+        description: 'An indoor ski slope in the middle of the desert. Five runs, a snow park, and penguin encounters. Ski Dubai is one of those things you have to experience at least once, even if you are not a skier.',
+        category: 'Indoor',
+      },
+      {
+        name: 'XLine Dubai Marina',
+        tagline: 'Urban zipline across Dubai Marina',
+        description: 'A 1km zipline that sends you flying across Dubai Marina at speeds up to 80km/h. The views are incredible and the whole experience takes about two hours including the safety briefing.',
+        category: 'Outdoor',
+      },
+      {
+        name: 'Skydive Dubai',
+        tagline: 'Tandem skydive over Palm Jumeirah',
+        description: 'Tandem skydiving with views of the Palm Jumeirah from 13,000 feet. One of the most popular activities for visitors and residents alike. Book well in advance during peak season.',
+        category: 'Outdoor',
+      },
+      {
+        name: 'iFly Dubai',
+        tagline: 'Indoor skydiving at City Walk',
+        description: 'If jumping out of a plane is not your thing, iFly gives you the freefall experience indoors. Great for kids and adults. Located at City Walk with walk-in sessions available.',
+        category: 'Indoor',
+      },
+      {
+        name: 'Aquaventure Waterpark',
+        tagline: 'Atlantis, Palm Jumeirah',
+        description: 'The largest waterpark in the Middle East. Record-breaking slides, a lazy river, a private beach, and marine animal encounters. A full day out for families, couples, or groups.',
+        category: 'Outdoor',
+      },
+      {
+        name: 'Desert Safari',
+        tagline: 'Dune bashing, camel rides, BBQ dinner',
+        description: 'A classic Dubai experience. Dune bashing in a 4x4, camel rides, sandboarding, henna, and a BBQ dinner under the stars. Book through licensed operators for a safe and well-organised trip.',
+        category: 'Outdoor',
+      },
+      {
+        name: 'Hatta Kayaking & Hiking',
+        tagline: 'Mountain excursions 90 mins from Dubai',
+        description: 'Hatta is a completely different side of the UAE. Kayaking on the Hatta Dam, mountain hiking trails, and cooler temperatures. About 90 minutes from Dubai and well worth the drive.',
+        category: 'Day Trip',
+      },
+      {
+        name: 'Jebel Jais Via Ferrata',
+        tagline: 'Climbing route on UAE highest mountain, Ras Al Khaimah',
+        description: 'A guided climbing route on the UAE highest peak in Ras Al Khaimah. Metal rungs, cables, and zip lines take you across rock faces with stunning mountain views. No prior experience needed. About 90 minutes from Dubai.',
+        category: 'Outdoor',
+      },
+    ],
+  },
+  {
+    name: 'Water & Beach',
+    description: 'You are never far from the water in Dubai. From jet skis to paddleboarding, the coastline keeps things interesting year round.',
+    image: 'https://images.unsplash.com/photo-1722502831583-b4e93ecc6027?w=1400&q=80&auto=format',
+    imageAlt: 'JBR Beach and Dubai Marina coastline',
+    items: [
+      {
+        name: 'Jet Ski Rentals',
+        tagline: 'JBR, Dubai Marina, Palm Jumeirah',
+        description: 'Jet ski rentals are available at multiple spots along the coast. JBR and Dubai Marina are the most popular starting points. Sessions range from 30 minutes to two hours.',
+        category: 'Water Sport',
+      },
+      {
+        name: 'Yacht Rental & Charter',
+        tagline: 'Sunset cruises, birthdays, fishing trips',
+        description: 'Yacht charters are surprisingly accessible in Dubai. Popular for birthdays, sunset cruises, corporate events, and fishing trips. Options range from small boats to superyachts.',
+        category: 'Water Sport',
+      },
+      {
+        name: 'Scuba Diving & Snorkelling',
+        tagline: 'Day trips to Fujairah coast',
+        description: 'The best diving and snorkelling sites are off the Fujairah coast, about 90 minutes from Dubai. Operators run day trips regularly. Snoopy Island is a popular spot for beginners.',
+        category: 'Water Sport',
+      },
+      {
+        name: 'Kite Beach',
+        tagline: 'Popular beach with food trucks and kite surfing',
+        description: 'One of Dubai best public beaches. Food trucks, a running track, volleyball courts, kite surfing, and views of the Burj Al Arab. A real favourite with residents, especially on weekends.',
+        category: 'Beach',
+      },
+      {
+        name: 'La Mer Beach',
+        tagline: 'Meraas beachfront with restaurants and shops',
+        description: 'A Meraas-developed beachfront destination in Jumeirah. Restaurants, boutique shops, a waterpark (Laguna), and a relaxed atmosphere. Great for an afternoon or evening out.',
+        category: 'Beach',
+      },
+      {
+        name: 'Deep Dive Dubai',
+        tagline: 'World deepest pool at 60m',
+        description: 'The world deepest swimming pool at 60 metres. Open for free diving, scuba diving, and snorkelling. An underwater sunken city adds to the experience. Truly one of a kind.',
+        category: 'Water Sport',
+      },
+      {
+        name: 'Paddleboarding',
+        tagline: 'Rentals at beaches and marinas',
+        description: 'Stand-up paddleboarding is popular across Dubai. Rentals available at various beaches and marinas. Early morning sessions before the heat picks up are the way to go.',
+        category: 'Water Sport',
+      },
+      {
+        name: 'Flyboarding',
+        tagline: 'Water-powered jetpack experience',
+        description: 'Strap into a water-powered jetpack and hover above the sea. Sessions are available at JBR and Dubai Marina with instructors for first-timers. A 30-minute session is enough to get the hang of it.',
+        category: 'Water Sport',
+      },
+    ],
+  },
+  {
+    name: 'Culture & Sightseeing',
+    description: 'Dubai has a lot more to offer than shopping malls and skyscrapers. The cultural scene has grown enormously in recent years.',
+    image: 'https://images.unsplash.com/photo-1683490486445-f5d98e949beb?w=1400&q=80&auto=format',
+    imageAlt: 'Downtown Dubai skyline with Burj Khalifa',
+    items: [
+      {
+        name: 'Burj Khalifa (At The Top)',
+        tagline: 'Observation deck on floors 124-125, SKY level 148',
+        description: 'The tallest building in the world. The At The Top observation deck on floors 124 and 125 is the standard experience. SKY level on floor 148 is the premium option with a dedicated lounge. Book online for better prices.',
+        category: 'Landmark',
+      },
+      {
+        name: 'Dubai Frame',
+        tagline: 'Iconic golden frame with glass-floor walkway',
+        description: 'A 150-metre golden picture frame in Zabeel Park. The glass-floor walkway at the top is not for the faint-hearted. Views of old Dubai on one side and new Dubai on the other.',
+        category: 'Landmark',
+      },
+      {
+        name: 'Dubai Museum (Al Fahidi Fort)',
+        tagline: 'Oldest building in Dubai',
+        description: 'Located in Al Fahidi Fort, the oldest building in Dubai. A small but well-done museum showing what Dubai looked like before the discovery of oil. Worth a visit, especially combined with the Al Fahidi district.',
+        category: 'Museum',
+      },
+      {
+        name: 'Al Fahidi Historical District',
+        tagline: 'Heritage area, XVA Gallery, coffee museums',
+        description: 'A beautifully restored heritage area in Bur Dubai. Narrow lanes, wind towers, art galleries (XVA Gallery is a highlight), coffee museums, and local restaurants. The most authentic part of old Dubai.',
+        category: 'Heritage',
+      },
+      {
+        name: 'Dubai Opera',
+        tagline: 'World-class performances and architecture tours',
+        description: 'A stunning dhow-shaped building in Downtown Dubai. Hosts opera, ballet, concerts, comedy shows, and theatre. Architecture tours are available if you want to see behind the scenes.',
+        category: 'Performing Arts',
+      },
+      {
+        name: 'Museum of the Future',
+        tagline: 'Futuristic exhibitions, one of Dubai newest landmarks',
+        description: 'The building alone is worth seeing. Inside, immersive exhibitions explore the future of technology, space, and sustainability. One of the most talked-about attractions in Dubai since it opened.',
+        category: 'Museum',
+      },
+      {
+        name: 'Alserkal Avenue (Al Quoz)',
+        tagline: 'Contemporary art galleries and indie cafes',
+        description: 'A converted industrial warehouse district in Al Quoz that has become the heart of Dubai art scene. Contemporary galleries, independent cafes, concept stores, and regular events. A completely different vibe from the rest of the city.',
+        category: 'Arts & Culture',
+      },
+      {
+        name: 'Dubai Miracle Garden',
+        tagline: 'World largest natural flower garden (seasonal, Nov to May)',
+        description: 'Over 150 million flowers arranged into arches, castles, and sculptures including a life-size Emirates A380. Open from November to May. Located in Dubailand near Arjan. A surprisingly impressive afternoon out.',
+        category: 'Garden',
+      },
+      {
+        name: 'Ain Dubai',
+        tagline: 'World largest observation wheel on Bluewaters Island',
+        description: 'Standing at 250 metres, Ain Dubai is the world tallest observation wheel. Located on Bluewaters Island off JBR. Each rotation takes around 38 minutes with panoramic views of the Marina skyline, Palm Jumeirah, and beyond.',
+        category: 'Landmark',
+      },
+      {
+        name: 'Jumeirah Mosque',
+        tagline: 'Open to non-Muslim visitors, guided cultural tours',
+        description: 'One of the few mosques in Dubai open to non-Muslim visitors. Guided tours run several times a week and offer genuine insight into Islamic culture and Emirati traditions. A respectful and educational experience.',
+        category: 'Heritage',
+      },
+    ],
+  },
+  {
+    name: 'Shopping & Markets',
+    description: 'Dubai is famous for shopping. From mega malls to traditional souks, there is something for every budget.',
+    image: 'https://images.unsplash.com/photo-1749405049864-973b4a5f7f1a?w=1400&q=80&auto=format',
+    imageAlt: 'Modern Dubai architecture and retail district',
+    items: [
+      {
+        name: 'Dubai Mall',
+        tagline: '1,200+ stores, aquarium, ice rink, fountain views',
+        description: 'The world largest shopping mall by total area. Over 1,200 stores, the Dubai Aquarium, an Olympic-size ice rink, and direct views of the Dubai Fountain. You could spend an entire day here and still not see everything.',
+        category: 'Mall',
+      },
+      {
+        name: 'Mall of the Emirates',
+        tagline: 'Ski Dubai, Harvey Nichols, high-end retail',
+        description: 'Home to Ski Dubai, Harvey Nichols, and a strong mix of high-end and high-street stores. Located in Al Barsha, it is one of the most popular malls in the city and less overwhelming than Dubai Mall.',
+        category: 'Mall',
+      },
+      {
+        name: 'Dubai Gold Souk (Deira)',
+        tagline: 'Traditional gold market',
+        description: 'A traditional gold market in Deira with hundreds of shops selling gold, diamonds, and precious stones. Haggling is expected. A must-visit even if you are not buying. Best visited in the evening.',
+        category: 'Souk',
+      },
+      {
+        name: 'Dubai Spice Souk (Deira)',
+        tagline: 'Traditional spices and perfumes',
+        description: 'Right next to the Gold Souk, the Spice Souk sells traditional spices, perfumes, incense, and dried herbs. The colours and smells are an experience in themselves.',
+        category: 'Souk',
+      },
+      {
+        name: 'Global Village',
+        tagline: 'Seasonal (Oct to Apr), cultural pavilions, food, rides',
+        description: 'A seasonal outdoor attraction running from October to April. Cultural pavilions from 90+ countries, street food from around the world, carnival rides, and live entertainment. Hugely popular with families.',
+        category: 'Seasonal',
+      },
+      {
+        name: 'Ibn Battuta Mall',
+        tagline: 'Themed after explorer Ibn Battuta travels',
+        description: 'A beautifully themed mall inspired by the travels of the 14th-century explorer Ibn Battuta. Six themed courts representing China, India, Persia, Egypt, Tunisia, and Andalusia. Worth visiting for the architecture alone.',
+        category: 'Mall',
+      },
+      {
+        name: 'City Walk',
+        tagline: 'Boutique shopping, dining, outdoor boulevard',
+        description: 'A Meraas open-air destination in Al Safa. Boutique shops, restaurants, a cinema, and a relaxed pedestrian-friendly layout. Home to iFly Dubai and Green Planet. Great for an evening walk.',
+        category: 'Outdoor',
+      },
+    ],
+  },
+  {
+    name: 'Family & Kids',
+    description: 'Dubai is an incredibly family-friendly city. Keeping the kids entertained is never a problem here.',
+    image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1400&q=80&auto=format',
+    imageAlt: 'Dubai skyline at sunset',
+    items: [
+      {
+        name: 'Dubai Aquarium (Dubai Mall)',
+        tagline: 'Underwater tunnel and shark encounters',
+        description: 'A massive aquarium inside Dubai Mall with a 48-metre walk-through tunnel. Shark encounters, cage diving, and glass-bottom boat rides are available. The tunnel is free to view from the mall, but the full experience is ticketed.',
+        category: 'Attraction',
+      },
+      {
+        name: 'KidZania (Dubai Mall)',
+        tagline: 'Kids role-play city',
+        description: 'A miniature city where kids aged 2 to 16 can role-play adult jobs. Firefighter, pilot, doctor, chef, and more. Each activity earns KidZos (the in-house currency). Kids absolutely love it.',
+        category: 'Kids',
+      },
+      {
+        name: 'LEGOLAND Dubai',
+        tagline: 'Dubai Parks & Resorts, ages 2 to 12',
+        description: 'A full LEGO-themed park at Dubai Parks and Resorts. Over 40 rides and attractions designed for children aged 2 to 12. LEGOLAND Water Park is right next door for an add-on.',
+        category: 'Theme Park',
+      },
+      {
+        name: 'IMG Worlds of Adventure',
+        tagline: 'Indoor theme park, Marvel and Cartoon Network zones',
+        description: 'The world largest indoor theme park. Marvel, Cartoon Network, and Lost Valley zones with rides for all ages. Fully air-conditioned, making it a great option during the summer months.',
+        category: 'Theme Park',
+      },
+      {
+        name: 'Dubai Ice Rink (Dubai Mall)',
+        tagline: 'Olympic-size ice rink, open skate sessions',
+        description: 'An Olympic-size ice rink inside Dubai Mall. Open skate sessions, figure skating lessons, and ice hockey. A fun break from shopping and a welcome cool-down on hot days.',
+        category: 'Activity',
+      },
+      {
+        name: 'Green Planet (City Walk)',
+        tagline: 'Indoor tropical rainforest and biodome',
+        description: 'An indoor tropical rainforest at City Walk. Over 3,000 plants and animals across four levels. Sloths, toucans, sugar gliders, and more. Educational and genuinely impressive for all ages.',
+        category: 'Nature',
+      },
+      {
+        name: 'Motiongate Dubai',
+        tagline: 'Hollywood-themed rides and attractions',
+        description: 'A Hollywood-themed park at Dubai Parks and Resorts. Rides and attractions based on DreamWorks, Columbia Pictures, and Lionsgate films. Suitable for slightly older kids and teenagers.',
+        category: 'Theme Park',
+      },
+      {
+        name: 'Real Madrid World',
+        tagline: 'First Real Madrid theme park, Dubai Parks and Resorts',
+        description: 'The world first Real Madrid theme park at Dubai Parks and Resorts. Interactive experiences, rides, and a chance to feel like you are part of the team. Great for football fans of all ages.',
+        category: 'Theme Park',
+      },
+      {
+        name: 'OliOli',
+        tagline: 'Interactive play museum for kids aged 2 to 11, Al Quoz',
+        description: 'A hands-on play museum in Al Quoz designed for children aged 2 to 11. Eight themed galleries covering art, science, water, and building. Beautifully designed and genuinely educational. One of the best indoor kids activities in Dubai.',
+        category: 'Kids',
+      },
+      {
+        name: 'AYA Universe',
+        tagline: 'Immersive entertainment park, WAFI Mall',
+        description: 'A 40,000 sq ft immersive experience at WAFI Mall with 12 zones of light, sound, and digital art. Instagram-worthy and genuinely engaging. Good for older kids, teens, and adults.',
+        category: 'Attraction',
+      },
+      {
+        name: 'Dubai Garden Glow',
+        tagline: 'Illuminated garden, dinosaur park, ice park (seasonal)',
+        description: 'A seasonal attraction in Zabeel Park featuring illuminated sculptures, a dinosaur park, and an ice park. Open from October to May. Best visited after dark. Popular with families and younger children.',
+        category: 'Seasonal',
+      },
+    ],
+  },
+  {
+    name: 'Food & Nightlife',
+    description: 'The dining scene in Dubai is world class. From Friday brunch to rooftop bars, there is no shortage of options.',
+    image: 'https://images.unsplash.com/photo-1655309893829-407c54619f1f?w=1400&q=80&auto=format',
+    imageAlt: 'Business Bay Dubai at night',
+    items: [
+      {
+        name: 'Friday Brunch',
+        tagline: 'A Dubai institution',
+        description: 'Friday brunch is a way of life in Dubai. Dozens of hotels and restaurants offer all-inclusive brunches with food, drinks, and entertainment. Prices range from AED 200 to AED 800+. Everyone has a favourite spot.',
+        category: 'Dining',
+      },
+      {
+        name: 'Atmosphere (Burj Khalifa)',
+        tagline: 'Fine dining at 442m, the world highest restaurant',
+        description: 'Located on floor 122 of the Burj Khalifa, Atmosphere is the world highest restaurant. Fine dining with views that speak for themselves. Book well in advance and request a window table.',
+        category: 'Fine Dining',
+      },
+      {
+        name: 'CE LA VI (Address Sky View)',
+        tagline: 'Rooftop bar with Downtown skyline views',
+        description: 'A rooftop bar at the Address Sky View hotel with panoramic views of Downtown Dubai and the Burj Khalifa. Asian-inspired menu, signature cocktails, and a great atmosphere for evening drinks.',
+        category: 'Bar & Lounge',
+      },
+      {
+        name: 'Pier 7 (Dubai Marina)',
+        tagline: 'Seven restaurants stacked on one pier',
+        description: 'Seven different restaurants over seven floors on a single pier in Dubai Marina. Each floor has a different cuisine and vibe. Great for group outings where everyone wants something different.',
+        category: 'Dining',
+      },
+      {
+        name: 'Soho Garden (Meydan)',
+        tagline: 'Large outdoor venue with multiple clubs and bars',
+        description: 'A large outdoor entertainment venue in Meydan with multiple clubs, bars, and restaurants under one roof. Regular international DJ lineups. One of the biggest nightlife destinations in Dubai.',
+        category: 'Nightlife',
+      },
+      {
+        name: 'Zero Gravity (Dubai Marina)',
+        tagline: 'Beach club with pool, restaurant, and events',
+        description: 'A beach club in Dubai Marina with a pool, restaurant, and event space. Regular pool parties, ladies nights, and brunch events. Popular with the Marina crowd, especially on weekends.',
+        category: 'Beach Club',
+      },
+      {
+        name: 'La Cantine du Faubourg (DIFC)',
+        tagline: 'French dining, lively atmosphere',
+        description: 'A French-inspired restaurant in DIFC known for its buzzy atmosphere and strong food. Popular for both lunch and dinner. The DIFC location puts it right in the heart of the financial district.',
+        category: 'Fine Dining',
+      },
+      {
+        name: 'Dubai Night Market (Waterfront Market, Deira)',
+        tagline: 'Street food and fresh produce in a lively setting',
+        description: 'The Waterfront Market in Deira is worth a visit for fresh seafood, meat, fruit, and spices. The surrounding area has some of the best cheap eats in Dubai - Pakistani, Indian, Filipino, and Arabic street food that the tourist trail misses entirely.',
+        category: 'Street Food',
+      },
+    ],
+  },
+  {
+    name: 'Sports & Fitness',
+    description: 'Dubai is an active city. Whether you are into motorsport, padel, or running along the Marina, there is plenty to keep you moving.',
+    image: 'https://images.unsplash.com/photo-1642076363968-8ad503c24b87?w=1400&q=80&auto=format',
+    imageAlt: 'Dubai Marina waterfront promenade',
+    items: [
+      {
+        name: 'Dubai Autodrome (Motor City)',
+        tagline: 'Go-karting, track days, driving experiences',
+        description: 'A motorsport complex in Motor City with go-karting, track days, and supercar driving experiences. You can drive Ferraris, Lamborghinis, and McLarens on a proper racing circuit.',
+        category: 'Motorsport',
+      },
+      {
+        name: 'TopGolf (Emirates Golf Club)',
+        tagline: 'Driving range with games and food',
+        description: 'A high-tech driving range at Emirates Golf Club. Each bay has games and scoring, plus a full food and drinks menu. A fun outing even if you have never picked up a golf club before.',
+        category: 'Golf',
+      },
+      {
+        name: 'Padel Tennis',
+        tagline: 'Hugely popular, courts everywhere',
+        description: 'Padel has exploded in Dubai. Courts are everywhere, including Just Padel and NAS Sports facilities. Easy to pick up, highly social, and a great workout. Book courts through the various club apps.',
+        category: 'Racquet Sports',
+      },
+      {
+        name: 'Running',
+        tagline: 'Marina Walk, Kite Beach, Dubai Canal',
+        description: 'Dubai has some excellent running routes. Dubai Marina Walk, Kite Beach, and the Dubai Canal boardwalk are the most popular. The cooler months (November to March) are the best time for outdoor running.',
+        category: 'Fitness',
+      },
+      {
+        name: 'Cycling',
+        tagline: 'Al Qudra (85km) and Nad Al Sheba tracks',
+        description: 'Al Qudra cycling track is 85km of flat desert road popular with cyclists at sunrise and sunset. The Dubai Cycling Track at Nad Al Sheba is another favourite. Both are car-free and well-maintained.',
+        category: 'Fitness',
+      },
+      {
+        name: 'Yoga',
+        tagline: 'Outdoor sessions and rooftop studios',
+        description: 'Outdoor yoga sessions at Kite Beach are popular during the cooler months. Rooftop yoga studios and wellness centres operate year-round across the city. A great way to start the day.',
+        category: 'Wellness',
+      },
+      {
+        name: 'Dubai Creek Harbour Running Track',
+        tagline: 'Scenic waterfront loop with skyline views',
+        description: 'A growing favourite among Dubai runners. The Creek Harbour boardwalk offers a flat, scenic loop with views of the city skyline and the developing Creek Tower site. Less crowded than the Marina and well lit in the evening.',
+        category: 'Fitness',
+      },
+    ],
+  },
+  {
+    name: 'Day Trips',
+    description: 'The UAE is a small country and there is a lot to see beyond Dubai. All of these are doable as a day trip.',
+    image: 'https://images.unsplash.com/photo-1693858134957-5621018ee8eb?w=1400&q=80&auto=format',
+    imageAlt: 'Creek Harbour Dubai waterfront view',
+    items: [
+      {
+        name: 'Abu Dhabi',
+        tagline: '1.5 hours from Dubai',
+        description: 'The capital city and well worth the drive. The Louvre Abu Dhabi is world class, Sheikh Zayed Grand Mosque is breathtaking, and Yas Island has Ferrari World and Yas Waterworld. Allow a full day.',
+        category: '1.5 hrs',
+      },
+      {
+        name: 'Ras Al Khaimah',
+        tagline: '1 hour from Dubai',
+        description: 'Mountains, beaches, and the world longest zipline on Jebel Jais (1,680 metres). A completely different landscape from Dubai. Great for hiking, camping, and outdoor adventure.',
+        category: '1 hr',
+      },
+      {
+        name: 'Fujairah',
+        tagline: '1.5 hours from Dubai',
+        description: 'The east coast of the UAE with calmer, clearer waters than the Dubai side. Snorkelling at Snoopy Island, beach resorts, and a much more relaxed pace. Popular weekend escape for Dubai residents.',
+        category: '1.5 hrs',
+      },
+      {
+        name: 'Hatta',
+        tagline: '1.5 hours from Dubai',
+        description: 'A mountain exclave of Dubai with the stunning Hatta Dam, hiking trails, mountain biking, and glamping. Noticeably cooler than the city. Kayaking on the turquoise dam water is a highlight.',
+        category: '1.5 hrs',
+      },
+      {
+        name: 'Al Ain',
+        tagline: '1.5 hours from Dubai',
+        description: 'Known as the Garden City. Home to Jebel Hafeet (a mountain drive with incredible views), Al Ain Zoo, and the Al Ain Oasis (a UNESCO World Heritage Site). A quieter, greener side of the UAE.',
+        category: '1.5 hrs',
+      },
+    ],
+  },
+];
+---
+<PageLayout
+  title="Things to Do in Dubai | AskDaveDowntown"
+  description="The best things to do in Dubai for residents and newcomers. Adventure, beaches, culture, shopping, dining, sports, family activities, and day trips - all recommended by a Dubai-based broker."
+>
+  <Section dark class="py-24">
+    <div class="text-center max-w-3xl mx-auto" data-animate>
+      <div class="inline-flex items-center gap-2 px-4 py-2 border border-accent/30 mb-8">
+        <div class="w-2 h-2 rounded-full bg-accent"></div>
+        <span class="text-xs tracking-[0.2em] uppercase text-accent font-medium">Life in Dubai</span>
+      </div>
+      <h1 class="font-heading text-5xl sm:text-6xl font-bold text-paper leading-none">
+        Things to Do in Dubai
+      </h1>
+      <p class="mt-6 text-paper/60 leading-relaxed text-lg">
+        Living in Dubai is not just about property. Here is what keeps residents coming back.
+      </p>
+    </div>
+  </Section>
+
+  <div class="gold-line"></div>
+
+  {categories.map((category, catIndex) => (
+    <Fragment>
+      {/* Category banner image */}
+      <div class="relative h-48 sm:h-64 overflow-hidden">
+        <img
+          src={category.image}
+          alt={category.imageAlt}
+          class="w-full h-full object-cover"
+          loading="lazy"
+        />
+        <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
+        <div class="absolute inset-0 flex items-center justify-center">
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-paper text-center drop-shadow-lg" data-animate>{category.name}</h2>
+        </div>
+      </div>
+
+      <Section dark={catIndex % 2 !== 0}>
+        <div class="max-w-5xl mx-auto">
+          <div class="mb-8" data-animate>
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-8 h-px bg-accent"></div>
+              <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold">{category.name}</p>
+            </div>
+            <p class={`text-sm leading-relaxed ${catIndex % 2 !== 0 ? 'text-paper/60' : 'text-ink-muted'}`}>{category.description}</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4" data-stagger>
+            {category.items.map((item) => (
+              <div class={`p-6 border ${catIndex % 2 !== 0 ? 'border-paper/10' : 'border-border'} transition-all duration-300 hover:border-accent/30`} data-animate>
+                <div class="flex items-start justify-between mb-2">
+                  <div>
+                    <h3 class={`font-heading text-lg font-bold ${catIndex % 2 !== 0 ? 'text-paper' : 'text-ink'}`}>{item.name}</h3>
+                    <p class="text-accent text-xs font-medium mt-0.5">{item.tagline}</p>
+                  </div>
+                  <span class={`text-[10px] tracking-wide uppercase px-2 py-1 border shrink-0 ml-3 ${catIndex % 2 !== 0 ? 'border-paper/10 text-paper/40' : 'border-border text-ink-muted'}`}>{item.category}</span>
+                </div>
+                <p class={`text-sm leading-relaxed mt-3 ${catIndex % 2 !== 0 ? 'text-paper/60' : 'text-ink-muted'}`}>{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+    </Fragment>
+  ))}
+
+  <!-- CTA -->
+  <div class="gold-line"></div>
+  <Section class="py-16">
+    <div class="text-center max-w-2xl mx-auto" data-animate>
+      <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Ready to Make Dubai Home?</p>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold text-ink">
+        The Lifestyle Sells Itself
+      </h2>
+      <p class="mt-4 text-ink-muted leading-relaxed">
+        Dubai has something for everyone. Once you have spent a few weekends here, you will see why so many people choose to stay. If you are thinking about making the move, I can help you find the right place to call home.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <Button href="https://wa.me/971503019926" variant="accent" size="lg" target="_blank" rel="noopener noreferrer">
+          WhatsApp Dave
+        </Button>
+        <Button href="mailto:dave.buckley@paragonproperties.ae" variant="primary" size="lg">Email Dave</Button>
+        <Button href="/areas" variant="secondary">
+          Explore Area Guides
+        </Button>
+      </div>
+    </div>
+  </Section>
+</PageLayout>

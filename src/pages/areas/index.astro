@@ -7,16 +7,17 @@ const allAreas = await getCollection('areas');
 const areas = allAreas.sort((a, b) => a.data.order - b.data.order);
 ---
 <PageLayout
-  title="Dubai Area Guides | Neighbourhood Insights by Dave Bhatt"
+  title="Dubai Area Guides | Neighbourhood Insights by Dave Buckley"
   description="Detailed neighbourhood guides for Dubai's top communities. Get stats on prices, rental yields, service charges and lifestyle from a RERA-registered agent."
 >
   <section class="pt-16 pb-16 px-4 max-w-7xl mx-auto">
     <div class="mb-12" data-animate>
+      <p class="text-xs tracking-[0.2em] uppercase text-[var(--color-accent)] font-semibold mb-4">28 Communities Covered</p>
       <h1 class="font-heading text-4xl md:text-5xl font-bold text-[var(--color-ink)] mb-4">
         Dubai Area Guides
       </h1>
       <p class="text-lg text-[var(--color-ink-muted)] max-w-2xl">
-        Expert neighbourhood insights to help you choose the right community — with real stats on prices, yields and lifestyle.
+        Every guide is written from personal experience living in Dubai since 2017. Real stats on prices, rental yields, service charges, schools, and lifestyle - not generic content pulled from a developer brochure.
       </p>
     </div>
 

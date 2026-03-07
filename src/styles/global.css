@@ -4,6 +4,7 @@
   --color-ink: #0a0a0a;
   --color-paper: #fafafa;
   --color-accent: #c9a96e;
+  --color-accent-light: #e0c98a;
   --color-ink-muted: #3a3a3a;
   --color-paper-muted: #f0f0f0;
   --color-border: #e0e0e0;
@@ -18,15 +19,127 @@ html {
   font-family: var(--font-body);
   color: var(--color-ink);
   background: var(--color-paper);
+  scroll-behavior: smooth;
 }
 
-/* Scroll animation base state — JS removes these classes */
+/* Scroll animation base state */
 [data-animate] {
   opacity: 0;
-  transform: translateY(1rem);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  transform: translateY(1.5rem);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 [data-animate].is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Staggered animation delays for child elements */
+[data-stagger] > *:nth-child(1) { transition-delay: 0ms; }
+[data-stagger] > *:nth-child(2) { transition-delay: 100ms; }
+[data-stagger] > *:nth-child(3) { transition-delay: 200ms; }
+[data-stagger] > *:nth-child(4) { transition-delay: 300ms; }
+[data-stagger] > *:nth-child(5) { transition-delay: 400ms; }
+[data-stagger] > *:nth-child(6) { transition-delay: 500ms; }
+
+/* Gold gradient text utility */
+.text-gradient-gold {
+  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-light) 50%, var(--color-accent) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Subtle gold line divider */
+.gold-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-accent), transparent);
+}
+
+/* Hover glow for cards */
+.card-glow {
+  position: relative;
+}
+.card-glow::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  box-shadow: 0 0 40px rgba(201, 169, 110, 0.15);
+  pointer-events: none;
+}
+.card-glow:hover::after {
+  opacity: 1;
+}
+
+/* Prose styles for content pages */
+.prose a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Make h2 headings stand out clearly as section dividers */
+.prose h2 {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 1.75rem;
+  letter-spacing: -0.01em;
+  position: relative;
+}
+.prose h2::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 3rem;
+  height: 2px;
+  background: var(--color-accent);
+}
+
+/* Make h3 headings clearly different from body text */
+.prose h3 {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  color: var(--color-ink);
+  letter-spacing: -0.005em;
+}
+
+/* Bold category labels in lists */
+.prose strong {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+/* Better table styling in prose */
+.prose table {
+  font-size: 0.875rem;
+  border-collapse: collapse;
+}
+.prose th {
+  background: var(--color-paper-muted);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid var(--color-border);
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+.prose td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.prose tr:hover {
+  background: var(--color-paper-muted);
+}
+
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

@@ -1,0 +1,50 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Section from '../../components/ui/Section.astro';
+import DiningMap from '../../components/map/DiningMap';
+---
+<PageLayout
+  title="Dining & Nightlife Near Downtown Dubai - Interactive Map | AskDaveDowntown"
+  description="Explore the best restaurants, cafes, and bars near Downtown Dubai. Fine dining, premium casual, brunch spots, and rooftop bars - all mapped with Google Maps links."
+>
+  <Section dark class="py-12">
+    <div class="text-center max-w-2xl mx-auto" data-animate>
+      <div class="inline-flex items-center gap-2 px-4 py-2 border border-accent/30 mb-6">
+        <div class="w-2 h-2 rounded-full bg-accent"></div>
+        <span class="text-xs tracking-[0.2em] uppercase text-accent font-medium">Dining & Nightlife</span>
+      </div>
+      <h1 class="font-heading text-4xl sm:text-5xl font-bold text-paper leading-none">
+        Where to Eat & Drink
+      </h1>
+      <p class="mt-4 text-paper/50 leading-relaxed text-sm">
+        Premium restaurants, cafes, and bars within 15 minutes of Downtown Dubai. From Michelin-starred fine dining to rooftop cocktail bars.
+      </p>
+      <a href="/explore" class="inline-flex items-center gap-1 mt-4 text-accent/60 text-xs hover:text-accent transition-colors">
+        <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" /></svg>
+        All Explore Maps
+      </a>
+    </div>
+  </Section>
+
+  <section class="px-4 sm:px-6 lg:px-8 pb-8 max-w-[1400px] mx-auto">
+    <DiningMap client:visible />
+  </section>
+
+  <Section dark class="py-12">
+    <div class="text-center max-w-2xl mx-auto" data-animate>
+      <h2 class="font-heading text-2xl font-bold text-paper mb-3">Want Restaurant Recommendations?</h2>
+      <p class="text-paper/50 text-sm mb-6">I eat out in Downtown and DIFC regularly. Ask me for personal recommendations based on cuisine, budget, or occasion.</p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="https://wa.me/971503019926?text=Hi%20Dave%2C%20can%20you%20recommend%20restaurants%20near%20Downtown%20Dubai%3F"
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366] text-white text-sm font-semibold hover:bg-[#20BD5A] transition-colors duration-200">
+          Ask Dave on WhatsApp
+        </a>
+        <a href="mailto:dave.buckley@paragonproperties.ae?subject=Restaurant%20Recommendations"
+           class="inline-flex items-center justify-center gap-2 px-6 py-3 border border-accent/40 text-accent text-sm font-semibold hover:bg-accent/10 transition-colors duration-200">
+          Email Dave
+        </a>
+      </div>
+    </div>
+  </Section>
+</PageLayout>

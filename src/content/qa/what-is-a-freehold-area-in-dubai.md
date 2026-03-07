@@ -9,7 +9,7 @@ featured: false
 publishDate: "2025-01-01"
 ---
 
-A freehold zone (also called a freehold area) is a designated area in Dubai where foreign nationals — non-UAE, non-GCC citizens — can own property with full title rights.
+A freehold zone (also called a freehold area) is a designated area in Dubai where foreign nationals - non-UAE, non-GCC citizens - can own property with full title rights.
 
 **Freehold ownership means:**
 - You own the property outright, permanently
@@ -17,7 +17,7 @@ A freehold zone (also called a freehold area) is a designated area in Dubai wher
 - Full rights to sell, rent, mortgage, gift, or inherit
 - Title deed registered with the Dubai Land Department in your name
 
-Outside freehold zones, foreigners can only hold long-term leasehold interests (typically 99-year leases) — which give use rights but not full ownership of the land.
+Outside freehold zones, foreigners can only hold long-term leasehold interests (typically 99-year leases) - which give use rights but not full ownership of the land.
 
 **Dubai has 40+ designated freehold zones.** The most significant for international buyers:
 
@@ -44,4 +44,4 @@ Outside freehold zones, foreigners can only hold long-term leasehold interests (
 
 Always verify that a specific property is in a freehold zone before purchasing. Your RERA-registered agent should confirm this, and the DLD title deed will specify the zone. When in doubt, check at [dld.gov.ae](https://www.dld.gov.ae).
 
-[Have a question about a specific area or property?](https://wa.me/971XXXXXXXXX)
+[Have a question about a specific area or property?](https://wa.me/971503019926)

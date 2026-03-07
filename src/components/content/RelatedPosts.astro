@@ -9,7 +9,7 @@ interface Props {
 const { slugs, currentSlug } = Astro.props;
 
 if (!slugs || slugs.length === 0) {
-  // Render nothing — handled by conditional below
+  // Render nothing - handled by conditional below
 }
 
 const allPosts = slugs.length > 0 ? await getCollection('blog') : [];
