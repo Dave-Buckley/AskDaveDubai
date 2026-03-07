@@ -5,12 +5,13 @@ import PageLayout from '../../layouts/PageLayout.astro';
 export async function getStaticPaths() {
   const developers = await getCollection('developers');
   return developers.map((developer) => ({
-    params: { slug: developer.data.slug ?? developer.id },
+    params: { slug: developer.slug },
     props: { developer },
   }));
 }
 
 const { developer } = Astro.props;
+const base = import.meta.env.BASE_URL;
 const { Content } = await developer.render();
 
 const whatsappMessage = encodeURIComponent(`Hi Dave, I'm looking at a ${developer.data.name} property and would like your advice.`);
@@ -114,7 +115,7 @@ const initials = developer.data.name
           <div class="flex flex-wrap gap-2">
             {developer.data.areasActive.map((area) => (
               <a
-                href={`/areas/${area.toLowerCase().replace(/\s+/g, '-')}`}
+                href={`${base}areas/${area.toLowerCase().replace(/\s+/g, '-')}`}
                 class="px-3 py-1 text-sm bg-[var(--color-paper-muted)] text-[var(--color-ink-muted)] rounded-full border border-[var(--color-border)] hover:border-[var(--color-ink)] hover:text-[var(--color-ink)] transition-colors"
               >
                 {area}

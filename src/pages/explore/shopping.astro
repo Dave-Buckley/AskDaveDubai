@@ -2,6 +2,7 @@
 import PageLayout from '../../layouts/PageLayout.astro';
 import Section from '../../components/ui/Section.astro';
 import ShoppingMap from '../../components/map/ShoppingMap';
+const base = import.meta.env.BASE_URL;
 ---
 <PageLayout
   title="Shopping & Lifestyle Near Downtown Dubai - Interactive Map | AskDaveDowntown"
@@ -19,7 +20,7 @@ import ShoppingMap from '../../components/map/ShoppingMap';
       <p class="mt-4 text-paper/50 leading-relaxed text-sm">
         Malls, boutiques, salons, grooming, and homeware stores within 15 minutes of Downtown Dubai. From luxury brands to local favourites.
       </p>
-      <a href="/explore" class="inline-flex items-center gap-1 mt-4 text-accent/60 text-xs hover:text-accent transition-colors">
+      <a href={`${base}explore`} class="inline-flex items-center gap-1 mt-4 text-accent/60 text-xs hover:text-accent transition-colors">
         <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" /></svg>
         All Explore Maps
       </a>

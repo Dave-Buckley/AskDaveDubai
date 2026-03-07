@@ -5,9 +5,10 @@ interface Props {
   building: CollectionEntry<'buildings'>;
 }
 const { building } = Astro.props;
+const base = import.meta.env.BASE_URL;
 ---
 <article class="group flex flex-col bg-white border border-[var(--color-border)] overflow-hidden transition-all duration-500 card-glow hover:shadow-2xl hover:-translate-y-1 hover:border-[var(--color-accent)]/30">
-  <a href={`/buildings/${building.data.slug ?? building.id}`} class="block relative">
+  <a href={`${base}buildings/${building.slug}`} class="block relative">
     <div class="relative h-52 overflow-hidden">
       <img
         src={building.data.heroImage}

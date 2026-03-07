@@ -2,6 +2,7 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import Section from '../components/ui/Section.astro';
 import Button from '../components/ui/Button.astro';
+const base = import.meta.env.BASE_URL;
 
 const schema = {
   "@context": "https://schema.org",
@@ -152,7 +153,7 @@ const credentials = [
       </div>
     </div>
     <div class="text-center mt-12" data-animate>
-      <Button href="/contact" variant="primary">Start the Conversation</Button>
+      <Button href={`${base}contact`} variant="primary">Start the Conversation</Button>
     </div>
   </Section>
 </PageLayout>

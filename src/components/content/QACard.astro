@@ -5,6 +5,7 @@ interface Props {
   qa: CollectionEntry<'qa'>;
 }
 const { qa } = Astro.props;
+const base = import.meta.env.BASE_URL;
 
 const categoryLabels: Record<string, string> = {
   'buying': 'Buying',
@@ -31,12 +32,12 @@ const categoryLabels: Record<string, string> = {
     )}
   </div>
   <h3 class="font-heading text-lg font-semibold text-[var(--color-ink)] mb-2 leading-snug">
-    <a href={`/ask-dave/${qa.slug}`} class="hover:text-[var(--color-accent)] transition-colors">
+    <a href={`${base}ask-dave/${qa.slug}`} class="hover:text-[var(--color-accent)] transition-colors">
       {qa.data.question}
     </a>
   </h3>
   <a
-    href={`/ask-dave/${qa.slug}`}
+    href={`${base}ask-dave/${qa.slug}`}
     class="mt-auto inline-flex items-center gap-1 text-sm text-[var(--color-accent)] hover:underline"
   >
     Read Dave's answer

@@ -5,6 +5,7 @@ import Hero from '../components/ui/Hero.astro';
 import Section from '../components/ui/Section.astro';
 import Button from '../components/ui/Button.astro';
 import Card from '../components/ui/Card.astro';
+const base = import.meta.env.BASE_URL;
 const allPosts = await getCollection('blog');
 const latestPosts = allPosts
   .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
@@ -14,21 +15,21 @@ const featuredContent = [
   {
     title: 'Area Guides',
     description: 'Detailed neighbourhood profiles - lifestyle, pricing, investment data.',
-    href: '/areas',
+    href: `${base}areas`,
     tag: 'Explore',
     icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z',
   },
   {
     title: 'Ask Dave Q&A',
     description: 'Expert answers to the most common Dubai property questions.',
-    href: '/ask-dave',
+    href: `${base}ask-dave`,
     tag: 'Learn',
     icon: 'M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01',
   },
   {
     title: 'Buyer Guides',
     description: 'Step-by-step guides to buying, costs, visas, and more.',
-    href: '/guides',
+    href: `${base}guides`,
     tag: 'Guide',
     icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
   },
@@ -89,7 +90,7 @@ const schema = {
         </svg>
         WhatsApp Dave Now
       </a>
-      <Button href="/contact" variant="secondary" size="lg" class="border-paper text-paper hover:bg-paper hover:text-ink">
+      <Button href={`${base}contact`} variant="secondary" size="lg" class="border-paper text-paper hover:bg-paper hover:text-ink">
         Book a Free Call
       </Button>
     </Fragment>
@@ -171,7 +172,7 @@ const schema = {
         <p class="text-ink-muted leading-relaxed mb-8">
           Downtown Dubai remains the city's most iconic address - anchored by Burj Khalifa and Dubai Mall. It consistently ranks in the top areas for secondary transactions, reflecting strong liquidity and lifestyle appeal.
         </p>
-        <Button href="/areas" variant="primary">Explore All Areas</Button>
+        <Button href={`${base}areas`} variant="primary">Explore All Areas</Button>
       </div>
 
       <div class="grid grid-cols-2 gap-4" data-stagger>
@@ -206,7 +207,7 @@ const schema = {
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6" data-stagger>
       {latestPosts.map(post => (
-        <a href={`/blog/${post.slug}`} class="block border border-paper/10 p-8 hover:border-accent/30 transition-all duration-500 group" data-animate>
+        <a href={`${base}blog/${post.slug}`} class="block border border-paper/10 p-8 hover:border-accent/30 transition-all duration-500 group" data-animate>
           <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">{post.data.category.replace('-', ' ')}</p>
           <h3 class="font-heading text-xl font-bold text-paper mb-3 leading-tight group-hover:text-accent transition-colors duration-300">{post.data.title}</h3>
           <p class="text-paper/50 text-sm leading-relaxed line-clamp-3">{post.data.description}</p>
@@ -220,7 +221,7 @@ const schema = {
       ))}
     </div>
     <div class="text-center mt-10" data-animate>
-      <Button href="/blog" variant="secondary" class="border-paper text-paper hover:bg-paper hover:text-ink">
+      <Button href={`${base}blog`} variant="secondary" class="border-paper text-paper hover:bg-paper hover:text-ink">
         View All Articles
       </Button>
     </div>

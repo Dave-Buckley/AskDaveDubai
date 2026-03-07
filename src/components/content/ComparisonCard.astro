@@ -5,6 +5,7 @@ interface Props {
   comparison: CollectionEntry<'comparisons'>;
 }
 const { comparison } = Astro.props;
+const base = import.meta.env.BASE_URL;
 
 const formattedDate = new Intl.DateTimeFormat('en-GB', {
   month: 'long',
@@ -20,7 +21,7 @@ const formattedDate = new Intl.DateTimeFormat('en-GB', {
     </time>
   </div>
   <h3 class="font-heading text-xl font-semibold text-[var(--color-ink)] mb-3 leading-tight">
-    <a href={`/comparisons/${comparison.slug}`} class="hover:text-[var(--color-accent)] transition-colors">
+    <a href={`${base}comparisons/${comparison.slug}`} class="hover:text-[var(--color-accent)] transition-colors">
       {comparison.data.title}
     </a>
   </h3>
@@ -28,7 +29,7 @@ const formattedDate = new Intl.DateTimeFormat('en-GB', {
     {comparison.data.summary}
   </p>
   <a
-    href={`/comparisons/${comparison.slug}`}
+    href={`${base}comparisons/${comparison.slug}`}
     class="inline-flex items-center gap-1 text-sm font-medium text-[var(--color-ink)] hover:text-[var(--color-accent)] transition-colors"
   >
     See full comparison

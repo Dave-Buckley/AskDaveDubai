@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react';
 
+const base = import.meta.env.BASE_URL;
+
 interface Building {
   name: string;
   slug: string;
@@ -71,7 +73,7 @@ export default function BuildingsMap({ buildings }: Props) {
               <div style="font-size:13px;font-weight:600;color:#fafafa;margin-bottom:2px;">${b.name}</div>
               ${b.brandName ? `<div style="font-size:10px;color:#c9a96e;margin-bottom:4px;">${b.brandName}</div>` : ''}
               <div style="font-size:11px;color:#999;margin-bottom:8px;line-height:1.4;">${b.tagline}</div>
-              <a href="/buildings/${b.slug}" style="font-size:11px;color:#c9a96e;text-decoration:none;font-weight:500;">
+              <a href="${base}buildings/${b.slug}" style="font-size:11px;color:#c9a96e;text-decoration:none;font-weight:500;">
                 View Profile &rarr;
               </a>
             </div>`,

@@ -7,7 +7,7 @@ import { getCollection } from 'astro:content';
 const allAreas = await getCollection('areas');
 const areaData = allAreas
   .map(a => ({
-    id: a.id,
+    id: a.slug,
     name: a.data.name,
     tagline: a.data.tagline,
     propertyType: a.data.propertyType || 'apartment',

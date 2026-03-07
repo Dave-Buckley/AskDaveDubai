@@ -1,5 +1,6 @@
 ---
 const year = new Date().getFullYear();
+const base = import.meta.env.BASE_URL;
 ---
 <footer class="bg-ink text-paper">
   <!-- Gold line top -->
@@ -9,7 +10,7 @@ const year = new Date().getFullYear();
     <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
       <!-- Brand -->
       <div>
-        <a href="/" class="font-heading text-2xl font-bold text-paper">
+        <a href={base} class="font-heading text-2xl font-bold text-paper">
           AskDave<span class="text-accent">Downtown</span>
         </a>
         <p class="mt-4 text-paper/60 text-sm leading-relaxed">
@@ -50,20 +51,20 @@ const year = new Date().getFullYear();
         <h3 class="text-xs font-semibold tracking-[0.2em] uppercase text-paper/40 mb-6">Explore</h3>
         <ul class="space-y-3">
           {[
-            { label: 'About Dave', href: '/about' },
-            { label: 'Area Guides', href: '/areas' },
-            { label: 'Downtown Buildings', href: '/buildings' },
-            { label: 'Explore Maps', href: '/explore' },
-            { label: 'Compare Areas', href: '/compare' },
-            { label: 'Area Finder', href: '/area-finder' },
-            { label: 'Developers', href: '/developers' },
-            { label: 'Comparisons', href: '/comparisons' },
-            { label: 'Blog', href: '/blog' },
-            { label: 'Ask Dave Q&A', href: '/ask-dave' },
-            { label: 'Guides', href: '/guides' },
-            { label: 'Dubai Essentials', href: '/dubai-essentials' },
-            { label: 'Things to Do', href: '/things-to-do' },
-            { label: 'Contact', href: '/contact' },
+            { label: 'About Dave', href: `${base}about` },
+            { label: 'Area Guides', href: `${base}areas` },
+            { label: 'Downtown Buildings', href: `${base}buildings` },
+            { label: 'Explore Maps', href: `${base}explore` },
+            { label: 'Compare Areas', href: `${base}compare` },
+            { label: 'Area Finder', href: `${base}area-finder` },
+            { label: 'Developers', href: `${base}developers` },
+            { label: 'Comparisons', href: `${base}comparisons` },
+            { label: 'Blog', href: `${base}blog` },
+            { label: 'Ask Dave Q&A', href: `${base}ask-dave` },
+            { label: 'Guides', href: `${base}guides` },
+            { label: 'Dubai Essentials', href: `${base}dubai-essentials` },
+            { label: 'Things to Do', href: `${base}things-to-do` },
+            { label: 'Contact', href: `${base}contact` },
           ].map(link => (
             <li>
               <a href={link.href} class="text-sm text-paper/60 hover:text-accent transition-colors duration-300">
@@ -103,7 +104,7 @@ const year = new Date().getFullYear();
             </a>
           </li>
           <li>
-            <a href="/contact" class="text-sm text-paper/60 hover:text-accent transition-colors duration-300 flex items-center gap-3">
+            <a href={`${base}contact`} class="text-sm text-paper/60 hover:text-accent transition-colors duration-300 flex items-center gap-3">
               <svg class="w-4 h-4 text-accent/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
               </svg>
@@ -119,8 +120,8 @@ const year = new Date().getFullYear();
         &copy; {year} AskDaveDowntown. All rights reserved.
       </p>
       <div class="flex gap-6">
-        <a href="/privacy" class="text-xs text-paper/30 hover:text-paper/60 transition-colors duration-300">Privacy Policy</a>
-        <a href="/terms" class="text-xs text-paper/30 hover:text-paper/60 transition-colors duration-300">Terms of Use</a>
+        <a href={`${base}privacy`} class="text-xs text-paper/30 hover:text-paper/60 transition-colors duration-300">Privacy Policy</a>
+        <a href={`${base}terms`} class="text-xs text-paper/30 hover:text-paper/60 transition-colors duration-300">Terms of Use</a>
       </div>
     </div>
   </div>

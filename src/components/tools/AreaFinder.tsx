@@ -1,6 +1,8 @@
 import { useState, useMemo } from 'react';
 import type { AreaData } from './AreaCompare';
 
+const base = import.meta.env.BASE_URL;
+
 interface Props {
   areas: AreaData[];
 }
@@ -212,7 +214,7 @@ export default function AreaFinder({ areas }: Props) {
         {filteredAreas.map((area, idx) => (
           <a
             key={area.id}
-            href={`/areas/${area.id}`}
+            href={`${base}areas/${area.id}`}
             className="group block p-5 border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] hover:border-[#c9a96e]/30 transition-all duration-300"
           >
             {similarTo && (

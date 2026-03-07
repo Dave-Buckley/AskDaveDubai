@@ -6,6 +6,7 @@ interface Props {
   guide: CollectionEntry<'guides'>;
 }
 const { guide } = Astro.props;
+const base = import.meta.env.BASE_URL;
 
 const categoryLabels: Record<string, string> = {
   'visa': 'Visa',
@@ -42,7 +43,7 @@ const formattedDate = new Intl.DateTimeFormat('en-GB', {
         {categoryLabels[guide.data.category] || guide.data.category}
       </span>
       <h3 class="font-heading text-lg font-semibold text-[var(--color-ink)] leading-tight">
-        <a href={`/guides/${guide.slug}`} class="hover:text-[var(--color-accent)] transition-colors">
+        <a href={`${base}guides/${guide.slug}`} class="hover:text-[var(--color-accent)] transition-colors">
           {guide.data.title}
         </a>
       </h3>

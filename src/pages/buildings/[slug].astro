@@ -6,12 +6,13 @@ import AuthorBio from '../../components/content/AuthorBio.astro';
 export async function getStaticPaths() {
   const buildings = await getCollection('buildings');
   return buildings.map((building) => ({
-    params: { slug: building.data.slug ?? building.id },
+    params: { slug: building.slug },
     props: { building },
   }));
 }
 
 const { building } = Astro.props;
+const base = import.meta.env.BASE_URL;
 const { Content } = await building.render();
 
 const whatsappMessage = encodeURIComponent(`Hi Dave, I'm interested in ${building.data.name} in Downtown Dubai. Can you help?`);
@@ -222,7 +223,7 @@ const holidayInfo = holidayLabels[building.data.holidayHome] || holidayLabels.ch
         </div>
 
         <a
-          href="/buildings"
+          href={`${base}buildings`}
           class="block text-center text-sm text-[var(--color-accent)] hover:underline"
         >
           View all Downtown buildings

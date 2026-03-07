@@ -18,7 +18,7 @@ const mapBuildings = buildings
   .filter(b => b.data.location)
   .map(b => ({
     name: b.data.name,
-    slug: b.id,
+    slug: b.slug,
     lat: b.data.location!.lat,
     lng: b.data.location!.lng,
     branded: b.data.branded,

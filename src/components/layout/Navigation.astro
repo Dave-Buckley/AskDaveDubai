@@ -1,13 +1,14 @@
 ---
+const base = import.meta.env.BASE_URL;
 const navItems = [
-  { label: 'About', href: '/about' },
-  { label: 'Areas', href: '/areas' },
-  { label: 'Buildings', href: '/buildings' },
-  { label: 'Explore', href: '/explore' },
-  { label: 'Blog', href: '/blog' },
-  { label: 'Guides', href: '/guides' },
-  { label: 'Ask Dave', href: '/ask-dave' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'About', href: `${base}about` },
+  { label: 'Areas', href: `${base}areas` },
+  { label: 'Buildings', href: `${base}buildings` },
+  { label: 'Explore', href: `${base}explore` },
+  { label: 'Blog', href: `${base}blog` },
+  { label: 'Guides', href: `${base}guides` },
+  { label: 'Ask Dave', href: `${base}ask-dave` },
+  { label: 'Contact', href: `${base}contact` },
 ];
 const currentPath = Astro.url.pathname;
 ---

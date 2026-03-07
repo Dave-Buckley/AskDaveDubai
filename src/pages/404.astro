@@ -2,6 +2,7 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import Section from '../components/ui/Section.astro';
 import Button from '../components/ui/Button.astro';
+const base = import.meta.env.BASE_URL;
 ---
 <PageLayout
   title="Page Not Found | AskDaveDowntown"
@@ -18,9 +19,9 @@ import Button from '../components/ui/Button.astro';
         This page doesn't exist - but Dave does. Head back and explore Dubai real estate expertise.
       </p>
       <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-        <Button href="/" variant="accent">Go Home</Button>
-        <Button href="/blog" variant="secondary" class="border-paper text-paper hover:bg-paper hover:text-ink">Read the Blog</Button>
-        <Button href="/contact" variant="ghost" class="text-paper hover:text-accent">Contact Dave</Button>
+        <Button href={base} variant="accent">Go Home</Button>
+        <Button href={`${base}blog`} variant="secondary" class="border-paper text-paper hover:bg-paper hover:text-ink">Read the Blog</Button>
+        <Button href={`${base}contact`} variant="ghost" class="text-paper hover:text-accent">Contact Dave</Button>
       </div>
     </div>
   </Section>

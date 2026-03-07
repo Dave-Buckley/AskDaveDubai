@@ -5,9 +5,10 @@ interface Props {
   area: CollectionEntry<'areas'>;
 }
 const { area } = Astro.props;
+const base = import.meta.env.BASE_URL;
 ---
 <article class="group flex flex-col bg-white border border-[var(--color-border)] rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
-  <a href={`/areas/${area.data.slug ?? area.id}`} class="block overflow-hidden aspect-[16/9]">
+  <a href={`${base}areas/${area.slug}`} class="block overflow-hidden aspect-[16/9]">
     <img
       src={area.data.heroImage}
       alt={area.data.heroImageAlt}
@@ -19,7 +20,7 @@ const { area } = Astro.props;
   </a>
   <div class="flex flex-col flex-1 p-5">
     <h3 class="font-heading text-xl font-semibold text-[var(--color-ink)] mb-1">
-      <a href={`/areas/${area.data.slug ?? area.id}`} class="hover:text-[var(--color-accent)] transition-colors">
+      <a href={`${base}areas/${area.slug}`} class="hover:text-[var(--color-accent)] transition-colors">
         {area.data.name}
       </a>
     </h3>

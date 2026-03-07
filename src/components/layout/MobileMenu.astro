@@ -1,51 +1,52 @@
 ---
+const base = import.meta.env.BASE_URL;
 const mobileItems = [
-  { label: 'About', href: '/about' },
-  { label: 'Areas', href: '/areas' },
-  { label: 'Buildings', href: '/buildings' },
-  { label: 'Explore Maps', href: '/explore' },
-  { label: 'Compare Areas', href: '/compare' },
-  { label: 'Area Finder', href: '/area-finder' },
-  { label: 'Comparisons', href: '/comparisons' },
-  { label: 'Developers', href: '/developers' },
-  { label: 'Blog', href: '/blog' },
-  { label: 'Guides', href: '/guides' },
-  { label: 'Dubai Essentials', href: '/dubai-essentials' },
-  { label: 'Things to Do', href: '/things-to-do' },
-  { label: 'Ask Dave', href: '/ask-dave' },
+  { label: 'About', href: `${base}about` },
+  { label: 'Areas', href: `${base}areas` },
+  { label: 'Buildings', href: `${base}buildings` },
+  { label: 'Explore Maps', href: `${base}explore` },
+  { label: 'Compare Areas', href: `${base}compare` },
+  { label: 'Area Finder', href: `${base}area-finder` },
+  { label: 'Comparisons', href: `${base}comparisons` },
+  { label: 'Developers', href: `${base}developers` },
+  { label: 'Blog', href: `${base}blog` },
+  { label: 'Guides', href: `${base}guides` },
+  { label: 'Dubai Essentials', href: `${base}dubai-essentials` },
+  { label: 'Things to Do', href: `${base}things-to-do` },
+  { label: 'Ask Dave', href: `${base}ask-dave` },
 ];
 
 const desktopSections = [
   {
     heading: 'Property',
     items: [
-      { label: 'Area Guides', href: '/areas' },
-      { label: 'Downtown Buildings', href: '/buildings' },
-      { label: 'Developers', href: '/developers' },
-      { label: 'Comparisons', href: '/comparisons' },
+      { label: 'Area Guides', href: `${base}areas` },
+      { label: 'Downtown Buildings', href: `${base}buildings` },
+      { label: 'Developers', href: `${base}developers` },
+      { label: 'Comparisons', href: `${base}comparisons` },
     ]
   },
   {
     heading: 'Tools',
     items: [
-      { label: 'Explore Maps', href: '/explore' },
-      { label: 'Compare Areas', href: '/compare' },
-      { label: 'Area Finder', href: '/area-finder' },
+      { label: 'Explore Maps', href: `${base}explore` },
+      { label: 'Compare Areas', href: `${base}compare` },
+      { label: 'Area Finder', href: `${base}area-finder` },
     ]
   },
   {
     heading: 'Learn',
     items: [
-      { label: 'Blog', href: '/blog' },
-      { label: 'Guides', href: '/guides' },
-      { label: 'Ask Dave Q&A', href: '/ask-dave' },
+      { label: 'Blog', href: `${base}blog` },
+      { label: 'Guides', href: `${base}guides` },
+      { label: 'Ask Dave Q&A', href: `${base}ask-dave` },
     ]
   },
   {
     heading: 'Dubai Life',
     items: [
-      { label: 'Dubai Essentials', href: '/dubai-essentials' },
-      { label: 'Things to Do', href: '/things-to-do' },
+      { label: 'Dubai Essentials', href: `${base}dubai-essentials` },
+      { label: 'Things to Do', href: `${base}things-to-do` },
     ]
   },
 ];
@@ -113,8 +114,8 @@ const desktopSections = [
     ))}
 
     <div class="mt-4 pt-4 border-t border-paper/8 flex gap-4">
-      <a href="/about" class="text-sm text-paper/70 hover:text-accent transition-colors duration-200">About</a>
-      <a href="/contact" class="text-sm text-paper/70 hover:text-accent transition-colors duration-200">Contact</a>
+      <a href={`${base}about`} class="text-sm text-paper/70 hover:text-accent transition-colors duration-200">About</a>
+      <a href={`${base}contact`} class="text-sm text-paper/70 hover:text-accent transition-colors duration-200">Contact</a>
     </div>
   </div>
 
