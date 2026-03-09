@@ -20,8 +20,8 @@ highlights:
   - "Serviced residences with housekeeping and concierge"
   - "Strong short-term rental performance"
   - "Premium DIFC and fountain views from upper floors"
-metaDescription: "Address Dubai Mall building profile - branded hotel residences connected to the world's most visited mall. Service charges, prices, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?w=1400&q=80&auto=format"
+metaDescription: "Address Dubai Mall building profile - branded hotel residences connected to the world's most visited mall. Service charges, prices, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1735320862956-371e2ed96007?w=1400&q=80&auto=format"
 heroImageAlt: "Luxury Dubai hotel with city views"
 location:
   lat: 25.1990

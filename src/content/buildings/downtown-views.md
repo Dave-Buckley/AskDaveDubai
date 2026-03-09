@@ -18,8 +18,8 @@ highlights:
   - "Reasonable service charges"
   - "Larger layouts than newer buildings"
   - "Good for families wanting less hustle"
-metaDescription: "Downtown Views Dubai building profile - twin towers with canal views on the quieter side of Downtown. Prices, service charges, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1583938716034-8f2c5c4da74a?w=1400&q=80&auto=format"
+metaDescription: "Downtown Views Dubai building profile - twin towers with canal views on the quieter side of Downtown. Prices, service charges, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1642874836561-b76b1c6478fe?w=1400&q=80&auto=format"
 heroImageAlt: "Lush greenery and Dubai parklands"
 location:
   lat: 25.1990

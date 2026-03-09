@@ -46,7 +46,7 @@ The masterplan is ambitious and well-executed. Sub-communities are thoughtfully 
 
 The lifestyle at Tilal Al Ghaf is deliberately low-key. Wide pedestrian paths wind through parks, playgrounds, and community gardens. A lazy river adds a resort-like touch. Cycling and jogging tracks are well-maintained and popular in the cooler months. There is a genuine sense of community forming as more phases are handed over and families move in - something that takes years to develop and cannot be manufactured.
 
-From an investment perspective, Tilal Al Ghaf has been a strong performer. Early buyers have seen meaningful capital appreciation, driven by limited villa supply in this part of Dubai and a product that genuinely stands out. The lagoon is a differentiator that competing communities cannot easily replicate. Rental yields are in the 5-7% range, which is standard for the villa segment, but the capital growth has been the headline.
+From an investment perspective, Tilal Al Ghaf has been a strong performer. Early buyers have seen meaningful capital appreciation, driven by limited villa supply in this part of Dubai and a product that stands apart. The lagoon is a differentiator that competing communities cannot easily replicate. Rental yields are in the 5-7% range, which is standard for the villa segment, but the capital growth has been the headline.
 
 The trade-offs are worth understanding. This is a car-first community with no Metro station on the horizon. Dining and retail options are still limited within the community, though Dubai Hills Mall and Mall of the Emirates are both reachable within 15 minutes. Construction is ongoing in parts of the development, which means noise and dust in some phases. These are growing pains that will resolve as the community matures, but buyers should factor them in.
 
@@ -64,16 +64,16 @@ Dining within Tilal Al Ghaf is still developing. The community hub has a small s
 - Mall of the Emirates (Al Barsha) - full restaurant corridor including Shake Shack, The Cheesecake Factory, and Eataly
 - Al Barari (The Farm) - one of the best brunch spots in Dubai, 10 minutes away
 
-## Schools
+## Top-Rated Schools Nearby
 
 Tilal Al Ghaf does not yet have schools within the community, though education facilities are planned for future phases. Several highly rated schools are within a 15-minute drive.
 
-| School | Curriculum | KHDA Rating | Approx. Annual Fees |
-|--------|-----------|-------------|---------------------|
-| GEMS Wellington Academy (Al Khail) | British | Very Good | AED 45,000-70,000 |
-| Hartland International School | British | Very Good | AED 50,000-80,000 |
-| Nord Anglia International (Al Barsha) | British | Outstanding | AED 55,000-95,000 |
-| JSS International School | Indian CBSE | Very Good | AED 18,000-30,000 |
-| Repton School (Nad Al Sheba) | British | Outstanding | AED 55,000-95,000 |
+| School | Curriculum | KHDA Rating | Approx. Annual Fees | Drive |
+|--------|-----------|-------------|---------------------|-------|
+| GEMS Wellington Academy (Al Khail) | British | Very Good | AED 45,000-70,000 | 10 min |
+| Hartland International School | British | Very Good | AED 50,000-80,000 | 12 min |
+| Nord Anglia International (Al Barsha) | British | Outstanding | AED 55,000-95,000 | 15 min |
+| JSS International School | Indian CBSE | Very Good | AED 18,000-30,000 | 12 min |
+| Repton School (Nad Al Sheba) | British | Outstanding | AED 55,000-95,000 | 15 min |
 
 Most families in the community drive to schools in Dubai Hills, Al Barsha, or Nad Al Sheba. School buses are widely available from the area.

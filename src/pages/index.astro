@@ -13,15 +13,15 @@ const latestPosts = allPosts
 
 const featuredContent = [
   {
-    title: 'Area Guides',
-    description: 'Detailed neighbourhood profiles - lifestyle, pricing, investment data.',
-    href: `${base}areas`,
-    tag: 'Explore',
+    title: 'Downtown Dubai',
+    description: 'Why Downtown is the best address in the city - restaurants, lifestyle, investment.',
+    href: `${base}downtown`,
+    tag: 'Discover',
     icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z',
   },
   {
     title: 'Ask Dave Q&A',
-    description: 'Expert answers to the most common Dubai property questions.',
+    description: 'Straight answers to the most common Dubai property questions.',
     href: `${base}ask-dave`,
     tag: 'Learn',
     icon: 'M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01',
@@ -63,12 +63,12 @@ const schema = {
   "@type": "WebPage",
   "name": "AskDaveDowntown - Dubai Real Estate Expert",
   "url": "https://askdavedowntown.com",
-  "description": "Dubai real estate expertise from a RERA-certified broker. Expert area guides, buyer resources, and direct access to Dave."
+  "description": "Dubai real estate guidance from a RERA-certified broker. Practical area guides, buyer resources, and direct access to Dave."
 };
 ---
 <PageLayout
   title="AskDaveDowntown - Dubai Real Estate Expert"
-  description="Dubai real estate expertise from a RERA-certified broker. Buy, invest, rent, or explore Dubai property with confidence. Book a free consultation."
+  description="Dubai real estate guidance from a RERA-certified broker. Buy, invest, rent, or explore Dubai property. Book a free consultation."
   schema={schema}
 >
   <!-- HERO -->
@@ -107,7 +107,7 @@ const schema = {
         Real Expertise.<br/><span class="text-gradient-gold">Real Answers.</span>
       </h2>
       <p class="mt-6 text-ink-muted leading-relaxed max-w-xl mx-auto">
-        Dubai's property market moves fast and the noise is deafening. I cut through it. Whether you are buying your first apartment or building an investment portfolio, I will walk you through every step with honest, no-strings-attached guidance.
+        Dubai's property market moves fast and there is a lot of noise. I cut through it. Whether you are buying your first apartment or building an investment portfolio, I will walk you through every step with honest, no-strings-attached guidance.
       </p>
     </div>
 
@@ -172,12 +172,12 @@ const schema = {
         <p class="text-ink-muted leading-relaxed mb-8">
           Downtown Dubai remains the city's most iconic address - anchored by Burj Khalifa and Dubai Mall. It consistently ranks in the top areas for secondary transactions, reflecting strong liquidity and lifestyle appeal.
         </p>
-        <Button href={`${base}areas`} variant="primary">Explore All Areas</Button>
+        <Button href={`${base}downtown`} variant="primary">Discover Downtown Dubai</Button>
       </div>
 
       <div class="grid grid-cols-2 gap-4" data-stagger>
         <div class="border border-border p-6" data-animate>
-          <p class="font-heading text-3xl font-bold text-ink">6-7%</p>
+          <p class="font-heading text-3xl font-bold text-ink">5.5-6.5%</p>
           <p class="text-xs text-ink-muted mt-1 tracking-wide uppercase">Gross Rental Yield</p>
         </div>
         <div class="border border-border p-6" data-animate>
@@ -185,7 +185,7 @@ const schema = {
           <p class="text-xs text-ink-muted mt-1 tracking-wide uppercase">Transaction Volume</p>
         </div>
         <div class="border border-border p-6" data-animate>
-          <p class="font-heading text-3xl font-bold text-ink">205K+</p>
+          <p class="font-heading text-3xl font-bold text-ink">215K+</p>
           <p class="text-xs text-ink-muted mt-1 tracking-wide uppercase">Dubai Sales (2025)</p>
         </div>
         <div class="border border-border p-6" data-animate>

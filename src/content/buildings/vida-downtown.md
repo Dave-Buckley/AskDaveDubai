@@ -19,9 +19,9 @@ highlights:
   - "Rooftop pool with Burj Khalifa backdrop"
   - "Lower unit count means less crowded facilities"
   - "Walking distance to Dubai Opera"
-metaDescription: "Vida Downtown building profile - boutique hotel-branded residence by Emaar. Prices, service charges, rental yields, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1655309893829-407c54619f1f?w=1400&q=80&auto=format"
-heroImageAlt: "Business Bay towers reflected at night"
+metaDescription: "Vida Downtown building profile - boutique hotel-branded residence by Emaar. Prices, service charges, rental yields, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1735320862956-371e2ed96007?w=1400&q=80&auto=format"
+heroImageAlt: "Downtown Dubai towers and palm trees near Opera District"
 location:
   lat: 25.1902
   lng: 55.2748

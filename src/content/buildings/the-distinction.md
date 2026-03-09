@@ -19,12 +19,12 @@ highlights:
   - "Walking distance to Boulevard and Metro"
   - "Good rental demand from young professionals"
   - "Pool and gym facilities on podium level"
-metaDescription: "The Distinction Downtown Dubai building profile - affordable DAMAC tower with studios. Service charges, prices, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1462396881884-de2c07cb95ed?w=1400&q=80&auto=format"
+metaDescription: "The Distinction Downtown Dubai building profile - affordable DAMAC tower with studios. Service charges, prices, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1694026535585-6dc06255400d?w=1400&q=80&auto=format"
 heroImageAlt: "Modern Dubai residential building"
 location:
-  lat: 25.1918
-  lng: 55.2682
+  lat: 25.1880
+  lng: 55.2797
   heading: 0
 order: 36
 ---

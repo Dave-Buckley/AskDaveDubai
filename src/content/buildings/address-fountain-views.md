@@ -19,8 +19,8 @@ highlights:
   - "Full Address hotel services"
   - "Connected to Dubai Mall"
   - "Large pool deck and leisure facilities"
-metaDescription: "Address Fountain Views building profile - three-tower Address branded residence with Dubai Fountain views. Prices, service charges, and honest assessment."
-heroImage: "https://images.unsplash.com/photo-1583949598069-6da084a2f52f?w=1400&q=80&auto=format"
+metaDescription: "Address Fountain Views building profile - three-tower Address branded residence with Dubai Fountain views. Prices, service charges, and key details."
+heroImage: "https://images.unsplash.com/photo-1735320860732-d7f92aed9587?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai Fountain and Burj Khalifa views"
 location:
   lat: 25.1942

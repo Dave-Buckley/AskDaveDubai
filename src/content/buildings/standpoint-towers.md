@@ -18,8 +18,8 @@ highlights:
   - "Moderate service charges"
   - "Good rental demand for smaller units"
   - "Walking distance to everything"
-metaDescription: "Standpoint Towers Downtown Dubai building profile - twin tower residential complex near Burj Khalifa. Studios, one-beds, prices, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1400&q=80&auto=format"
+metaDescription: "Standpoint Towers Downtown Dubai building profile - twin tower residential complex near Burj Khalifa. Studios, one-beds, prices, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1726533765282-88f592d17e58?w=1400&q=80&auto=format"
 heroImageAlt: "Skyscraper glass facade looking up"
 location:
   lat: 25.1967

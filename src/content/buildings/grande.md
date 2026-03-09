@@ -19,8 +19,8 @@ highlights:
   - "Walking distance to Dubai Opera and Burj Park"
   - "Designed by Adrian Smith + Gordon Gill"
   - "Premium Emaar finish and community management"
-metaDescription: "Grande Downtown Dubai building profile - twin tower Emaar development near Dubai Opera. Service charges, prices, unit types, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1400&q=80&auto=format"
+metaDescription: "Grande Downtown Dubai building profile - twin tower Emaar development near Dubai Opera. Service charges, prices, unit types, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1559924592-b91c1e69967f?w=1400&q=80&auto=format"
 heroImageAlt: "Downtown Dubai skyline view"
 location:
   lat: 25.1948

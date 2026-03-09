@@ -19,12 +19,12 @@ highlights:
   - "Emaar community management"
   - "Good value entry point for Downtown"
   - "Solid rental demand from young professionals"
-metaDescription: "Downtown Views II building profile - affordable Emaar twin towers in Downtown Dubai. Service charges, prices, unit types, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1504555497155-1c5b0a5b5a2d?w=1400&q=80&auto=format"
+metaDescription: "Downtown Views II building profile - affordable Emaar twin towers in Downtown Dubai. Service charges, prices, unit types, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1650971032065-04b540ca0dc8?w=1400&q=80&auto=format"
 heroImageAlt: "Downtown Dubai tower view"
 location:
-  lat: 25.1898
-  lng: 55.2720
+  lat: 25.2025
+  lng: 55.2811
   heading: 0
 order: 30
 ---
@@ -59,4 +59,4 @@ First-time investors looking for a Downtown entry point with strong yields. Youn
 
 ## My Take
 
-Downtown Views II is not glamorous, but it is one of the most sensible investment buys in the entire district. The service charges are low, the rental demand is reliable, and the Emaar management keeps the building in good shape. If you are buying for yield rather than prestige, this building deserves serious consideration. I have helped multiple clients purchase here, and none have been disappointed with the returns.
+Downtown Views II is not glamorous, but it is one of the most sensible investment buys in the entire district. The service charges are low, the rental demand is reliable, and the Emaar management keeps the building in good shape. If you are buying for yield rather than prestige, this building deserves serious consideration.

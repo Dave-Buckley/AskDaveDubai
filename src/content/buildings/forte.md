@@ -18,8 +18,8 @@ highlights:
   - "Panoramic Burj Khalifa and sea views from upper floors"
   - "Residents-only pool, gym, and lounge"
   - "Quieter location on the southern edge of Downtown"
-metaDescription: "Forte Downtown Dubai building profile - 78-floor premium residential tower by Emaar. Prices, service charges, layouts, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1588314941393-af1c493f345c?w=1400&q=80&auto=format"
+metaDescription: "Forte Downtown Dubai building profile - 78-floor premium residential tower by Emaar. Prices, service charges, layouts, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1768463851938-b7956f379747?w=1400&q=80&auto=format"
 heroImageAlt: "Modern apartment building exterior"
 location:
   lat: 25.1958
@@ -47,7 +47,7 @@ The real selling point for many buyers is the views. From the 50th floor upward,
 
 AED 18-24 per square foot per year is consistent with other premium Emaar towers in Downtown. The amenities justify the charges - residents get a well-designed pool deck, a fully equipped gym, a lounge area, and landscaped common spaces. Maintenance standards are high and Emaar's building management keeps things running smoothly.
 
-For a 78-floor tower, the ongoing costs are actually reasonable. Taller buildings typically cost more to maintain due to lift systems, facade cleaning, and mechanical infrastructure. Forte manages to keep charges in line with shorter premium towers, which is worth noting.
+For a 78-floor tower, the ongoing costs are actually reasonable. Taller buildings typically cost more to maintain due to lift systems, facade cleaning, and mechanical infrastructure. Forte manages to keep charges in line with shorter premium towers.
 
 ## Rental Market
 

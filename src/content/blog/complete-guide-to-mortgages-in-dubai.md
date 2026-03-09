@@ -1,5 +1,5 @@
 ---
-title: "Understanding Dubai Mortgages - A Complete FAQ"
+title: "Understanding Dubai Mortgages - FAQ"
 description: "Whether you're a resident, non-resident, or Golden Visa holder - here's how Dubai mortgages work, what you need, and how to prepare before you buy."
 publishDate: "2025-10-14"
 category: "buying-guide"

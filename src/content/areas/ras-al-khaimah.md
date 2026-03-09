@@ -37,7 +37,7 @@ order: 22
 
 Ras Al Khaimah has moved from the periphery of UAE property conversations to the centre of them - and the catalyst is clear. The $3.9 billion Wynn Al Marjan Island resort, set to open in 2027, represents the single largest hospitality investment in the northern emirates and has fundamentally changed the way investors view RAK. This is no longer a quiet alternative to Dubai. It is rapidly becoming a market with its own compelling investment thesis.
 
-Al Marjan Island is the epicentre of this transformation. The man-made archipelago extending into the Arabian Gulf was already home to resort hotels and residential towers, but the Wynn announcement has supercharged demand. New launches on and around the island are selling out rapidly, and prices have moved sharply upward as investors position themselves ahead of the resort's opening. The Wynn will bring a luxury hotel, branded residences, gaming facilities, and world-class dining - creating an anchor that will draw international visitors and high-net-worth buyers to the island for decades.
+Al Marjan Island is the epicentre of this transformation. The man-made archipelago extending into the Arabian Gulf was already home to resort hotels and residential towers, but the Wynn announcement has supercharged demand. New launches on and around the island are selling out rapidly, and prices have moved sharply upward as investors position themselves ahead of the resort's opening. The Wynn will bring a luxury hotel, branded residences, gaming facilities, and high-end dining - creating an anchor that will draw international visitors and high-net-worth buyers to the island for decades.
 
 Al Hamra Village, by contrast, offers something that Al Marjan Island cannot: maturity. This established beachfront community features an 18-hole championship golf course, a marina, and a range of villas, townhouses, and apartments set along the coast. Villa prices surged approximately 42% in 2025, reflecting both the spillover demand from the Wynn effect and the inherent appeal of a settled golf-and-beach community. For buyers seeking a home rather than a speculative play, Al Hamra provides a lifestyle that is genuinely hard to find at equivalent prices anywhere on the Dubai coastline.
 
@@ -57,7 +57,7 @@ RAK's dining scene is anchored by its resort hotels and the established Al Hamra
 - Maarid (Hilton RAK Beach Resort) - Arabic fine dining. Elevated regional cuisine in an elegant beachfront setting.
 
 **Al Marjan Island**
-- Several new restaurants opening alongside residential and hotel developments. The Wynn Al Marjan Island (2027) will add a significant roster of world-class dining venues.
+- Several new restaurants opening alongside residential and hotel developments. The Wynn Al Marjan Island (2027) will add a significant roster of high-end dining venues.
 
 ## Top-Rated Schools Nearby
 

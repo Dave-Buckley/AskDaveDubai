@@ -18,8 +18,8 @@ highlights:
   - "Two towers with different heights"
   - "Good balance of price and quality"
   - "Podium pool, gym, and BBQ area"
-metaDescription: "Burj Vista Downtown Dubai building profile - twin-tower Emaar residence with head-on Burj Khalifa views. Prices, service charges, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1748373491503-bf21fe5ef9e2?w=1400&q=80&auto=format"
+metaDescription: "Burj Vista Downtown Dubai building profile - twin-tower Emaar residence with head-on Burj Khalifa views. Prices, service charges, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1702257795777-89c06fad8124?w=1400&q=80&auto=format"
 heroImageAlt: "Palm Jumeirah aerial view from above"
 location:
   lat: 25.1900

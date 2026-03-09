@@ -1,6 +1,6 @@
 ---
-title: "UAE Golden Visa for Property Investors - Complete Guide"
-description: "Everything you need to know about qualifying for the UAE Golden Visa through property investment - the AED 2M threshold, eligibility, family sponsorship, and how to apply."
+title: "UAE Golden Visa for Property Investors"
+description: "Qualifying for the UAE Golden Visa through property investment: the AED 2M threshold, eligibility, family sponsorship, and how to apply."
 category: "visa"
 updatedDate: "2025-01-01"
 featured: true
@@ -108,13 +108,11 @@ After medical clearance, apply for your Emirates ID - the standard UAE identific
 **Step 5: Visa Issuance**
 The ICP issues the Golden Visa stamp. Timeline from application submission to issued visa: typically 4-8 weeks, though it can be faster with a well-prepared application.
 
-## Common Mistakes I've Seen
+## Common Mistakes to Avoid
 
-**Applying with off-plan property:** The most common error. Buyers purchase off-plan expecting to use it for the Golden Visa immediately. You cannot - you must wait for handover and title deed issuance.
+**Mortgage equity below AED 2M:** If you own an AED 2.8M property with an AED 1.4M mortgage, your equity is AED 1.4M - and you would not qualify. The solution is a partial mortgage prepayment to bring equity above the threshold.
 
-**Mortgage equity below AED 2M:** A client owned a AED 2.8M property with a AED 1.4M mortgage. Equity = AED 1.4M. Did not qualify. Solution: partial mortgage prepayment to bring equity above the threshold.
-
-**Using leasehold property:** Rare but I've seen it. Leasehold is not valid for Golden Visa eligibility. Must be freehold.
+**Using leasehold property:** Leasehold is not valid for Golden Visa eligibility, even at AED 2M+. Must be freehold.
 
 **DLD valuation shortfall:** If you bought at AED 2M but the DLD current market valuation comes in at AED 1.85M due to local softening, you do not qualify based on that property alone.
 

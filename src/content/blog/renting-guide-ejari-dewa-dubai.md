@@ -1,8 +1,8 @@
 ---
-title: "The Complete Guide to Renting in Dubai - Ejari, DEWA, and Everything You Need to Know"
-description: "Everything you need to know about renting a property in Dubai - from Ejari registration to DEWA setup, security deposits, and your rights as a tenant."
+title: "Renting in Dubai - Ejari, DEWA, and What You Need to Know"
+description: "Renting a property in Dubai: Ejari registration, DEWA setup, security deposits, and your rights as a tenant."
 publishDate: "2025-11-15"
-category: "lifestyle"
+category: "legal"
 tags: ["renting", "Ejari", "DEWA", "tenants", "leasing", "expats"]
 featured: true
 heroImage: "https://images.unsplash.com/photo-1582407947092-a39e1834982c?w=1400&q=80&auto=format"

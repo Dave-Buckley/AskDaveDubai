@@ -9,7 +9,7 @@ unitTypes: ["1BR", "2BR", "3BR", "4BR", "Penthouse"]
 branded: false
 serviced: false
 holidayHome: "check"
-serviceCharge: "AED 55-80/sqft/yr"
+serviceCharge: "AED 60-70/sqft/yr"
 avgPricePerSqft: "AED 2,800-4,500"
 tagline: "Live in the tallest building on earth"
 highlights:
@@ -19,8 +19,8 @@ highlights:
   - "Sky lobbies with observation decks"
   - "Concierge, valet, and 24/7 security"
   - "Unmatched global prestige"
-metaDescription: "Burj Khalifa Residences building profile - living in the world's tallest building. Service charges, unit types, prices, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1683490486445-f5d98e949beb?w=1400&q=80&auto=format"
+metaDescription: "Burj Khalifa Residences building profile - living in the world's tallest building. Service charges, unit types, prices, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1735320859376-b012ff9620a6?w=1400&q=80&auto=format"
 heroImageAlt: "Downtown Dubai skyline at golden hour"
 location:
   lat: 25.1972

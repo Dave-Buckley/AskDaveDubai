@@ -19,8 +19,8 @@ highlights:
   - "Good mix of unit sizes including larger 3BR and 4BR"
   - "Competitive service charges for the height"
   - "Popular with families and long-term tenants"
-metaDescription: "Mada Residences Downtown Dubai building profile - 57-floor ARTAR tower with competitive pricing. Service charges, prices, unit types, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=1400&q=80&auto=format"
+metaDescription: "Mada Residences Downtown Dubai building profile - 57-floor ARTAR tower with competitive pricing. Service charges, prices, unit types, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1735748725537-2e6f48d2eb0b?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai residential tower at sunset"
 location:
   lat: 25.1935

@@ -2,7 +2,7 @@
 title: "Why Dubai Expats Buy Property in the UAE"
 description: "The real reasons expats transition from renting to owning in Dubai - lifestyle, financial logic, and the shift from 'temporary stay' to long-term commitment."
 publishDate: "2025-10-05"
-category: "lifestyle"
+category: "investment"
 tags: ["expats", "buying", "lifestyle", "renting vs buying", "investment"]
 featured: false
 heroImage: "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1400&q=80&auto=format"

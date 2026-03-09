@@ -1,10 +1,10 @@
 ---
 name: "Upper Crest"
 slug: "upper-crest"
-developer: "Al Habtoor"
+developer: "DAMAC"
 completionYear: "2014"
-floors: "32"
-totalUnits: "250"
+floors: "44"
+totalUnits: "446"
 unitTypes: ["1BR", "2BR", "3BR"]
 branded: false
 serviced: false
@@ -19,8 +19,8 @@ highlights:
   - "Pool, gym, and children's play area"
   - "Walking distance to the Boulevard"
   - "Strong rental yields for investors"
-metaDescription: "Upper Crest Downtown Dubai building profile - budget-friendly tower with low service charges. Prices, unit types, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1400&q=80&auto=format"
+metaDescription: "Upper Crest Downtown Dubai building profile - budget-friendly tower with low service charges. Prices, unit types, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1629892665176-2c27769e6775?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai residential tower exterior"
 location:
   lat: 25.1892

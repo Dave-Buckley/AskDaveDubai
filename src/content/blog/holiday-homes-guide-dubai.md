@@ -1,6 +1,6 @@
 ---
 title: "How to Turn Your Dubai Property Into a Holiday Home"
-description: "A complete guide to setting up a holiday home rental in Dubai - licensing, management, expected returns, and what you need to know before listing."
+description: "Setting up a holiday home rental in Dubai: licensing, management, expected returns, and what you need to know before listing."
 publishDate: "2025-10-11"
 category: "investment"
 tags: ["holiday home", "short-term rental", "Airbnb", "DTCM", "investment"]

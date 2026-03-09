@@ -27,8 +27,8 @@ const mapBuildings = buildings
   }));
 ---
 <PageLayout
-  title="Downtown Dubai Buildings Guide | Every Tower Reviewed | AskDaveDowntown"
-  description="Detailed profiles of every major residential building in Downtown Dubai. Service charges, price per sqft, unit types, pros and cons from RERA-registered agent Dave Buckley."
+  title="Downtown Dubai Buildings Guide | AskDaveDowntown"
+  description="Profiles of residential buildings in Downtown Dubai. Service charges, price per sqft, unit types, and key details from RERA-registered agent Dave Buckley."
   ogImage="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80&auto=format"
 >
   <!-- Hero -->
@@ -51,11 +51,11 @@ const mapBuildings = buildings
       </div>
 
       <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-paper leading-none mb-6" data-animate>
-        Every Tower.<br/><span class="text-gradient-gold">Honestly Reviewed.</span>
+        Downtown Dubai<br/><span class="text-gradient-gold">Building Profiles.</span>
       </h1>
 
       <p class="text-lg text-paper/60 max-w-2xl leading-relaxed mb-10" data-animate>
-        Not all Downtown towers are created equal. These profiles break down service charges, unit layouts, build quality, and what I honestly think about each building. This is what you need to know before you buy.
+        Service charges, unit layouts, price per sqft, and the key details for each building. Everything you need to compare your options and make an informed decision.
       </p>
 
       <!-- Quick stats -->
@@ -78,7 +78,7 @@ const mapBuildings = buildings
     <div class="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-accent/30 to-transparent"></div>
   </div>
 
-  <!-- Buildings Map -->
+  <!-- Buildings Map - DISABLED: GPS spoofing from regional conflict makes map coords unreliable
   <section class="bg-ink px-4 sm:px-6 lg:px-8 py-12">
     <div class="max-w-7xl mx-auto">
       <div class="flex items-center gap-3 mb-6" data-animate>
@@ -88,6 +88,7 @@ const mapBuildings = buildings
       <BuildingsMap buildings={mapBuildings} client:visible />
     </div>
   </section>
+  -->
 
   <!-- Hotel-Branded Residences -->
   {branded.length > 0 && (

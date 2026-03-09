@@ -18,8 +18,8 @@ highlights:
   - "Competitive pricing"
   - "Twin tower design"
   - "Good-sized layouts"
-metaDescription: "Bellevue Towers Downtown Dubai building profile - Dubai Properties twin towers with canal views. Prices, service charges, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=1400&q=80&auto=format"
+metaDescription: "Bellevue Towers Downtown Dubai building profile - Dubai Properties twin towers with canal views. Prices, service charges, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1735320859837-e40a7cce112b?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai beachfront skyline view"
 location:
   lat: 25.1895

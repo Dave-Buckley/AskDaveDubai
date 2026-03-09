@@ -18,8 +18,8 @@ highlights:
   - "Podium-level pool, gym, and landscaped deck"
   - "Boulevard views from many units"
   - "Good build quality by Emaar"
-metaDescription: "Claren Towers Downtown Dubai building profile - newer twin-tower Emaar residence. Prices, service charges, layouts, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1400&q=80&auto=format"
+metaDescription: "Claren Towers Downtown Dubai building profile - newer twin-tower Emaar residence. Prices, service charges, layouts, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1678522791889-d358476fc75f?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai skyline with golden sunset haze"
 location:
   lat: 25.1907

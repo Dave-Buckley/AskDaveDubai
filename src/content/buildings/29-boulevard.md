@@ -18,8 +18,8 @@ highlights:
   - "Reasonable service charges"
   - "Strong rental demand"
   - "Boulevard location"
-metaDescription: "29 Boulevard Downtown Dubai building profile - twin towers with studios and investor-friendly units. Prices, service charges, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?w=1400&q=80&auto=format"
+metaDescription: "29 Boulevard Downtown Dubai building profile - twin towers with studios and investor-friendly units. Prices, service charges, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1667647960548-42a91c4c89bc?w=1400&q=80&auto=format"
 heroImageAlt: "Business district and property skyline"
 location:
   lat: 25.1918

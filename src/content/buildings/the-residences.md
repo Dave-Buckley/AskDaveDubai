@@ -19,8 +19,8 @@ highlights:
   - "Family-friendly with pool, playground, and gardens"
   - "Directly connected to Dubai Mall"
   - "Best value for end-users in Downtown"
-metaDescription: "The Residences Downtown Dubai building profile - nine towers with the largest units and lowest prices in Downtown. Service charges and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1597659840241-37e2b4ecd7a1?w=1400&q=80&auto=format"
+metaDescription: "The Residences Downtown Dubai building profile - nine towers with the largest units and lowest prices in Downtown. Service charges and key details and data."
+heroImage: "https://images.unsplash.com/photo-1570206085258-83f85a200e2d?w=1400&q=80&auto=format"
 heroImageAlt: "Downtown Dubai residential towers at sunset"
 location:
   lat: 25.1955

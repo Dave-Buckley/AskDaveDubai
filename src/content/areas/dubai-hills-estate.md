@@ -19,7 +19,7 @@ highlights:
   - "Central Park and cycling tracks"
   - "Emaar master-planned community"
   - "Schools and hospitals within the community"
-lifestyle: "Dubai Hills is New Dubai's premium family suburb. Golf course, parks, cycling tracks, and top schools make it the choice for families moving from European or North American suburbs. It's green, quiet, and well-planned."
+lifestyle: "Dubai Hills is New Dubai's premium family suburb. Golf course, parks, cycling tracks, and top schools make it the choice for families moving from European or North American suburbs. It is green, quiet, and well-planned."
 investment: "Strong family rental demand. Capital values have appreciated consistently since launch. Off-plan continues to be launched and absorbed. Well-regarded Emaar brand supports resale."
 transport: "Car-dependent. Dubai Metro Green Line extension planned (Al Khail station). Al Khail Road provides quick access to DIFC and Downtown (20 min)."
 pros:
@@ -49,7 +49,7 @@ Apartment buyers find some of the best new-build value in Dubai at AED 1,400-2,0
 
 The Metro extension to Al Khail is anticipated to transform transport connectivity when complete. For now, most residents are car-dependent, though Al Khail Road makes Downtown and DIFC accessible in 20-25 minutes at most times of day.
 
-Dubai Hills Mall covers everyday shopping with Carrefour and Spinneys, and the Metro extension currently planned will further improve connectivity once complete.
+Dubai Hills Mall covers everyday shopping with Carrefour and Spinneys.
 
 ## Where to Eat
 

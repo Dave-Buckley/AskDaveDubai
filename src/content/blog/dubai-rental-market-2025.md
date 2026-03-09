@@ -43,13 +43,13 @@ Not all areas are created equal when it comes to returns. The sweet spot depends
 
 ### Premium (Gross Yields of 5-7%)
 
-**Downtown Dubai** commands premium rents driven by its iconic location, walkability, and access to Dubai Mall, the Burj Khalifa, and Dubai Opera. Gross yields typically sit between 5% and 7%, but capital appreciation and the calibre of tenants make it a different proposition to budget areas.
+**Downtown Dubai** commands premium rents driven by its iconic location, walkability, and access to Dubai Mall, the Burj Khalifa, and Dubai Opera. Gross yields typically sit between 5.5% and 6.5%, but capital appreciation and the calibre of tenants make it a different proposition to budget areas.
 
-**Dubai Marina** benefits from waterfront living, beach access, and a vibrant community. One and two-bedroom apartments perform particularly well here.
+**Dubai Marina** benefits from waterfront living, beach access, and a strong tenant community. One and two-bedroom apartments perform particularly well here.
 
 **Palm Jumeirah** is a category of its own. Rental prices for villas and high-end apartments on the Palm are among the highest in the city, and demand from high-net-worth tenants, including those seeking short-term holiday home lets, remains robust.
 
-It is worth noting that gross yields do not tell the whole story. Service charges, maintenance costs, management fees, and potential void periods all eat into your net return. Always run the numbers on net yield before making a decision.
+Gross yields do not tell the whole story. Service charges, maintenance costs, management fees, and potential void periods all eat into your net return. Always run the numbers on net yield before making a decision.
 
 ## What This Means for Landlords
 

@@ -11,7 +11,7 @@ author: "Dave Buckley"
 relatedSlugs: ["golden-visa-property-investors-guide", "off-plan-vs-ready-property-dubai"]
 ---
 
-I've been selling Dubai property for years. Every year someone tells me the market is going to crash. Every year it doesn't.
+Every year someone says the Dubai market is going to crash. Every year it doesn't.
 
 That's not complacency - it's observation. Dubai's fundamentals are genuinely different from the markets people are comparing it to. Here is why, in 2025, the investment case remains compelling.
 
@@ -71,7 +71,7 @@ This is not a guarantee - it's a function of demand matching supply. Dubai has m
 
 ## I Won't Pretend There Are No Risks
 
-I've been honest about this with every client. Dubai property investment carries risks:
+I am honest about this with every client. Dubai property investment carries risks:
 
 **Off-plan delivery risk:** Delays of 1-3 years are common with some developers. A handful have cancelled projects. You cannot rent out or occupy an off-plan property until handover.
 
@@ -83,11 +83,11 @@ I've been honest about this with every client. Dubai property investment carries
 
 The mitigants: buy quality developers, buy ready or near-completion, buy for genuine yield (not just capital appreciation hope), and hold for 5+ years.
 
-## My Honest Assessment
+## The Bottom Line
 
 Dubai is not risk-free. No market is. But the combination of zero tax, high yields, population growth, government infrastructure spending, and the Golden Visa residency incentive makes it one of the more attractive risk-return propositions for international capital right now.
 
-The clients who have done well here are the ones who did their homework, bought quality, and thought in 5-year horizons. The ones who struggled bought off-plan from inexperienced developers on leverage at the peak of a cycle.
+The buyers who do well here are the ones who do their homework, buy quality, and think in 5-year horizons. The ones who struggle buy off-plan from inexperienced developers on leverage at the peak of a cycle.
 
 If you're thinking about it, the best time to ask questions is now - not after prices move again.
 

@@ -121,7 +121,7 @@ These are the places that do not always make the glossy magazine lists but deser
 
 ## Why Dining Matters When Choosing Where to Live
 
-I always tell clients that buying or renting a home is not just about the apartment. It is about the lifestyle that comes with your front door. Downtown Dubai delivers one of the best dining scenes in the region, and having all of this within walking distance is genuinely one of the things residents love most about the area.
+Buying or renting a home is not just about the apartment. It is about the lifestyle that comes with your front door. Downtown Dubai delivers one of the best dining scenes in the region, and having all of this within walking distance is genuinely one of the things residents love most about the area.
 
 Whether you are grabbing a morning flat white from %Arabica, a quick lunch at Operation Falafel, or a celebratory dinner at At.mosphere, everything is right there. That kind of convenience is hard to put a price on.
 

@@ -18,8 +18,8 @@ highlights:
   - "Close to Dubai Mall and Burj Khalifa"
   - "Popular with investors for rental yield"
   - "Modern finishes throughout"
-metaDescription: "Burj Royale Downtown Dubai building profile - 60-storey Emaar tower with studios. Prices, service charges, rental yields, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1642076363968-8ad503c24b87?w=1400&q=80&auto=format"
+metaDescription: "Burj Royale Downtown Dubai building profile - 60-storey Emaar tower with studios. Prices, service charges, rental yields, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1735320860585-08578659aec3?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai Marina waterfront at twilight"
 location:
   lat: 25.1916

@@ -18,8 +18,8 @@ highlights:
   - "Stunning views of Burj Khalifa and fountain"
   - "Higher-end positioning with fewer units per floor"
   - "Dedicated residents-only amenities"
-metaDescription: "Opera Grand Downtown Dubai building profile - premium Emaar tower next to Dubai Opera. Prices, service charges, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1626178793926-22b28830aa30?w=1400&q=80&auto=format"
+metaDescription: "Opera Grand Downtown Dubai building profile - premium Emaar tower next to Dubai Opera. Prices, service charges, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1678558994507-1f80f8d2a9a7?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai cityscape panoramic view"
 location:
   lat: 25.1935

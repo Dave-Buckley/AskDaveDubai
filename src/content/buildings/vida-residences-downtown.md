@@ -20,7 +20,7 @@ highlights:
   - "Solid short-term rental returns"
   - "Co-working spaces in the lobby"
 metaDescription: "Vida Residences Downtown building profile - Emaar's larger Vida-branded tower on Mohammed Bin Rashid Boulevard. Prices, service charges, and investor analysis."
-heroImage: "https://images.unsplash.com/photo-1749405049864-973b4a5f7f1a?w=1400&q=80&auto=format"
+heroImage: "https://images.unsplash.com/photo-1765110979198-d5c3c39aab87?w=1400&q=80&auto=format"
 heroImageAlt: "Modern DIFC architecture in Dubai"
 location:
   lat: 25.1912
@@ -60,7 +60,7 @@ Peak season (November to March) drives the strongest returns, with tourists and 
 
 Long-term tenants tend to be young professionals and remote workers who appreciate the co-working spaces, the modern design, and the Boulevard location. It is a good building for attracting tenants who want more personality than a generic residential tower.
 
-The competitive landscape is worth noting. You are on the Boulevard alongside Address Boulevard and several other branded and non-branded towers, all targeting similar tenants and guests.
+You are on the Boulevard alongside Address Boulevard and several other branded and non-branded towers, all targeting similar tenants and guests.
 
 ## Resale Market
 

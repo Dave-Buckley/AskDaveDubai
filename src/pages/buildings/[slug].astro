@@ -83,7 +83,8 @@ const holidayInfo = holidayLabels[building.data.holidayHome] || holidayLabels.ch
           <Content />
         </div>
 
-        <!-- Location & Street View -->
+        <!-- Location & Street View - DISABLED: GPS spoofing from regional conflict makes map coords unreliable -->
+        <!--
         {building.data.location && (
           <section class="mb-10">
             <h2 class="font-heading text-2xl font-semibold text-[var(--color-ink)] mb-4">Location</h2>
@@ -120,6 +121,7 @@ const holidayInfo = holidayLabels[building.data.holidayHome] || holidayLabels.ch
             </div>
           </section>
         )}
+        -->
 
         <!-- Bottom CTA -->
         <div class="mt-12 p-6 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-xl text-center">
@@ -190,14 +192,16 @@ const holidayInfo = holidayLabels[building.data.holidayHome] || holidayLabels.ch
                 <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{building.data.brandName}</dd>
               </div>
             )}
-            <div class="flex justify-between items-center py-2 border-b border-[var(--color-border)]">
-              <dt class="text-sm text-[var(--color-ink-muted)]">Holiday Homes</dt>
-              <dd>
-                <span class={`px-2 py-0.5 text-xs font-medium rounded ${holidayInfo.color}`}>
-                  {holidayInfo.text}
-                </span>
-              </dd>
-            </div>
+            {building.data.holidayHome !== 'check' && (
+              <div class="flex justify-between items-center py-2 border-b border-[var(--color-border)]">
+                <dt class="text-sm text-[var(--color-ink-muted)]">Holiday Homes</dt>
+                <dd>
+                  <span class={`px-2 py-0.5 text-xs font-medium rounded ${holidayInfo.color}`}>
+                    {holidayInfo.text}
+                  </span>
+                </dd>
+              </div>
+            )}
             <div class="flex justify-between items-center py-2">
               <dt class="text-sm text-[var(--color-ink-muted)]">Serviced</dt>
               <dd>

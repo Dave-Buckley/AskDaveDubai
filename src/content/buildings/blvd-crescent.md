@@ -18,8 +18,8 @@ highlights:
   - "Boulevard frontage"
   - "More of a community feel"
   - "Good for families wanting Downtown without high-rise"
-metaDescription: "BLVD Crescent Downtown Dubai building profile - low-rise premium Emaar residences on Mohammed Bin Rashid Boulevard. Prices and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1400&q=80&auto=format"
+metaDescription: "BLVD Crescent Downtown Dubai building profile - low-rise premium Emaar residences on Mohammed Bin Rashid Boulevard. Prices and key details and data."
+heroImage: "https://images.unsplash.com/photo-1735320867968-c4b022ed9fdd?w=1400&q=80&auto=format"
 heroImageAlt: "Finance and property investment concept"
 location:
   lat: 25.1916

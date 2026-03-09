@@ -4,10 +4,10 @@ slug: "downtown-dubai"
 tagline: "The Iconic Heart of Dubai"
 heroImage: "https://images.unsplash.com/photo-1683490486445-f5d98e949beb?w=1400&q=80&auto=format"
 heroImageAlt: "Downtown Dubai skyline with Burj Khalifa at sunset"
-metaDescription: "The ultimate Downtown Dubai property guide - buildings, prices, rental yields, restaurants, healthcare, gyms, schools, nightlife, and investment outlook from RERA-registered agent Dave Buckley."
+metaDescription: "Downtown Dubai property guide: buildings, prices, rental yields, restaurants, healthcare, gyms, schools, nightlife, and investment outlook from RERA-registered agent Dave Buckley."
 stats:
   avgPricePerSqft: "AED 2,200-4,000"
-  rentalYield: "5-7%"
+  rentalYield: "5.5-6.5%"
   serviceCharge: "AED 12-45/sqft/yr"
   completionYear: "2007-present"
   beachfront: false
@@ -26,7 +26,7 @@ lifestyle: "Downtown is Dubai's showpiece. Everything is walkable - the world's 
 investment: "Among the most liquid property markets in the UAE. High tourist demand supports strong short-term rental yields, particularly during peak season (October to April). Capital values have grown 40%+ since 2020. Entry prices range from under AED 1M for a studio in an older tower to AED 50M+ for Burj Khalifa penthouses. The premium is justified by liquidity, demand, and the simple fact that there is only one Burj Khalifa."
 transport: "Dubai Metro Red Line (Burj Khalifa/Dubai Mall station) is a 10-15 minute walk from most towers via the covered Dubai Mall link bridge. Direct RTA bus routes serve the Boulevard. Sheikh Zayed Road is minutes away via Financial Center Road or Al Khail Road. DIFC is walkable (10-12 minutes). Business Bay is connected via pedestrian bridges. Dubai International Airport (DXB) is about 20 minutes by car outside peak hours."
 pros:
-  - "World-class amenities on your doorstep"
+  - "Top-tier amenities on your doorstep"
   - "High rental demand year-round"
   - "Strong capital appreciation history"
   - "Prestigious address with global recognition"
@@ -34,7 +34,7 @@ pros:
   - "Excellent Metro connectivity"
   - "Deep resale market - high liquidity"
 cons:
-  - "Service charges range widely (AED 12-80/sqft depending on building)"
+  - "Service charges range widely (AED 12-70/sqft depending on building)"
   - "Traffic congestion around Dubai Mall, especially weekends"
   - "No beach access (nearest is JBR, 20 min drive)"
   - "Premium entry prices vs outer areas"
@@ -66,7 +66,7 @@ Downtown has over 26 major residential towers, almost all developed by Emaar. Th
 
 The only non-Emaar tower in Downtown is Imperial Avenue by Shapoorji Pallonji. Bellevue Towers by Dubai Properties sits on the canal side.
 
-[View all Downtown Dubai building profiles](/buildings) for detailed breakdowns of every tower including service charges, unit types, and my honest assessment.
+[View all Downtown Dubai building profiles](/buildings) for detailed breakdowns of every tower including service charges, unit types, and key data.
 
 ## Sub-Areas Within Downtown
 

@@ -84,11 +84,11 @@ These plans allow buyers to acquire property without needing full capital upfron
 - Are buying for the Golden Visa
 - Prefer certainty over potential upside
 
-## My Honest Take
+## The Bottom Line
 
 Off-plan is exciting. The payment plans are genuinely useful for buyers who don't have full capital today. And in the right development with the right developer, the capital appreciation between purchase and handover can be extraordinary.
 
-But it requires patience and trust in the developer. You're making a significant financial commitment based on renders and promises. I've seen clients ecstatic when keys are finally delivered - and frustrated when they're waiting for a building that's 18 months late.
+But it requires patience and trust in the developer. You are making a significant financial commitment based on renders and promises. Some buyers are ecstatic when keys are finally delivered - and others are frustrated when they are waiting for a building that is 18 months late.
 
 Know which one you are - patient investor or end-user - before you sign anything.
 

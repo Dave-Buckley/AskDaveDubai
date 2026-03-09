@@ -1,5 +1,5 @@
 ---
-title: "Complete Cost Breakdown: Buying Property in Dubai"
+title: "Cost Breakdown: Buying Property in Dubai"
 description: "Every fee, tax, and cost involved in buying property in Dubai - broken down clearly with example calculations on a AED 2,000,000 purchase."
 category: "costs"
 updatedDate: "2025-01-01"

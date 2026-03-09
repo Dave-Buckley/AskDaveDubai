@@ -50,8 +50,10 @@ const comparisonData = allComparisons.map(c => ({
     </div>
   </Section>
 
-  <section class="px-4 sm:px-6 lg:px-8 pb-8 max-w-5xl mx-auto">
-    <AreaCompare client:visible areas={areaData} comparisons={comparisonData} />
+  <section class="bg-ink px-4 sm:px-6 lg:px-8 pb-12">
+    <div class="max-w-5xl mx-auto">
+      <AreaCompare client:visible areas={areaData} comparisons={comparisonData} />
+    </div>
   </section>
 
   <Section dark class="py-12">

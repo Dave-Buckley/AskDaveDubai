@@ -20,7 +20,7 @@ highlights:
   - "Strong short-term rental performer"
   - "Studios available from under AED 1M"
 metaDescription: "Address Boulevard building profile - prices, service charges, unit types. Hotel-branded Emaar residence on Mohammed Bin Rashid Boulevard, Downtown Dubai."
-heroImage: "https://images.unsplash.com/photo-1546412414-e1885e51148b?w=1400&q=80&auto=format"
+heroImage: "https://images.unsplash.com/photo-1621019947792-add2f1a2dd88?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai towers illuminated at night"
 location:
   lat: 25.1925

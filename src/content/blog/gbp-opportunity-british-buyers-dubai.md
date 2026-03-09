@@ -58,4 +58,4 @@ The UAE's zero income tax and zero capital gains tax remain a significant draw f
 
 ---
 
-British buyer exploring Dubai property? [Message me on WhatsApp](https://wa.me/971503019926) - I work with UK clients regularly and can guide you through the process.
+British buyer exploring Dubai property? [Message me on WhatsApp](https://wa.me/971503019926) - I can guide you through the process from start to finish.

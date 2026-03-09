@@ -19,8 +19,8 @@ highlights:
   - "Strong Burj Khalifa views from upper floors"
   - "Podium-level pool and fitness facilities"
   - "Well-managed with responsive maintenance"
-metaDescription: "Act One Act Two Downtown Dubai building profile - Opera District twin towers by Emaar. Prices, service charges, layouts, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1721742159631-787c649e6032?w=1400&q=80&auto=format"
+metaDescription: "Act One Act Two Downtown Dubai building profile - Opera District twin towers by Emaar. Prices, service charges, layouts, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1680901646103-89505144bd31?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai community with palm-lined streets"
 location:
   lat: 25.1935

@@ -20,7 +20,7 @@ highlights:
   - "Full Address hotel services"
   - "Some of the best Burj Khalifa views in Downtown"
 metaDescription: "Address Sky View building profile - twin tower Address residence with sky bridge, rooftop pool, and panoramic Burj Khalifa views. Downtown Dubai."
-heroImage: "https://images.unsplash.com/photo-1748626083682-611d0a66cb50?w=1400&q=80&auto=format"
+heroImage: "https://images.unsplash.com/photo-1567943834464-fd9c466ed9be?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai skyline at dusk with city lights"
 location:
   lat: 25.1891

@@ -2,36 +2,24 @@
 const base = import.meta.env.BASE_URL;
 const mobileItems = [
   { label: 'About', href: `${base}about` },
-  { label: 'Areas', href: `${base}areas` },
+  { label: 'Downtown Dubai', href: `${base}downtown` },
   { label: 'Buildings', href: `${base}buildings` },
-  { label: 'Explore Maps', href: `${base}explore` },
-  { label: 'Compare Areas', href: `${base}compare` },
-  { label: 'Area Finder', href: `${base}area-finder` },
-  { label: 'Comparisons', href: `${base}comparisons` },
   { label: 'Developers', href: `${base}developers` },
   { label: 'Blog', href: `${base}blog` },
   { label: 'Guides', href: `${base}guides` },
   { label: 'Dubai Essentials', href: `${base}dubai-essentials` },
   { label: 'Things to Do', href: `${base}things-to-do` },
   { label: 'Ask Dave', href: `${base}ask-dave` },
+  // DISABLED: Areas, Explore, Compare, Area Finder, Comparisons - Downtown specialist focus
 ];
 
 const desktopSections = [
   {
-    heading: 'Property',
+    heading: 'Downtown',
     items: [
-      { label: 'Area Guides', href: `${base}areas` },
+      { label: 'Why Downtown Dubai', href: `${base}downtown` },
       { label: 'Downtown Buildings', href: `${base}buildings` },
       { label: 'Developers', href: `${base}developers` },
-      { label: 'Comparisons', href: `${base}comparisons` },
-    ]
-  },
-  {
-    heading: 'Tools',
-    items: [
-      { label: 'Explore Maps', href: `${base}explore` },
-      { label: 'Compare Areas', href: `${base}compare` },
-      { label: 'Area Finder', href: `${base}area-finder` },
     ]
   },
   {

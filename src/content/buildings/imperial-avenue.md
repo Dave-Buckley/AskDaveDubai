@@ -18,8 +18,8 @@ highlights:
   - "Direct Burj Khalifa views"
   - "Competitive pricing vs Emaar equivalents"
   - "Full amenities including pool and gym"
-metaDescription: "Imperial Avenue Downtown Dubai building profile - the only non-Emaar tower in Downtown. Prices, service charges, build quality, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1400&q=80&auto=format"
+metaDescription: "Imperial Avenue Downtown Dubai building profile - the only non-Emaar tower in Downtown. Prices, service charges, build quality, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1663768266738-436531e1638a?w=1400&q=80&auto=format"
 heroImageAlt: "Property documents and investment planning"
 location:
   lat: 25.1862
@@ -45,7 +45,7 @@ Finishes are a step above basic Emaar standard in many respects. The developer w
 
 Here is where the non-Emaar factor becomes important. Service charges run between AED 18 and 24 per square foot per year, which is higher than many comparable Emaar buildings. The reason is straightforward - Emaar manages dozens of buildings across Downtown and benefits from economies of scale. Imperial Avenue is a standalone building with its own management structure, and that costs more per unit.
 
-The management quality has been a mixed bag since handover. Early residents reported some teething issues with maintenance response times and facility management. Things have improved, but it is worth noting that you do not get the well-oiled Emaar machine here. For some buyers, that is a non-issue. For others, particularly those coming from an Emaar building, the difference is noticeable.
+The management quality has been a mixed bag since handover. Early residents reported some teething issues with maintenance response times and facility management. Things have improved, but you do not get the well-oiled Emaar machine here. For some buyers, that is a non-issue. For others, particularly those coming from an Emaar building, the difference is noticeable.
 
 ## Rental Market
 

@@ -1,5 +1,5 @@
 ---
-title: "Off-Plan vs Ready Property in Dubai - The Complete Comparison"
+title: "Off-Plan vs Ready Property in Dubai"
 description: "Pros, cons, and who each type of Dubai property is right for - off-plan vs ready explained for buyers and investors."
 category: "investment"
 updatedDate: "2025-01-01"
@@ -74,9 +74,9 @@ Dubai law (Law No. 8 of 2007) requires developers to hold buyer payments in RERA
 
 You cannot rent out or occupy an off-plan property until you receive the keys. If you are counting on rental income to service your payment plan obligations, you need to fund the plan from other sources.
 
-### Golden Visa Ineligibility Until Handover
+### Golden Visa: Rule Change in 2026
 
-Off-plan property does not qualify for the UAE Golden Visa until the building is completed and the DLD issues a full title deed.
+As of February 2026, off-plan properties now qualify for the UAE Golden Visa provided the total property value reaches AED 2M. Previously, you had to wait for handover and a full title deed. This is a significant change that removes one of the biggest drawbacks of buying off-plan.
 
 ### Limited Mortgage Financing
 

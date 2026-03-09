@@ -2,7 +2,7 @@
 title: "How to Stage Your Home for Sale in Dubai - Without Spending a Fortune"
 description: "Practical, budget-friendly tips for staging your Dubai property to attract buyers faster and achieve a better sale price."
 publishDate: "2025-10-07"
-category: "lifestyle"
+category: "buying-guide"
 tags: ["selling", "staging", "home sale", "tips", "presentation"]
 featured: false
 heroImage: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80&auto=format"

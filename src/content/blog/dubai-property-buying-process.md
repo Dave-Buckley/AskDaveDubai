@@ -1,6 +1,6 @@
 ---
 title: "Step-by-Step: How to Buy Property in Dubai as a Foreigner"
-description: "From finding the right property to collecting your keys - the complete Dubai property buying process explained in plain English."
+description: "From finding the right property to collecting your keys - the Dubai buying process explained in plain English."
 publishDate: "2024-05-10"
 category: "buying-guide"
 tags: ["buying", "process", "step-by-step", "MOU", "NOC", "DLD"]

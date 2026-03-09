@@ -43,7 +43,7 @@ Phase 2 expanded the footprint with sub-communities including Palma, Casa, Lila,
 
 The lifestyle infrastructure is a major draw. The Arabian Ranches Golf Club provides an 18-hole Ian Baker-Finch designed course, and the nearby Dubai Polo & Equestrian Club adds a distinctive element. Community retail centres, supermarkets, restaurants, and cafes mean residents rarely need to leave for day-to-day errands. For families, the presence of JESS Arabian Ranches and Ranches Primary School within the community eliminates the school-run commute that plagues so many Dubai neighbourhoods.
 
-From an investment perspective, Arabian Ranches has been one of the most consistent performers in the Dubai market. Villa values here have historically recovered faster from downturns than comparable communities, and demand from both owner-occupiers and tenants remains steady. The combination of Emaar branding, freehold ownership, and a genuinely mature community continues to attract buyers who prioritise stability over speculation.
+From an investment perspective, Arabian Ranches has been one of the most consistent performers in the Dubai market. Villa values here have historically recovered faster from downturns than comparable communities, and demand from both owner-occupiers and tenants remains steady. The combination of Emaar branding, freehold ownership, and a mature, established community continues to attract buyers who prioritise stability over speculation.
 
 ## Where to Eat
 

@@ -18,8 +18,8 @@ highlights:
   - "Moderate service charges"
   - "Good rental yields for studios and one-beds"
   - "Walking distance to Dubai Mall and Burj Khalifa"
-metaDescription: "8 Boulevard Walk Downtown Dubai building profile - mid-range Emaar tower with studios. Prices, service charges, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1641050075956-82a3f0df6100?w=1400&q=80&auto=format"
+metaDescription: "8 Boulevard Walk Downtown Dubai building profile - mid-range Emaar tower with studios. Prices, service charges, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1726533765275-a69cfd7f9897?w=1400&q=80&auto=format"
 heroImageAlt: "Modern Dubai residential community"
 location:
   lat: 25.1911

@@ -80,7 +80,7 @@ My rule of thumb: **budget 6-7% of the purchase price on top** for all transacti
 
 For mortgage purchases, add another 0.5-1% for mortgage arrangement, valuation, and registration fees - so **7-8% total**.
 
-This catches a lot of buyers off guard. I've seen clients who fell in love with a property at the edge of their budget and didn't account for fees. Don't be that buyer.
+This catches a lot of buyers off guard. If you fall in love with a property at the edge of your budget, make sure you account for fees on top. Do not be that buyer.
 
 Always confirm exact amounts with your agent and the trustee office ahead of transfer day - you'll need to prepare manager's cheques in specific amounts made out to specific parties, and you cannot improvise this on the day.
 

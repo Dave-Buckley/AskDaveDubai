@@ -18,8 +18,8 @@ highlights:
   - "Podium-level pool and gym"
   - "Boulevard location near retail and dining"
   - "Popular with owner-occupiers"
-metaDescription: "Boulevard Point building profile - Emaar residential tower in Downtown Dubai. Service charges, prices per sqft, unit layouts, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1693858134957-5621018ee8eb?w=1400&q=80&auto=format"
+metaDescription: "Boulevard Point building profile - Emaar residential tower in Downtown Dubai. Service charges, prices per sqft, unit layouts, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1735320859484-2cffeee25f58?w=1400&q=80&auto=format"
 heroImageAlt: "Creek Harbour waterfront promenade"
 location:
   lat: 25.1908

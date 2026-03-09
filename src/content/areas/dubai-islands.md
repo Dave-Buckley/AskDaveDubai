@@ -22,7 +22,7 @@ highlights:
   - "Direct connectivity to Deira and Al Mamzar"
 lifestyle: "Dubai Islands is pitched as a full beachfront city within a city - resort-style living with hotels, a marina, retail, and kilometres of open beach. Early residents describe it as quiet and spacious, with genuine sea views and beach access. The lifestyle infrastructure is still catching up to the vision, but what is delivered so far is promising. It is a very different feel from the density of Downtown Dubai or Dubai Marina."
 investment: "The investment case rests on the gap between current pricing and the long-term beachfront premium. At AED 1,200-2,200/sqft, Dubai Islands is substantially cheaper than Palm Jumeirah (AED 3,000-6,000/sqft) for comparable beachfront positioning. As infrastructure matures and hotels open, that discount is expected to narrow. Rental yields on handed-over units are healthy at 6-8%, supported by demand from tenants who want coastal living without the Palm price tag. The key risk is timeline - construction is ongoing, and the full vision is years away."
-transport: "Car-dependent today. The islands connect to the mainland via Deira, with access from Al Mamzar and the Deira Corniche. Proximity to Deira City Centre and Dubai International Airport (approximately 15 minutes) is a genuine advantage. There is no metro station on the islands, though connections to the Green Line via Deira are relatively straightforward. The drive to Downtown Dubai is roughly 20-25 minutes via Al Maktoum Bridge or Business Bay Crossing."
+transport: "Car-dependent today. The islands connect to the mainland via Deira, with access from Al Mamzar and the Deira Corniche. Proximity to Deira City Centre and Dubai International Airport (approximately 15 minutes) is a genuine advantage. There is no Metro station on the islands, though connections to the Green Line via Deira are relatively straightforward. The drive to Downtown Dubai is roughly 20-25 minutes via Al Maktoum Bridge or Business Bay Crossing."
 pros:
   - "Beachfront at a fraction of Palm Jumeirah prices"
   - "20km of new coastline with genuine beach access"
@@ -31,7 +31,7 @@ pros:
 cons:
   - "Still heavily under construction - full delivery years away"
   - "Limited dining, retail, and lifestyle amenities currently"
-  - "No metro connectivity on the islands"
+  - "No Metro connectivity on the islands"
   - "Resale market not yet fully established"
 nearbyAreas:
   - "creek-harbour"
@@ -43,13 +43,13 @@ Dubai Islands is one of the most ambitious coastal developments currently under 
 
 The sheer scale is what separates Dubai Islands from other waterfront communities. This is not a single tower or a gated compound - it is a planned district with hotels, branded residences, a major retail destination (Dubai Islands Mall), a marina, and kilometres of public beach. When complete, the ambition is for it to function as a self-contained beachfront city connected to one of Dubai's oldest and most established neighbourhoods.
 
-Some phases have been handed over. The Deira Night Souk, an open-air market on one of the islands, has been operational for several years. Early residential towers are occupied, and resort hotels are in various stages of construction. But it is important to be honest: as of early 2026, the development is still very much a work in progress. Cranes outnumber cafes. The lifestyle that the masterplan promises is not yet fully available on the ground.
+Some phases have been handed over. The Deira Night Souk, an open-air market on one of the islands, has been operational for several years. Early residential towers are occupied, and resort hotels are in various stages of construction. But as of early 2026, the development is still very much a work in progress. Cranes outnumber cafes. The lifestyle that the masterplan promises is not yet fully available on the ground.
 
 **Why investors are paying attention:** beachfront property at AED 1,200-2,200/sqft is rare in Dubai. Palm Jumeirah trades at AED 3,000-6,000/sqft. JBR is in the AED 2,000-3,000/sqft range. Dubai Islands offers genuine coastal living - not creek views or canal frontage, but actual Arabian Gulf beachfront - at a significant discount to established waterfront communities. That price gap is the investment thesis.
 
 **The Nakheel factor** matters. Nakheel delivered Palm Jumeirah, and while Dubai Islands is a different product at a different price point, the developer's track record on large-scale island reclamation is unmatched. The merger of Nakheel with Dubai Holding has also strengthened the financial backing behind the project.
 
-**Location is underrated.** Dubai Islands sits off Deira, one of the city's most connected areas. Dubai International Airport is roughly 15 minutes away. Deira City Centre, Al Mamzar Beach Park, and the Gold Souk are all nearby. The drive to Downtown Dubai takes approximately 20-25 minutes depending on traffic and your chosen route - comparable to the commute from Dubai Marina or JVC. For buyers who work in Deira, DIFC, or the airport free zones, the location is genuinely practical.
+**Location is underrated.** Dubai Islands sits off Deira, one of the city's most connected areas. Dubai International Airport is roughly 15 minutes away. Deira City Centre, Al Mamzar Beach Park, and the Gold Souk are all nearby. The drive to Downtown Dubai takes approximately 20-25 minutes depending on traffic and your chosen route - comparable to the commute from Dubai Marina or JVC. For buyers who work in Deira, DIFC, or the airport free zones, the location is practical.
 
 **Compared to Downtown Dubai,** the lifestyle is at the opposite end of the spectrum. Downtown offers urban density, walkability, world-class dining, and the Burj Khalifa on your doorstep. Dubai Islands offers open beach, sea air, and space - but with far fewer amenities today. If you want everything now, Downtown is the answer. If you are comfortable buying into a vision and waiting for it to mature, Dubai Islands has compelling economics.
 
@@ -78,7 +78,7 @@ Dining on Dubai Islands is limited at this stage. The community is still buildin
 
 *Dubai Islands' dining scene will develop substantially as hotels and the planned retail mall open. For now, Deira's rich and diverse food scene - one of the most authentic in Dubai - is the real asset here.*
 
-## Schools
+## Top-Rated Schools Nearby
 
 There are no schools on Dubai Islands at present, and none have been announced for the immediate future. Families with school-age children will need to factor in a commute to schools in Deira, Al Qusais, or Mirdif.
 

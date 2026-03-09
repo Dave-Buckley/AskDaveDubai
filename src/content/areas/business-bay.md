@@ -7,7 +7,7 @@ heroImageAlt: "Business Bay Dubai Canal promenade with skyscrapers at night"
 metaDescription: "Business Bay property guide - canal-side living adjacent to Downtown Dubai, with strong rental yields and more affordable entry prices."
 stats:
   avgPricePerSqft: "AED 1,500-2,200"
-  rentalYield: "6-8%"
+  rentalYield: "5-7%"
   serviceCharge: "AED 14-20/sqft/yr"
   completionYear: "2010s-present"
   beachfront: false

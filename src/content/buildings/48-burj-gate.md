@@ -19,12 +19,12 @@ highlights:
   - "Strong rental demand from young professionals"
   - "Walking distance to Boulevard and Dubai Mall"
   - "Good amenities including pool, gym, and parking"
-metaDescription: "48 Burj Gate Downtown Dubai building profile - 51-floor tower with studios and affordable units. Service charges, prices, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?w=1400&q=80&auto=format"
+metaDescription: "48 Burj Gate Downtown Dubai building profile - 51-floor tower with studios and affordable units. Service charges, prices, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1668089141110-d38366344a77?w=1400&q=80&auto=format"
 heroImageAlt: "Modern Dubai residential tower"
 location:
-  lat: 25.1932
-  lng: 55.2725
+  lat: 25.2000
+  lng: 55.2692
   heading: 0
 order: 32
 ---

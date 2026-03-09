@@ -19,7 +19,7 @@ highlights:
   - "Larger unit sizes than newer buildings"
   - "Near Burj Park and canal"
 metaDescription: "South Ridge Downtown Dubai building profile - six towers with some of the lowest prices and service charges in Downtown. Honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1552589252-70f32f048b36?w=1400&q=80&auto=format"
+heroImage: "https://images.unsplash.com/photo-1732530365779-dbf5bdf4bc63?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai Hills lush green landscaping"
 location:
   lat: 25.1870

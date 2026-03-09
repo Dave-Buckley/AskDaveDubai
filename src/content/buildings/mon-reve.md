@@ -19,12 +19,12 @@ highlights:
   - "Boutique scale with only 280 units"
   - "Contemporary design with high-quality fit-out"
   - "Emaar community management"
-metaDescription: "Mon Reve Downtown Dubai building profile - new Emaar boutique tower in the Opera District. Service charges, prices, unit types, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1400&q=80&auto=format"
+metaDescription: "Mon Reve Downtown Dubai building profile - new Emaar boutique tower in the Opera District. Service charges, prices, unit types, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1570206993210-3c90379d3521?w=1400&q=80&auto=format"
 heroImageAlt: "Modern luxury residential building"
 location:
-  lat: 25.1943
-  lng: 55.2700
+  lat: 25.1942
+  lng: 55.2827
   heading: 0
 order: 34
 ---

@@ -43,8 +43,10 @@ const areaData = allAreas
     </div>
   </Section>
 
-  <section class="px-4 sm:px-6 lg:px-8 pb-8 max-w-6xl mx-auto">
-    <AreaFinder client:visible areas={areaData} />
+  <section class="bg-ink px-4 sm:px-6 lg:px-8 pb-12">
+    <div class="max-w-6xl mx-auto">
+      <AreaFinder client:visible areas={areaData} />
+    </div>
   </section>
 
   <Section dark class="py-12">

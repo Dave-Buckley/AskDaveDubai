@@ -18,8 +18,8 @@ highlights:
   - "Lower service charges than newer towers"
   - "Good rental demand for smaller units"
   - "Walking distance to everything in Downtown"
-metaDescription: "Boulevard Central Downtown Dubai building profile - twin-tower Emaar complex with studios and one-beds. Prices, service charges, and honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1671899068573-452fc6eb7973?w=1400&q=80&auto=format"
+metaDescription: "Boulevard Central Downtown Dubai building profile - twin-tower Emaar complex with studios and one-beds. Prices, service charges, and key details and data."
+heroImage: "https://images.unsplash.com/photo-1735320859538-9dbd292304ac?w=1400&q=80&auto=format"
 heroImageAlt: "Arabian Ranches style villa community"
 location:
   lat: 25.1915

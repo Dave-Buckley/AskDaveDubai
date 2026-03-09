@@ -90,13 +90,13 @@ After medical clearance, apply for your Emirates ID - the standard UAE identific
 **Step 5: Visa Issuance**
 ICP issues the Golden Visa stamp in your passport. Timeline from application to issued visa: typically 4-8 weeks.
 
-## Common Mistakes I've Seen
+## Common Mistakes to Avoid
 
 **Assuming any off-plan purchase qualifies automatically:** While the February 2026 rule change means off-plan now qualifies, the total property value must still reach AED 2M. Verify your property's registered value meets the threshold.
 
-**Mortgage equity below AED 2M:** A client had an AED 2.8M property but an AED 1.2M mortgage. Equity = AED 1.6M. Did not qualify. We found a solution by making a partial mortgage prepayment to bring equity above the threshold.
+**Mortgage equity below AED 2M:** If you have an AED 2.8M property but an AED 1.2M mortgage, your equity is AED 1.6M - and you would not qualify. The solution is a partial mortgage prepayment to bring equity above the threshold.
 
-**Using leasehold property:** Rare but I've seen it - leasehold is not valid for Golden Visa. Must be freehold.
+**Using leasehold property:** Leasehold is not valid for Golden Visa. Must be freehold.
 
 **DLD market value below AED 2M:** If you bought a property for AED 2.1M but the DLD's current market valuation comes in at AED 1.9M (sometimes happens in areas with recent price softening), you do not qualify - even though you paid over the threshold.
 
@@ -108,7 +108,7 @@ ICP issues the Golden Visa stamp in your passport. Timeline from application to 
 
 ## Dave's Take
 
-The Golden Visa has turned Dubai property from a pure investment into a lifestyle decision for many of my clients. The people who've told me it's made the most difference are the ones with children in UAE schools, or who split their time between two countries and needed the certainty that their UAE life wouldn't suddenly expire.
+The Golden Visa has turned Dubai property from a pure investment into a lifestyle decision. The people it makes the most difference for are those with children in UAE schools, or who split their time between two countries and need the certainty that their UAE life will not suddenly expire.
 
 If AED 2M is within your range, the visa alone justifies serious consideration - even if the investment yield was average. You're buying optionality on a world-class city.
 

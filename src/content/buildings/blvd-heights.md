@@ -18,8 +18,8 @@ highlights:
   - "Good build quality and modern finishes"
   - "Family-friendly amenities"
   - "Close to Souk Al Bahar and fountain"
-metaDescription: "BLVD Heights Downtown Dubai building profile - twin-tower Emaar residence on Mohammed Bin Rashid Boulevard. Prices, service charges, and honest assessment."
-heroImage: "https://images.unsplash.com/photo-1722502831583-b4e93ecc6027?w=1400&q=80&auto=format"
+metaDescription: "BLVD Heights Downtown Dubai building profile - twin-tower Emaar residence on Mohammed Bin Rashid Boulevard. Prices, service charges, and key details."
+heroImage: "https://images.unsplash.com/photo-1735320858369-037368ccac85?w=1400&q=80&auto=format"
 heroImageAlt: "JBR coastline with turquoise waters"
 location:
   lat: 25.1926

@@ -19,7 +19,7 @@ highlights:
   - "Good for end-users wanting space on a budget"
   - "Established community feel"
 metaDescription: "The Lofts Downtown Dubai building profile - East and West towers. Lower service charges, larger units, and good value in Downtown. Honest broker assessment."
-heroImage: "https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?w=1400&q=80&auto=format"
+heroImage: "https://images.unsplash.com/photo-1726533765829-67f0313ab064?w=1400&q=80&auto=format"
 heroImageAlt: "Modern Dubai residential tower facade"
 location:
   lat: 25.1970

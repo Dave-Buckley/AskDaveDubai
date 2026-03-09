@@ -19,8 +19,8 @@ highlights:
   - "Connected to Dubai Mall via covered walkway"
   - "Infinity pool overlooking Burj Khalifa"
   - "One of the most recognisable buildings in Dubai"
-metaDescription: "Address Downtown building profile - service charges, unit types, prices, and honest broker assessment. The original Address hotel-branded residence in Downtown Dubai."
-heroImage: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1400&q=80&auto=format"
+metaDescription: "Address Downtown building profile - service charges, unit types, prices, and key details and data. The original Address hotel-branded residence in Downtown Dubai."
+heroImage: "https://images.unsplash.com/photo-1735320864933-601d2cac9371?w=1400&q=80&auto=format"
 heroImageAlt: "Iconic Burj Khalifa and Dubai skyline"
 location:
   lat: 25.1957

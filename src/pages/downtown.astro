@@ -1,0 +1,603 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Section from '../components/ui/Section.astro';
+import Button from '../components/ui/Button.astro';
+import AuthorBio from '../components/content/AuthorBio.astro';
+const base = import.meta.env.BASE_URL;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "name": "Downtown Dubai",
+  "description": "Comprehensive guide to living, investing, and dining in Downtown Dubai from licensed broker Dave Buckley.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dubai",
+    "addressRegion": "Dubai",
+    "addressCountry": "AE"
+  }
+};
+---
+<PageLayout
+  title="Downtown Dubai - The Complete Guide | AskDaveDowntown"
+  description="Everything you need to know about Downtown Dubai. Restaurants, buildings, investment data, schools, healthcare, and lifestyle from RERA-certified broker Dave Buckley."
+  ogImage="https://images.unsplash.com/photo-1667647960548-42a91c4c89bc?w=1200&q=80&auto=format"
+  schema={schema}
+>
+  <!-- HERO -->
+  <div class="relative overflow-hidden bg-ink min-h-[60vh] flex items-end">
+    <div class="absolute inset-0 z-0">
+      <img
+        src="https://images.unsplash.com/photo-1667647960548-42a91c4c89bc?w=1920&q=80&auto=format"
+        alt="Downtown Dubai skyline with Burj Khalifa illuminated at night"
+        class="w-full h-full object-cover opacity-40"
+        loading="eager"
+      />
+      <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/50 to-transparent"></div>
+    </div>
+    <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-accent/30 to-transparent"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 pt-32">
+      <div class="inline-flex items-center gap-2 px-4 py-2 border border-accent/30 mb-8" data-animate>
+        <div class="w-2 h-2 rounded-full bg-accent"></div>
+        <span class="text-xs tracking-[0.2em] uppercase text-accent font-medium">Downtown Dubai Specialist</span>
+      </div>
+
+      <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-paper leading-none mb-6" data-animate>
+        The Heart of Dubai.<br/><span class="text-gradient-gold">Your Next Address.</span>
+      </h1>
+
+      <p class="text-lg text-paper/60 max-w-2xl leading-relaxed mb-10" data-animate>
+        Home to Burj Khalifa, Dubai Mall, Dubai Opera, and some of the finest restaurants in the Middle East. Downtown Dubai is not just a neighbourhood. It is a lifestyle.
+      </p>
+
+      <!-- Quick stats -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-px bg-paper/10 max-w-2xl" data-animate>
+        <div class="bg-ink p-4 text-center">
+          <p class="font-heading text-2xl font-bold text-accent">26+</p>
+          <p class="text-[10px] tracking-[0.15em] uppercase text-paper/40 mt-1">Residential Towers</p>
+        </div>
+        <div class="bg-ink p-4 text-center">
+          <p class="font-heading text-2xl font-bold text-accent">5.5-6.5%</p>
+          <p class="text-[10px] tracking-[0.15em] uppercase text-paper/40 mt-1">Rental Yield</p>
+        </div>
+        <div class="bg-ink p-4 text-center">
+          <p class="font-heading text-2xl font-bold text-accent">200+</p>
+          <p class="text-[10px] tracking-[0.15em] uppercase text-paper/40 mt-1">Restaurants</p>
+        </div>
+        <div class="bg-ink p-4 text-center">
+          <p class="font-heading text-2xl font-bold text-accent">Top 5</p>
+          <p class="text-[10px] tracking-[0.15em] uppercase text-paper/40 mt-1">Transaction Volume</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-accent/30 to-transparent"></div>
+  </div>
+
+  <!-- WHY DOWNTOWN -->
+  <Section>
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-16" data-animate>
+        <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Why Downtown?</p>
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-ink leading-tight">
+          There Is Only One Burj Khalifa
+        </h2>
+        <p class="mt-4 text-ink-muted max-w-2xl mx-auto leading-relaxed">
+          Downtown Dubai is the most recognisable neighbourhood in the UAE. Properties range from studios in older towers to penthouses in the Burj Khalifa itself. The investor market is extraordinarily deep. You will never struggle to sell a quality Downtown unit.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" data-stagger>
+        <div class="border border-border p-6 hover:border-accent/30 transition-colors" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-3">Investment</p>
+          <h3 class="font-heading text-lg font-bold text-ink mb-2">Among the Most Liquid Markets in the UAE</h3>
+          <p class="text-sm text-ink-muted leading-relaxed">High tourist demand supports strong short-term rental yields, particularly during peak season (October to April). Capital values have grown 40%+ since 2020. The premium is justified by liquidity, demand, and global recognition.</p>
+        </div>
+        <div class="border border-border p-6 hover:border-accent/30 transition-colors" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-3">Holiday Homes</p>
+          <h3 class="font-heading text-lg font-bold text-ink mb-2">Peak Season Demand Like Nowhere Else</h3>
+          <p class="text-sm text-ink-muted leading-relaxed">Branded residences (Address, Vida) achieve 75-85% annual occupancy. Nightly rates for a 1BR reach AED 600-1,200. New Year's Eve alone can generate a month's rent in a few nights.</p>
+        </div>
+        <div class="border border-border p-6 hover:border-accent/30 transition-colors" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-3">Lifestyle</p>
+          <h3 class="font-heading text-lg font-bold text-ink mb-2">Walk to Everything That Matters</h3>
+          <p class="text-sm text-ink-muted leading-relaxed">Burj Khalifa, Dubai Mall (1,200+ shops), Dubai Opera, the Fountain, and hundreds of restaurants are all within walking distance. You could live here for years and not see it all.</p>
+        </div>
+        <div class="border border-border p-6 hover:border-accent/30 transition-colors" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-3">Connectivity</p>
+          <h3 class="font-heading text-lg font-bold text-ink mb-2">Metro, DIFC, and Airport in Minutes</h3>
+          <p class="text-sm text-ink-muted leading-relaxed">Burj Khalifa/Dubai Mall Metro station. DIFC is walkable (10-12 min). Business Bay via pedestrian bridges. Dubai International Airport about 20 minutes by car. Sheikh Zayed Road is minutes away.</p>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <div class="gold-line"></div>
+
+  <!-- SUB-AREAS -->
+  <Section dark>
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12" data-animate>
+        <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Neighbourhoods</p>
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-paper leading-tight">
+          Five Districts, One Downtown
+        </h2>
+        <p class="mt-4 text-paper/50 max-w-2xl mx-auto">
+          Downtown is not one homogeneous block. Where your building sits matters.
+        </p>
+      </div>
+
+      <div class="space-y-4" data-stagger>
+        <div class="border border-paper/10 p-6 hover:border-accent/20 transition-colors" data-animate>
+          <h3 class="font-heading text-lg font-bold text-accent mb-2">The Boulevard</h3>
+          <p class="text-paper/60 text-sm leading-relaxed">Mohammed Bin Rashid Boulevard is the main loop. Buildings here (Address Boulevard, BLVD Heights, Boulevard Point, 8 Boulevard Walk) have ground-floor retail, restaurants, and a lively feel. Noisier but more convenient.</p>
+        </div>
+        <div class="border border-paper/10 p-6 hover:border-accent/20 transition-colors" data-animate>
+          <h3 class="font-heading text-lg font-bold text-accent mb-2">The Opera District</h3>
+          <p class="text-paper/60 text-sm leading-relaxed">The southern pocket around Dubai Opera (Act One | Act Two, Opera Grand, Forte). Quieter, more residential, and slightly more premium. Walking distance to the canal and Business Bay.</p>
+        </div>
+        <div class="border border-paper/10 p-6 hover:border-accent/20 transition-colors" data-animate>
+          <h3 class="font-heading text-lg font-bold text-accent mb-2">Burj Khalifa Precinct</h3>
+          <p class="text-paper/60 text-sm leading-relaxed">Directly around the Burj (Address Downtown, Address Fountain Views, Burj Khalifa Residences). Maximum fountain views, maximum crowds. Best for short-term rental investors.</p>
+        </div>
+        <div class="border border-paper/10 p-6 hover:border-accent/20 transition-colors" data-animate>
+          <h3 class="font-heading text-lg font-bold text-accent mb-2">Old Downtown / The Residences</h3>
+          <p class="text-paper/60 text-sm leading-relaxed">The eastern side near Dubai Mall (The Residences 1-9). The original Downtown community. Larger units, lower prices, direct mall access, but showing their age.</p>
+        </div>
+        <div class="border border-paper/10 p-6 hover:border-accent/20 transition-colors" data-animate>
+          <h3 class="font-heading text-lg font-bold text-accent mb-2">South Downtown</h3>
+          <p class="text-paper/60 text-sm leading-relaxed">South Ridge, Downtown Views, Burj Vista. Closer to the canal and Al Khail Road. Quieter, easier parking, less foot traffic. Good for families who still want a Downtown address.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-10" data-animate>
+        <Button href={`${base}buildings`} variant="secondary" class="border-paper text-paper hover:bg-paper hover:text-ink">
+          Browse Downtown Building Profiles
+        </Button>
+      </div>
+    </div>
+  </Section>
+
+  <!-- WHERE TO EAT -->
+  <Section>
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-12" data-animate>
+        <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Dining</p>
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-ink leading-tight">
+          Where to Eat in Downtown Dubai
+        </h2>
+        <p class="mt-4 text-ink-muted max-w-2xl mx-auto">
+          One of the densest concentrations of restaurants in the Middle East. Dubai Mall, Souk Al Bahar, and the Boulevard are all within walking distance.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-stagger>
+        <!-- Fine Dining -->
+        <div class="border border-border p-6" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">Fine Dining</p>
+          <ul class="space-y-3">
+            <li class="text-sm"><span class="font-semibold text-ink">At.mosphere</span> <span class="text-ink-muted">- Burj Khalifa L122. International. The highest restaurant in the world.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Armani/Ristorante</span> <span class="text-ink-muted">- Armani Hotel. Refined Italian in the Burj.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">KRASOTA</span> <span class="text-ink-muted">- Immersive multi-sensory Russian fine dining.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Duomo</span> <span class="text-ink-muted">- Contemporary Italian. Souk Al Bahar.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Social by Heinz Beck</span> <span class="text-ink-muted">- Three-Michelin-star chef's Dubai outpost.</span></li>
+          </ul>
+        </div>
+
+        <!-- Michelin & Award-Winning -->
+        <div class="border border-border p-6" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">Michelin & Award-Winning</p>
+          <ul class="space-y-3">
+            <li class="text-sm"><span class="font-semibold text-ink">Jamavar</span> <span class="text-ink-muted">- Michelin 1-Star. Indian fine dining by LSL Capital. Opera District.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">MiMi Mei Fair</span> <span class="text-ink-muted">- Michelin Guide Selected. Contemporary Chinese by LSL Capital.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Tresind Studio</span> <span class="text-ink-muted">- Michelin 1-Star. Progressive Indian. DIFC (walkable).</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Zuma</span> <span class="text-ink-muted">- Japanese. One of Dubai's most established high-end restaurants. DIFC.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">ROKA</span> <span class="text-ink-muted">- Contemporary Japanese robatayaki. DIFC.</span></li>
+          </ul>
+        </div>
+
+        <!-- Japanese & Asian -->
+        <div class="border border-border p-6" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">Japanese & Asian</p>
+          <ul class="space-y-3">
+            <li class="text-sm"><span class="font-semibold text-ink">Ce La Vi</span> <span class="text-ink-muted">- Pan-Asian. Address Sky View rooftop with Burj views.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Sexy Fish</span> <span class="text-ink-muted">- Japanese-inspired seafood. DIFC.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Katsuya</span> <span class="text-ink-muted">- Japanese-American fusion. Dubai Mall.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Din Tai Fung</span> <span class="text-ink-muted">- Taiwanese dumplings. Always busy for a reason.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Hutong</span> <span class="text-ink-muted">- Northern Chinese. Stunning interiors. DIFC.</span></li>
+          </ul>
+        </div>
+
+        <!-- European & Mediterranean -->
+        <div class="border border-border p-6" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">European & Mediterranean</p>
+          <ul class="space-y-3">
+            <li class="text-sm"><span class="font-semibold text-ink">La Petite Maison</span> <span class="text-ink-muted">- French Riviera cuisine. DIFC staple.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Eataly</span> <span class="text-ink-muted">- Italian food hall. Dubai Mall.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Cipriani</span> <span class="text-ink-muted">- Italian institution. DIFC.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Josette</span> <span class="text-ink-muted">- French brasserie. Business Bay (walkable).</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Barrafina</span> <span class="text-ink-muted">- Spanish tapas. Souk Al Bahar.</span></li>
+          </ul>
+        </div>
+
+        <!-- Indian & Arabic -->
+        <div class="border border-border p-6" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">Indian & Arabic</p>
+          <ul class="space-y-3">
+            <li class="text-sm"><span class="font-semibold text-ink">Al Hallab</span> <span class="text-ink-muted">- Lebanese grills and mezze. Dubai Mall.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Bombay Borough</span> <span class="text-ink-muted">- Modern Indian. Address Boulevard.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Logma</span> <span class="text-ink-muted">- Emirati. Traditional cuisine in a casual format.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Ewaan</span> <span class="text-ink-muted">- Arabic. Palace Downtown. Fountain views.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Gunaydin</span> <span class="text-ink-muted">- Turkish grill. Generous portions.</span></li>
+          </ul>
+        </div>
+
+        <!-- Casual & Cafes -->
+        <div class="border border-border p-6" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">Cafes & Casual</p>
+          <ul class="space-y-3">
+            <li class="text-sm"><span class="font-semibold text-ink">% Arabica</span> <span class="text-ink-muted">- Kyoto-born specialty coffee. Dubai Mall.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Boon Coffee Roasters</span> <span class="text-ink-muted">- Specialty third-wave coffee. City Walk.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Baker & Spice</span> <span class="text-ink-muted">- Bakery and cafe. Great for brunch.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Jones the Grocer</span> <span class="text-ink-muted">- All-day dining. Good coffee and pastries.</span></li>
+            <li class="text-sm"><span class="font-semibold text-ink">Shake Shack</span> <span class="text-ink-muted">- American burgers. Dubai Mall.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-center mt-10" data-animate>
+        <a href={`${base}blog/lsl-capital-jamavar-mimi-mei-fair-dubai`} class="text-sm font-medium text-accent hover:underline">
+          Read: Jamavar and MiMi Mei Fair - London's Finest Lands in Downtown Dubai &rarr;
+        </a>
+      </div>
+    </div>
+  </Section>
+
+  <div class="gold-line"></div>
+
+  <!-- BARS & NIGHTLIFE -->
+  <Section dark>
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12" data-animate>
+        <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">After Dark</p>
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-paper leading-tight">
+          Bars & Nightlife
+        </h2>
+        <p class="mt-4 text-paper/50 max-w-2xl mx-auto">
+          Some of the best rooftop bars in the city are here. Licensed venues in the hotels, with DIFC and Business Bay minutes away for later nights.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-stagger>
+        <div class="border border-paper/10 p-5" data-animate>
+          <p class="font-semibold text-paper text-sm">Ce La Vi</p>
+          <p class="text-paper/50 text-xs mt-1">Address Sky View, L54. Panoramic Burj Khalifa views. One of Dubai's best sunset spots.</p>
+        </div>
+        <div class="border border-paper/10 p-5" data-animate>
+          <p class="font-semibold text-paper text-sm">At.mosphere Lounge</p>
+          <p class="text-paper/50 text-xs mt-1">Burj Khalifa, L122. Cocktails at 442 metres. Dress code enforced.</p>
+        </div>
+        <div class="border border-paper/10 p-5" data-animate>
+          <p class="font-semibold text-paper text-sm">Treehouse</p>
+          <p class="text-paper/50 text-xs mt-1">Taj Dubai. Rooftop bar surrounded by trees. Popular for after-work drinks.</p>
+        </div>
+        <div class="border border-paper/10 p-5" data-animate>
+          <p class="font-semibold text-paper text-sm">The Loft at Dubai Opera</p>
+          <p class="text-paper/50 text-xs mt-1">Wine and cocktails in the opera building. Cultured crowd.</p>
+        </div>
+        <div class="border border-paper/10 p-5" data-animate>
+          <p class="font-semibold text-paper text-sm">Neos</p>
+          <p class="text-paper/50 text-xs mt-1">Address Downtown, L63. Intimate cocktail bar. Upscale.</p>
+        </div>
+        <div class="border border-paper/10 p-5" data-animate>
+          <p class="font-semibold text-paper text-sm">Privilege</p>
+          <p class="text-paper/50 text-xs mt-1">Address Boulevard rooftop. Bar and lounge with Boulevard views.</p>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <!-- SHOPPING & ENTERTAINMENT -->
+  <Section>
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12" data-animate>
+        <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Lifestyle</p>
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-ink leading-tight">
+          Shopping & Entertainment
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8" data-stagger>
+        <div data-animate>
+          <h3 class="font-heading text-xl font-bold text-ink mb-3">Dubai Mall</h3>
+          <p class="text-sm text-ink-muted leading-relaxed">1,200+ stores, 200+ restaurants, the Dubai Aquarium, VR Park, KidZania, Reel Cinemas, an Olympic-sized ice rink, and a SEGA indoor theme park. The world's most visited retail destination.</p>
+        </div>
+        <div data-animate>
+          <h3 class="font-heading text-xl font-bold text-ink mb-3">Dubai Opera</h3>
+          <p class="text-sm text-ink-muted leading-relaxed">2,000-seat multi-format venue hosting opera, ballet, concerts, comedy, and theatre year-round. The building itself is shaped like a traditional dhow.</p>
+        </div>
+        <div data-animate>
+          <h3 class="font-heading text-xl font-bold text-ink mb-3">Dubai Fountain</h3>
+          <p class="text-sm text-ink-muted leading-relaxed">The world's largest choreographed fountain system. Free shows every 30 minutes from 6pm to 11pm. Best viewed from Souk Al Bahar terrace or the Fountain Boardwalk (AED 20).</p>
+        </div>
+        <div data-animate>
+          <h3 class="font-heading text-xl font-bold text-ink mb-3">Souk Al Bahar</h3>
+          <p class="text-sm text-ink-muted leading-relaxed">Arabian-themed mall across the Burj Lake. Smaller, quieter, with waterfront dining and boutique shops. Better for a relaxed evening out.</p>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <div class="gold-line"></div>
+
+  <!-- SCHOOLS & EDUCATION -->
+  <Section dark>
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12" data-animate>
+        <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Education</p>
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-paper leading-tight">
+          Schools Near Downtown
+        </h2>
+        <p class="mt-4 text-paper/50 max-w-2xl mx-auto">
+          No schools are within Downtown itself, but several of Dubai's highest-rated schools are within 15 minutes. All KHDA Outstanding or Very Good.
+        </p>
+      </div>
+
+      <div class="overflow-x-auto" data-animate>
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-paper/20">
+              <th class="text-left py-3 px-2 text-[10px] tracking-[0.15em] uppercase text-paper/40 font-semibold">School</th>
+              <th class="text-left py-3 px-2 text-[10px] tracking-[0.15em] uppercase text-paper/40 font-semibold">Curriculum</th>
+              <th class="text-left py-3 px-2 text-[10px] tracking-[0.15em] uppercase text-paper/40 font-semibold">KHDA</th>
+              <th class="text-left py-3 px-2 text-[10px] tracking-[0.15em] uppercase text-paper/40 font-semibold">Fees (approx.)</th>
+              <th class="text-left py-3 px-2 text-[10px] tracking-[0.15em] uppercase text-paper/40 font-semibold">Drive</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-paper/8 hover:bg-paper/5 transition-colors">
+              <td class="py-3 px-2 text-paper font-medium">Safa British School</td>
+              <td class="py-3 px-2 text-paper/60">British</td>
+              <td class="py-3 px-2 text-accent">Outstanding</td>
+              <td class="py-3 px-2 text-paper/60">AED 40,000-55,000</td>
+              <td class="py-3 px-2 text-paper/60">8 min</td>
+            </tr>
+            <tr class="border-b border-paper/8 hover:bg-paper/5 transition-colors">
+              <td class="py-3 px-2 text-paper font-medium">JESS</td>
+              <td class="py-3 px-2 text-paper/60">British</td>
+              <td class="py-3 px-2 text-accent">Outstanding</td>
+              <td class="py-3 px-2 text-paper/60">AED 50,000-75,000</td>
+              <td class="py-3 px-2 text-paper/60">10 min</td>
+            </tr>
+            <tr class="border-b border-paper/8 hover:bg-paper/5 transition-colors">
+              <td class="py-3 px-2 text-paper font-medium">Repton School</td>
+              <td class="py-3 px-2 text-paper/60">British</td>
+              <td class="py-3 px-2 text-accent">Outstanding</td>
+              <td class="py-3 px-2 text-paper/60">AED 55,000-90,000</td>
+              <td class="py-3 px-2 text-paper/60">12 min</td>
+            </tr>
+            <tr class="border-b border-paper/8 hover:bg-paper/5 transition-colors">
+              <td class="py-3 px-2 text-paper font-medium">Hartland International</td>
+              <td class="py-3 px-2 text-paper/60">British</td>
+              <td class="py-3 px-2 text-accent">Outstanding</td>
+              <td class="py-3 px-2 text-paper/60">AED 45,000-70,000</td>
+              <td class="py-3 px-2 text-paper/60">10 min</td>
+            </tr>
+            <tr class="border-b border-paper/8 hover:bg-paper/5 transition-colors">
+              <td class="py-3 px-2 text-paper font-medium">Raffles World Academy</td>
+              <td class="py-3 px-2 text-paper/60">IB</td>
+              <td class="py-3 px-2 text-accent">Outstanding</td>
+              <td class="py-3 px-2 text-paper/60">AED 55,000-85,000</td>
+              <td class="py-3 px-2 text-paper/60">15 min</td>
+            </tr>
+            <tr class="border-b border-paper/8 hover:bg-paper/5 transition-colors">
+              <td class="py-3 px-2 text-paper font-medium">GEMS Dubai American Academy</td>
+              <td class="py-3 px-2 text-paper/60">American</td>
+              <td class="py-3 px-2 text-accent">Outstanding</td>
+              <td class="py-3 px-2 text-paper/60">AED 60,000-90,000</td>
+              <td class="py-3 px-2 text-paper/60">15 min</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="text-paper/30 text-xs mt-4 text-center" data-animate>KHDA ratings are reviewed annually. Check khda.gov.ae for the latest inspection reports.</p>
+
+      <div class="mt-8 border border-paper/10 p-6" data-animate>
+        <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-3">Nurseries Nearby</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-paper/60">
+          <p><span class="text-paper font-medium">Blossom Downtown</span> - British EYFS. Business Bay, 5 min.</p>
+          <p><span class="text-paper font-medium">Maple Bear</span> - Canadian curriculum. Al Safa, 8 min.</p>
+          <p><span class="text-paper font-medium">Kids First Group</span> - Various curricula. Business Bay.</p>
+          <p><span class="text-paper font-medium">Little Feet</span> - British EYFS. Nearby community.</p>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <!-- HEALTHCARE -->
+  <Section>
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12" data-animate>
+        <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Healthcare</p>
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-ink leading-tight">
+          Medical & Healthcare
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8" data-stagger>
+        <div data-animate>
+          <h3 class="font-heading text-lg font-bold text-ink mb-3">Hospitals (10-15 min)</h3>
+          <ul class="space-y-2 text-sm text-ink-muted">
+            <li><span class="text-ink font-medium">King's College Hospital London</span> - UK-affiliated. Dubai Hills. 12 min.</li>
+            <li><span class="text-ink font-medium">Mediclinic City Hospital</span> - Multi-specialty. DHCC. 10 min.</li>
+            <li><span class="text-ink font-medium">American Hospital</span> - Multi-specialty. Oud Metha. 12 min.</li>
+            <li><span class="text-ink font-medium">Rashid Hospital</span> - Government. 24/7 A&E. 10 min.</li>
+            <li><span class="text-ink font-medium">Al Jalila Children's Hospital</span> - Paediatric specialist. 10 min.</li>
+          </ul>
+        </div>
+        <div data-animate>
+          <h3 class="font-heading text-lg font-bold text-ink mb-3">Clinics & Pharmacies in Downtown</h3>
+          <ul class="space-y-2 text-sm text-ink-muted">
+            <li><span class="text-ink font-medium">Dubai Mall Medical Centre</span> - Walk-in clinic. Non-emergency care.</li>
+            <li><span class="text-ink font-medium">Aster Clinic</span> - Boulevard Plaza. General practice.</li>
+            <li><span class="text-ink font-medium">HealthHub Clinic</span> - General practice. Dubai Mall.</li>
+            <li><span class="text-ink font-medium">Boots Pharmacy</span> - UK chain. Dubai Mall.</li>
+            <li><span class="text-ink font-medium">Life Pharmacy</span> - Multiple locations. Open late.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <div class="gold-line"></div>
+
+  <!-- DAILY LIFE -->
+  <Section dark>
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12" data-animate>
+        <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Day-to-Day</p>
+        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-paper leading-tight">
+          Living in Downtown
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6" data-stagger>
+        <div class="border border-paper/10 p-6" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">Supermarkets</p>
+          <ul class="space-y-2 text-sm text-paper/60">
+            <li><span class="text-paper font-medium">Waitrose</span> - Premium UK grocery. Dubai Mall.</li>
+            <li><span class="text-paper font-medium">Carrefour</span> - Larger range. Dubai Mall. Until midnight.</li>
+            <li><span class="text-paper font-medium">Spinneys</span> - Vida Residences. Convenient for Boulevard.</li>
+            <li><span class="text-paper font-medium">Zoom</span> - 24/7 convenience stores around Boulevard.</li>
+          </ul>
+        </div>
+        <div class="border border-paper/10 p-6" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">Fitness</p>
+          <ul class="space-y-2 text-sm text-paper/60">
+            <li><span class="text-paper font-medium">Fitness First</span> - Dubai Mall. Large chain gym with pool.</li>
+            <li><span class="text-paper font-medium">Barry's</span> - HIIT boutique. High-intensity classes.</li>
+            <li><span class="text-paper font-medium">F45 Training</span> - Business Bay. Walkable.</li>
+            <li><span class="text-paper font-medium">Hotel gyms</span> - Residents at Address/Vida get gym access.</li>
+          </ul>
+        </div>
+        <div class="border border-paper/10 p-6" data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">Parks & Outdoors</p>
+          <ul class="space-y-2 text-sm text-paper/60">
+            <li><span class="text-paper font-medium">Burj Park</span> - Landscaped gardens at the base of Burj Khalifa.</li>
+            <li><span class="text-paper font-medium">Dubai Canal Promenade</span> - Running and cycling along the canal.</li>
+            <li><span class="text-paper font-medium">The Boulevard</span> - 3.5km loop. Popular with joggers.</li>
+            <li><span class="text-paper font-medium">Safa Park</span> - 10 min drive. Largest nearby green space.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-8 border border-paper/10 p-6" data-animate>
+        <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">Key Distances from Downtown</p>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
+          <div><p class="text-paper font-medium">DIFC</p><p class="text-paper/50 text-xs">Walkable / 1 Metro stop</p></div>
+          <div><p class="text-paper font-medium">Business Bay</p><p class="text-paper/50 text-xs">Walkable / 2 Metro stops</p></div>
+          <div><p class="text-paper font-medium">DXB Airport</p><p class="text-paper/50 text-xs">20 min drive</p></div>
+          <div><p class="text-paper font-medium">Dubai Marina</p><p class="text-paper/50 text-xs">20 min drive / 25 min Metro</p></div>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <!-- WHO SHOULD BUY -->
+  <Section>
+    <div class="max-w-4xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12" data-stagger>
+        <div data-animate>
+          <p class="text-accent text-xs tracking-[0.2em] uppercase font-semibold mb-4">Buy Here If</p>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-sm text-ink-muted">
+              <span class="text-accent mt-0.5">&#10003;</span>
+              You want maximum amenity density and walkability
+            </li>
+            <li class="flex items-start gap-3 text-sm text-ink-muted">
+              <span class="text-accent mt-0.5">&#10003;</span>
+              You are investing for short-term rental yield
+            </li>
+            <li class="flex items-start gap-3 text-sm text-ink-muted">
+              <span class="text-accent mt-0.5">&#10003;</span>
+              You work in DIFC or Business Bay
+            </li>
+            <li class="flex items-start gap-3 text-sm text-ink-muted">
+              <span class="text-accent mt-0.5">&#10003;</span>
+              You want a globally recognised address
+            </li>
+            <li class="flex items-start gap-3 text-sm text-ink-muted">
+              <span class="text-accent mt-0.5">&#10003;</span>
+              You prioritise liquidity (easy to sell)
+            </li>
+          </ul>
+        </div>
+        <div data-animate>
+          <p class="text-ink-muted text-xs tracking-[0.2em] uppercase font-semibold mb-4">Good to Know</p>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3 text-sm text-ink-muted">
+              <span class="text-ink-muted mt-0.5">&#8226;</span>
+              Service charges range widely (AED 12-70/sqft depending on building)
+            </li>
+            <li class="flex items-start gap-3 text-sm text-ink-muted">
+              <span class="text-ink-muted mt-0.5">&#8226;</span>
+              Traffic congestion around Dubai Mall, especially weekends
+            </li>
+            <li class="flex items-start gap-3 text-sm text-ink-muted">
+              <span class="text-ink-muted mt-0.5">&#8226;</span>
+              No beach access (nearest is JBR, 20 min drive)
+            </li>
+            <li class="flex items-start gap-3 text-sm text-ink-muted">
+              <span class="text-ink-muted mt-0.5">&#8226;</span>
+              Premium entry prices vs outer areas
+            </li>
+            <li class="flex items-start gap-3 text-sm text-ink-muted">
+              <span class="text-ink-muted mt-0.5">&#8226;</span>
+              Tourist crowds around the fountain and mall entrances
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <div class="gold-line"></div>
+
+  <!-- CTA -->
+  <Section dark class="py-20">
+    <div class="text-center max-w-2xl mx-auto" data-animate>
+      <p class="text-xs tracking-[0.2em] uppercase text-accent font-semibold mb-4">Get Started</p>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold text-paper leading-tight mb-4">
+        Thinking About Downtown Dubai?
+      </h2>
+      <p class="text-paper/50 text-sm leading-relaxed mb-8">
+        Whether you are buying to live, buying to invest, or renting your first apartment, I can walk you through the options. No obligation, no pressure. Just honest advice from someone who knows these buildings inside out.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://wa.me/971503019926?text=Hi%20Dave%2C%20I%27m%20interested%20in%20Downtown%20Dubai.%20Can%20you%20help?"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#25D366] text-white font-medium hover:bg-[#1da851] transition-colors"
+        >
+          <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          WhatsApp Dave
+        </a>
+        <a
+          href="mailto:dave.buckley@paragonproperties.ae?subject=Downtown Dubai enquiry"
+          class="inline-flex items-center justify-center gap-2 px-8 py-4 border border-paper/20 text-paper font-medium hover:bg-paper hover:text-ink transition-all"
+        >
+          Email Dave
+        </a>
+      </div>
+    </div>
+
+    <div class="max-w-xl mx-auto mt-12">
+      <AuthorBio />
+    </div>
+  </Section>
+</PageLayout>

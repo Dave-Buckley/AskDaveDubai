@@ -62,7 +62,22 @@
       "WebFetch(domain:2gis.ae)",
       "WebFetch(domain:www.khaleejtimes.com)",
       "WebFetch(domain:www.caterermiddleeast.com)",
-      "WebFetch(domain:lslcapital.com)"
+      "WebFetch(domain:lslcapital.com)",
+      "Bash(for f in education essentials fitness healthcare outdoors shopping transport)",
+      "Bash(do echo \"=== $f ===\")",
+      "Read(//c/Users/David/AI Projects/Websites/AskDaveDubai/src/pages/explore/**)",
+      "Bash(done)",
+      "Bash(xxd:*)",
+      "WebFetch(domain:localhost)",
+      "WebFetch(domain:korter.ae)",
+      "WebFetch(domain:latitude.to)",
+      "WebFetch(domain:www.latlong.net)",
+      "WebFetch(domain:www.damachotelsandresorts.com)",
+      "WebFetch(domain:famproperties.com)",
+      "WebFetch(domain:emirates.estate)",
+      "WebFetch(domain:www.squareyards.ae)",
+      "Bash(node:*)",
+      "Bash(rm:*)"
     ]
   }
 }

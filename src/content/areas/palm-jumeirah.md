@@ -38,7 +38,7 @@ nearbyAreas:
 order: 5
 ---
 
-The Palm Jumeirah is one of the most audacious real estate developments ever built. A man-made island in the shape of a palm tree extending 5km into the Arabian Gulf - it remains unique globally. Nothing else like it exists anywhere in the world.
+The Palm Jumeirah is one of the most audacious real estate developments ever built. A man-made island in the shape of a palm tree extending 5km into the Arabian Gulf - it remains unique globally.
 
 The development divides into three zones: the trunk (the main connecting road, with high-density apartment towers and Nakheel Mall), the fronds (16 individual residential spurs with private villas and some apartment complexes), and the crescent (the outer arc, home to Atlantis The Palm, One&Only, Waldorf Astoria, and ultra-luxury residences).
 

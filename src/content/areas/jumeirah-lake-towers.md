@@ -41,13 +41,13 @@ Jumeirah Lake Towers - universally known as JLT - is one of Dubai's most establi
 
 The community's relationship with the DMCC Free Zone is central to its appeal. DMCC is one of the world's largest free zones by company count, and thousands of businesses operate from JLT's commercial towers. This creates an enormous built-in tenant pool - professionals who work in JLT and want to live within walking distance of their offices. That dynamic underpins the area's consistently strong rental yields, which typically range from 6-8% and frequently outperform more expensive neighbours.
 
-At street level, JLT has developed a genuinely lively atmosphere. The ground-floor retail units across the clusters house an eclectic mix of independent restaurants, cafes, grocery stores, and service businesses. Unlike the branded retail of Dubai Marina Mall, JLT's offering has a more grassroots, neighbourhood feel. The lakes themselves - while artificial - provide pleasant walking paths and open sightlines that break up the density of the towers.
+At street level, JLT has developed a lively atmosphere. The ground-floor retail units across the clusters house an eclectic mix of independent restaurants, cafes, grocery stores, and service businesses. Unlike the branded retail of Dubai Marina Mall, JLT's offering has a more grassroots, neighbourhood feel. The lakes themselves - while artificial - provide pleasant walking paths and open sightlines that break up the density of the towers.
 
 For buyers weighing JLT against Dubai Marina, the calculus is fairly simple. JLT offers comparable urban living at AED 900-1,400 per square foot versus AED 1,500-2,500 in the Marina, with better yields and equivalent Metro access. The trade-off is the absence of direct beach access and the fact that some of the earlier towers are now approaching 15-20 years old, meaning service charges and maintenance standards can vary. That said, the area's transport connectivity - two Red Line Metro stations plus the Tram link - and its proximity to Marina Walk and the beach make it one of the smartest value plays in New Dubai.
 
 ## Where to Eat
 
-JLT's dining scene is one of its underrated strengths. The ground-floor retail units across the clusters house a genuinely diverse mix of restaurants and cafes - generally more affordable and less corporate than what you find in neighbouring Dubai Marina. The lakeside clusters, particularly D and V, have developed into popular dining pockets.
+JLT's dining scene is one of its underrated strengths. The ground-floor retail units across the clusters house a diverse mix of restaurants and cafes - generally more affordable and less corporate than what you find in neighbouring Dubai Marina. The lakeside clusters, particularly D and V, have developed into popular dining pockets.
 
 **Japanese & Asian**
 - Miyako (Cluster D) - Long-running Japanese restaurant popular with JLT residents. Solid sushi, ramen, and teppanyaki.
