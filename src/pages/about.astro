@@ -39,7 +39,7 @@ const credentials = [
           <span class="text-xs tracking-[0.2em] uppercase text-accent font-medium">About Dave</span>
         </div>
         <h1 class="font-heading text-5xl sm:text-6xl font-bold text-paper leading-none">
-          Your Man on the Ground in Dubai
+          Dubai Real Estate, Done Right
         </h1>
         <p class="mt-8 text-paper/70 leading-relaxed text-lg">
           I have lived in Dubai since 2017. I know this city as a resident first - the schools, the commutes, the communities, and the reality behind the brochures. When I moved into real estate, I brought that perspective with me: straightforward advice from someone with first-hand experience of living and working in Dubai.
@@ -51,22 +51,12 @@ const credentials = [
       </div>
       <div class="relative" data-animate>
         <div class="aspect-[3/4] border border-paper/10 overflow-hidden relative bg-ink-muted/30">
-          <!-- Replace src with /images/dave-headshot.jpg when ready -->
           <img
-            src="/images/dave-headshot.jpg"
+            src={`${base}images/dave-headshot.jpg`}
             alt="Dave Buckley - Licensed Real Estate Broker, Dubai"
             class="w-full h-full object-cover"
             loading="lazy"
-            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
           />
-          <div class="absolute inset-0 items-center justify-center hidden" style="display:none;">
-            <div class="text-center">
-              <div class="w-24 h-24 rounded-full bg-accent/20 border-2 border-accent/40 flex items-center justify-center mx-auto mb-4">
-                <span class="font-heading text-4xl font-bold text-accent">DB</span>
-              </div>
-              <p class="font-heading text-xl font-bold text-paper/60">Photo coming soon</p>
-            </div>
-          </div>
           <div class="absolute inset-0 bg-gradient-to-t from-ink/90 via-transparent to-transparent"></div>
           <div class="absolute bottom-8 left-8 right-8">
             <p class="font-heading text-3xl font-bold text-paper">Dave Buckley</p>

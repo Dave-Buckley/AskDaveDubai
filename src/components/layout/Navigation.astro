@@ -8,6 +8,7 @@ const navItems = [
   { label: 'Guides', href: `${base}guides` },
   { label: 'Ask Dave', href: `${base}ask-dave` },
   { label: 'Contact', href: `${base}contact` },
+  { label: 'Paragon Properties', href: 'https://www.paragonproperties.ae', external: true },
   // DISABLED: Areas, Explore - Downtown specialist focus
 ];
 const currentPath = Astro.url.pathname;
@@ -18,11 +19,14 @@ const currentPath = Astro.url.pathname;
       <li>
         <a
           href={item.href}
+          {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
           class:list={[
             'text-sm font-medium tracking-wide transition-colors duration-200',
-            currentPath.startsWith(item.href)
-              ? 'text-accent'
-              : 'text-paper hover:text-accent'
+            item.external
+              ? 'text-paper hover:text-accent'
+              : currentPath.startsWith(item.href)
+                ? 'text-accent'
+                : 'text-paper hover:text-accent'
           ]}
         >
           {item.label}

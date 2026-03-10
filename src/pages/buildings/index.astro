@@ -8,8 +8,8 @@ import Section from '../../components/ui/Section.astro';
 const allBuildings = await getCollection('buildings');
 const buildings = allBuildings.sort((a, b) => a.data.order - b.data.order);
 
-const branded = buildings.filter(b => b.data.branded);
-const residential = buildings.filter(b => !b.data.branded);
+const branded = buildings.filter(b => b.data.branded).sort((a, b) => a.data.name.localeCompare(b.data.name));
+const residential = buildings.filter(b => !b.data.branded).sort((a, b) => a.data.name.localeCompare(b.data.name));
 
 const totalBuildings = buildings.length;
 const totalBranded = branded.length;
