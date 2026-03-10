@@ -11,7 +11,7 @@ author: "Dave Buckley"
 relatedSlugs: ["dubai-property-buying-process", "dld-fees-explained", "complete-guide-to-mortgages-in-dubai"]
 ---
 
-These are the questions I get asked most often - by first-time buyers, seasoned investors, and expats considering their first Dubai purchase. Here are honest, straight answers.
+These are the questions I get asked most often by first-time buyers, seasoned investors, and expats considering their first Dubai purchase. Honest, transparent answers.
 
 ### What taxes does a property owner need to pay?
 
