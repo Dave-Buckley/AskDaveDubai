@@ -14,7 +14,6 @@ avgPricePerSqft: "AED 1,600-2,200"
 tagline: "Six-tower complex with the lowest entry prices in Downtown"
 highlights:
   - "Six towers (1-6) at the southern end of Downtown"
-  - "Among Downtown's lowest price per sqft"
   - "Larger unit sizes than newer buildings"
   - "Near Burj Park and canal"
 metaDescription: "South Ridge Downtown Dubai building profile - six towers with some of the lowest. Honest broker assessment."

@@ -13,7 +13,6 @@ serviceCharge: "AED 65-80/sqft/yr"
 avgPricePerSqft: "AED 7,000-15,000"
 tagline: "Ultra-premium residences at the pinnacle of Burj Khalifa"
 highlights:
-  - "Highest residences in the world (floors 111-154)"
   - "Panoramic views from 400+ metres above sea level"
   - "Exclusive private lobby and dedicated elevators"
   - "Ultra-premium finishes and bespoke layouts"

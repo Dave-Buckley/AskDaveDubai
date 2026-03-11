@@ -13,7 +13,6 @@ serviceCharge: "AED 16-20/sqft/yr"
 avgPricePerSqft: "AED 2,200-2,800"
 tagline: "Well-managed residential tower with Boulevard and Burj Khalifa views"
 highlights:
-  - "Good unit layouts with floor-to-ceiling windows"
   - "Podium-level pool and gym"
   - "Boulevard location near retail and dining"
   - "Popular with owner-occupiers"

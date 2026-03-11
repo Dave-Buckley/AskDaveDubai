@@ -45,12 +45,6 @@ Mid-range floors (45 to 75) are where you start getting the real Burj Khalifa ex
 
 Upper floors (75 to 108) include the larger three and four-bedroom apartments and penthouses. The views are extraordinary - on a clear day you can see the coast and the desert in a single sweep. These units command the highest prices per square foot in Downtown and some of the highest in the entire UAE.
 
-## Service Charges - The Big Number
-
-This is where the conversation gets real. For a two-bedroom apartment of around 1,500 square feet, that is roughly AED 82,000 to AED 120,000 annually - just in service charges. That is before DEWA, internet, or anything else.
-
-Why so high? Maintaining a building at this height is genuinely expensive. The window cleaning alone is a major operation. The lifts are among the fastest in the world and require specialist maintenance. The facade, mechanical systems, and fire safety infrastructure all operate at a scale that no other residential building has to deal with. The charges are high because the building is genuinely expensive to run. It is not padding.
-
 ## Who It Suits
 
 This building is for people who want the address above all else. If you are a prestige buyer, a collector of global trophy assets, or someone who simply wants to live in the tallest building on earth, the Burj Khalifa delivers. It is also popular with investors who plan to run holiday home operations targeting the luxury short-stay market.

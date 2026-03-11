@@ -85,7 +85,9 @@
       "Bash(cd \"C:/Users/David/AI Projects/Websites/AskDaveDubai\" && npm audit 2>&1 | head -80)",
       "Bash(cd \"C:/Users/David/AI Projects/Websites/AskDaveDubai\" && npm outdated 2>&1 | head -30)",
       "Bash(cd \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\" && for f in src/content/buildings/address-boulevard.md src/content/buildings/48-burj-gate.md src/content/buildings/forte.md; do echo \"=== $f ===\"; sed -n '/^---$/,/^---$/!p' \"$f\" | head -40; echo; done)",
-      "Bash(cd \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\" && rm -f _cleanup_buildings.cjs && npx astro build 2>&1 | tail -5)"
+      "Bash(cd \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\" && rm -f _cleanup_buildings.cjs && npx astro build 2>&1 | tail -5)",
+      "Bash(cd \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\" && rm -f _final_cleanup.cjs && npx astro build 2>&1 | tail -3)",
+      "Bash(cd \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\" && node _fix_yaml.cjs && rm _fix_yaml.cjs && npx astro build 2>&1 | tail -3)"
     ]
   }
 }

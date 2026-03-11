@@ -14,7 +14,6 @@ avgPricePerSqft: "AED 1,900-2,500"
 tagline: "Two-tower complex with studios and strong investor fundamentals"
 highlights:
   - "Studio and one-bed heavy - popular with investors"
-  - "Tower 1 at 67 floors with good views"
   - "Strong rental demand"
   - "Boulevard location"
 metaDescription: "29 Boulevard Downtown Dubai building profile - twin towers with studios and investor-friendly units."

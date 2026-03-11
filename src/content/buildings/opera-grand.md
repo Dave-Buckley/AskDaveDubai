@@ -16,7 +16,6 @@ highlights:
   - "Adjacent to Dubai Opera"
   - "Premium finishes and larger layouts"
   - "Stunning views of Burj Khalifa and fountain"
-  - "Higher-end positioning with fewer units per floor"
   - "Dedicated residents-only amenities"
 metaDescription: "Opera Grand Downtown Dubai building profile - premium Emaar tower next to Dubai Opera."
 heroImage: "https://images.unsplash.com/photo-1678558994507-1f80f8d2a9a7?w=1400&q=80&auto=format"

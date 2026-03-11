@@ -14,7 +14,6 @@ serviceCharge: "AED 30-40/sqft/yr"
 avgPricePerSqft: "AED 3,200-4,000"
 tagline: "The original Address - iconic fountain-view tower with hotel services"
 highlights:
-  - "Direct Dubai Fountain views from upper floors"
   - "Full hotel services including concierge and housekeeping"
   - "Connected to Dubai Mall via covered walkway"
   - "Infinity pool overlooking Burj Khalifa"

@@ -19,7 +19,6 @@ highlights:
   - "Rooftop infinity pool with Burj Khalifa views"
   - "Serviced residences with housekeeping and concierge"
   - "Strong short-term rental performance"
-  - "Premium DIFC and fountain views from upper floors"
 metaDescription: "Address Dubai Mall building profile - branded hotel residences connected to the world's most visited mall."
 heroImage: "https://images.unsplash.com/photo-1735320862956-371e2ed96007?w=1400&q=80&auto=format"
 heroImageAlt: "Luxury Dubai hotel with city views"
@@ -44,12 +43,6 @@ The residential component occupies the upper floors, with the hotel and its faci
 The residential mix is relatively compact compared to some Downtown buildings, with around 200 units in total. One-bedroom units are popular with investors, typically around 800 to 1,000 square feet. Two and three-bedroom units offer more space and better views, with the larger units featuring separate living and dining areas.
 
 The interiors are finished to Address Hotels standards, which means quality fixtures, neutral colour palettes, and the kind of attention to detail you would expect from a five-star hotel brand.
-
-## Service Charges and Running Costs
-
-This is where the branded residence reality kicks in. For a one-bedroom of 900 square feet, that is roughly AED 40,000 to 58,000 per year. That is significant, and it is the main consideration for any buyer.
-
-You are paying for 24/7 concierge, housekeeping, valet parking, pool and gym maintenance at hotel standard, and the overall brand experience. Whether that premium is worth it depends entirely on how much you value the convenience and service.
 
 ## Who It Suits
 

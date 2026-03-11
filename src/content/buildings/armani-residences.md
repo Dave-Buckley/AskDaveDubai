@@ -15,7 +15,6 @@ avgPricePerSqft: "AED 3,500-5,500"
 tagline: "Giorgio Armani-designed residences inside Burj Khalifa"
 highlights:
   - "Interiors designed by Giorgio Armani"
-  - "Located within Burj Khalifa (floors 9-16)"
   - "Access to Armani Hotel facilities and spa"
   - "Exclusive lobby and private entrance"
 metaDescription: "Armani Residences building profile. Giorgio Armani-designed luxury residences inside Burj Khalifa, Downtown Dubai."

@@ -14,7 +14,6 @@ avgPricePerSqft: "AED 2,000-2,600"
 tagline: "60-storey tower with studios and strong investor appeal"
 highlights:
   - "Studios available - good entry-level pricing"
-  - "60 floors with good views from higher units"
   - "Close to Dubai Mall and Burj Khalifa"
   - "Modern finishes throughout"
 metaDescription: "Burj Royale Downtown Dubai building profile - 60-storey Emaar tower with studios."

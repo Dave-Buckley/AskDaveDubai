@@ -14,7 +14,6 @@ avgPricePerSqft: "AED 1,700-2,300"
 tagline: "residential tower on Sheikh Mohammed Bin Rashid Boulevard"
 highlights:
   - "Competitive pricing for Downtown"
-  - "Boulevard location with Burj Khalifa views from upper floors"
   - "Studios available for entry-level buyers"
   - "Good rental demand"
 metaDescription: "RP Heights building profile. Residential tower by RP Group on Mohammed Bin Rashid Boulevard, Downtown Dubai."

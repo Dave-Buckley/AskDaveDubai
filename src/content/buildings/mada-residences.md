@@ -13,7 +13,6 @@ serviceCharge: "AED 16-20/sqft/yr"
 avgPricePerSqft: "AED 2,000-2,600"
 tagline: "Tall tower, competitive pricing, genuine Downtown address"
 highlights:
-  - "57 floors with strong views from upper units"
   - "More affordable entry point to Downtown"
   - "Walking distance to the Boulevard"
   - "Good mix of unit sizes including larger 3BR and 4BR"

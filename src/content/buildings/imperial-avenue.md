@@ -41,12 +41,6 @@ The mix runs from one-bedroom to three-bedroom, with no studios. One-beds start 
 
 Finishes are a step above basic Emaar standard in many respects. The developer went for quality countertops, decent bathroom fittings, and solid flooring. They needed to - when you are competing against Emaar on their own territory, you cannot afford to cut corners on the product itself.
 
-## Service Charges and Management
-
-Here is where the non-Emaar factor becomes important. The reason is straightforward - Emaar manages dozens of buildings across Downtown and benefits from economies of scale. Imperial Avenue is a standalone building with its own management structure, and that costs more per unit.
-
-The management quality has been a mixed bag since handover. Early residents reported some teething issues with maintenance response times and facility management. Things have improved, but you do not get the well-oiled Emaar machine here. For some buyers, that is a non-issue. For others, particularly those coming from an Emaar building, the difference is noticeable.
-
 ## Who It Suits
 
 Imperial Avenue works well for buyers who want a modern, well-finished apartment in Downtown with Burj views and are happy to trade the Emaar badge for better pricing. It is also a good option for end-users who prioritise the apartment itself over the developer name on the lobby wall. The larger unit sizes suit couples and families.

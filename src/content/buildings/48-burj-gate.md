@@ -14,7 +14,6 @@ avgPricePerSqft: "AED 2,000-2,500"
 tagline: "Downtown living with studios and"
 highlights:
   - "One of the few Downtown buildings offering studios"
-  - "51 floors with good views from mid to upper levels"
   - "Strong rental demand from young professionals"
   - "Walking distance to Boulevard and Dubai Mall"
   - "Good amenities including pool, gym, and parking"

@@ -16,7 +16,6 @@ highlights:
   - "Located in the Opera District near Dubai Opera"
   - "Modern design with high ceilings"
   - "Good-sized balconies compared to older towers"
-  - "Strong Burj Khalifa views from upper floors"
   - "Podium-level pool and fitness facilities"
   - "Well-managed with responsive maintenance"
 metaDescription: "Act One Act Two Downtown Dubai building profile - Opera District twin towers by Emaar."

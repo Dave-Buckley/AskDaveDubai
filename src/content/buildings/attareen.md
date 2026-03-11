@@ -13,7 +13,6 @@ serviceCharge: "AED 18-24/sqft/yr"
 avgPricePerSqft: "AED 1,800-2,500"
 tagline: "Old Town residences with retail and dining at ground level"
 highlights:
-  - "Ground-floor retail and dining options"
   - "Central location within Old Town"
   - "Arabian architectural style with modern finishes"
   - "Close to Souk Al Bahar and Dubai Mall"
