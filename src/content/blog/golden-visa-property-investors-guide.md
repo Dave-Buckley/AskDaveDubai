@@ -94,7 +94,7 @@ ICP issues the Golden Visa stamp in your passport. Timeline from application to 
 
 **Assuming any off-plan purchase qualifies automatically:** While the February 2026 rule change means off-plan now qualifies, the total property value must still reach AED 2M. Verify your property's registered value meets the threshold.
 
-**Mortgage equity below AED 2M:** If you have an AED 2.8M property but an AED 1.2M mortgage, your equity is AED 1.6M - and you would not qualify. The solution is a partial mortgage prepayment to bring equity above the threshold.
+**Mortgage note:** The total property value must reach AED 2M. The payment schedule and mortgage balance are now immaterial under the updated February 2026 rules.
 
 **Using leasehold property:** Leasehold is not valid for Golden Visa. Must be freehold.
 

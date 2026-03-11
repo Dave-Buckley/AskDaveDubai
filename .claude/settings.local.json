@@ -77,7 +77,15 @@
       "WebFetch(domain:emirates.estate)",
       "WebFetch(domain:www.squareyards.ae)",
       "Bash(node:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "WebFetch(domain:www.emaar.com)",
+      "Bash(nslookup:*)",
+      "Bash(mv \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\\\\_extract.js\" \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\\\\_extract.cjs\" && cd \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\" && node _extract.cjs)",
+      "Bash(cd \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\" && rm _extract.cjs _building_data.json _generate_docs.cjs)",
+      "Bash(cd \"C:/Users/David/AI Projects/Websites/AskDaveDubai\" && npm audit 2>&1 | head -80)",
+      "Bash(cd \"C:/Users/David/AI Projects/Websites/AskDaveDubai\" && npm outdated 2>&1 | head -30)",
+      "Bash(cd \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\" && for f in src/content/buildings/address-boulevard.md src/content/buildings/48-burj-gate.md src/content/buildings/forte.md; do echo \"=== $f ===\"; sed -n '/^---$/,/^---$/!p' \"$f\" | head -40; echo; done)",
+      "Bash(cd \"C:\\\\Users\\\\David\\\\AI Projects\\\\Websites\\\\AskDaveDubai\" && rm -f _cleanup_buildings.cjs && npx astro build 2>&1 | tail -5)"
     ]
   }
 }

@@ -17,9 +17,8 @@ highlights:
   - "More affordable entry point to Downtown"
   - "Walking distance to the Boulevard"
   - "Good mix of unit sizes including larger 3BR and 4BR"
-  - "Competitive service charges for the height"
   - "Popular with families and long-term tenants"
-metaDescription: "Mada Residences Downtown Dubai building profile - 57-floor ARTAR tower with competitive pricing. Service charges, prices, unit types, and key details and data."
+metaDescription: "Mada Residences Downtown Dubai building profile - 57-floor ARTAR tower with competitive pricing."
 heroImage: "https://images.unsplash.com/photo-1735748725537-2e6f48d2eb0b?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai residential tower at sunset"
 location:
@@ -43,20 +42,6 @@ The building offers a good range from one-bedroom through to four-bedroom apartm
 
 Upper floors facing east get Burj Khalifa and fountain views. North-facing units on higher floors look towards Sheikh Zayed Road and the DIFC skyline.
 
-## Service Charges
-
-Service charges are competitive at AED 16 to 20 per square foot per year. For a two-bedroom of around 1,200 square feet, you are looking at approximately AED 19,000 to 24,000 annually. That keeps running costs manageable and helps protect net yields.
-
-## Investment Profile
-
-Mada Residences is one of Downtown's more affordable buildings on a price-per-square-foot basis, typically trading between AED 2,000 and 2,600 per square foot. That entry price, combined with reasonable service charges, makes it one of the better yield plays in the district. Net yields of 6 to 7 percent are achievable.
-
-The tenant profile tends towards young professionals and couples who want a Downtown address at a rent level below the premium Emaar buildings. Rental demand is consistent.
-
 ## Who It Suits
 
 Investors seeking higher net yields within Downtown. Budget-conscious buyers who want a Downtown address without the Emaar price tag. Families who need a larger apartment at a more accessible price point.
-
-## My Take
-
-Mada Residences is not the first building I mention when someone asks about Downtown, but it is often the one that makes the most financial sense. The yields are strong, the service charges are fair, and the location is genuinely Downtown rather than just "next to Downtown." If you can accept a non-Emaar developer and a slightly less polished finish, the value here is hard to argue with. It is the kind of building where the numbers work.

@@ -15,10 +15,8 @@ tagline: "Popular mid-range residential tower on the Boulevard"
 highlights:
   - "Studios available for entry-level investors"
   - "Directly on Mohammed Bin Rashid Boulevard"
-  - "Moderate service charges"
-  - "Good rental yields for studios and one-beds"
   - "Walking distance to Dubai Mall and Burj Khalifa"
-metaDescription: "8 Boulevard Walk Downtown Dubai building profile - mid-range Emaar tower with studios. Prices, service charges, and key details and data."
+metaDescription: "8 Boulevard Walk Downtown Dubai building profile - mid-range Emaar tower with studios."
 heroImage: "https://images.unsplash.com/photo-1726533765275-a69cfd7f9897?w=1400&q=80&auto=format"
 heroImageAlt: "Modern Dubai residential community"
 location:
@@ -44,17 +42,7 @@ One-bedrooms run from 700 to 950 square feet, offering a separate bedroom, a liv
 
 Two-bedrooms sit between 1,100 and 1,400 square feet, and the limited three-bedroom units go up to around 1,800 square feet. The larger units are less common in this building and tend to be held by owner-occupiers rather than investors.
 
-The building dates from 2012, so the finishes are a generation behind the newest Downtown towers. Kitchens and bathrooms are functional and reasonably well maintained, but you will notice the difference if you are comparing directly to a 2019-era building. Some owners have renovated their units, and these upgraded apartments present much better.
-
-## Service Charges
-
-At AED 15 to 19 per square foot per year, the service charges at 8 Boulevard Walk are moderate for Downtown. A studio of 500 square feet costs roughly AED 7,500 to AED 9,500 annually, and a one-bedroom at 800 square feet runs about AED 12,000 to AED 15,200. These numbers work well for investors, as they do not eat too heavily into rental income.
-
-The building amenities include a pool, gym, and standard common area facilities. Nothing over the top, which is exactly why the charges stay manageable.
-
-## Resale and Rental Market
-
-8 Boulevard Walk trades at AED 1,900 to 2,500 per square foot, putting it in the mid-range for Downtown. Studios and one-bedrooms are the most active segment, with steady buyer interest from both investors and first-time purchasers.
+The building dates from 2012, so the finishes are a generation behind the newest Downtown towers. Kitchens and bathrooms are functional and reasonably well maintained, but you will notice the difference if you are comparing directly to a 2019-era building. Some owners have renovated their units, and these upgraded apartments present much better. Studios and one-bedrooms are the most active segment, with steady buyer interest from both investors and first-time purchasers.
 
 The rental market is where this building performs well. Studios and one-beds on the Boulevard attract strong tenant demand, particularly from young professionals and short-stay visitors. Holiday home operators find this building productive - the Boulevard address, walkability, and Burj Khalifa proximity all translate well to booking platform listings. Gross yields on studios here tend to be among the healthier figures in Downtown, and the moderate service charges help protect the net number.
 
@@ -65,9 +53,3 @@ Two and three-bedroom units rent steadily but attract a different profile - typi
 8 Boulevard Walk is a practical choice for investors targeting the studio and one-bedroom rental market in Downtown. The combination of a Boulevard address, reasonable service charges, and strong tenant demand makes the numbers work. It also suits first-time buyers who want to get into Downtown at a manageable total price - studios here offer one of the lowest total entry costs for a building directly on the Boulevard.
 
 For owner-occupiers who want a larger unit, there are better options in Downtown. The two and three-bedroom apartments are fine, but the building's real strength is in the smaller unit sizes where the location and price point align well.
-
-## My Take
-
-8 Boulevard Walk is the kind of building that does not generate much excitement but quietly delivers results. It is not the newest, not the tallest, and not the most luxurious, but it sits on the Boulevard, offers studios, and has service charges that do not destroy your yield. For investors, that combination is hard to argue with.
-
-I often recommend this building alongside Standpoint Towers when someone wants a Downtown studio or one-bed for rental purposes. The main difference is that 8 Boulevard Walk gives you a Boulevard-facing address, which can make a tangible difference in rental rates and holiday home bookings. If you are looking for a straightforward, income-producing Downtown asset without overcomplicating things, this is a building worth considering.

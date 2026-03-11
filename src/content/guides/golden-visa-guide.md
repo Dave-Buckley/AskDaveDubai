@@ -110,7 +110,7 @@ The ICP issues the Golden Visa stamp. Timeline from application submission to is
 
 ## Common Mistakes to Avoid
 
-**Mortgage equity below AED 2M:** If you own an AED 2.8M property with an AED 1.4M mortgage, your equity is AED 1.4M - and you would not qualify. The solution is a partial mortgage prepayment to bring equity above the threshold.
+**Mortgage note:** The total property value must reach AED 2M. The payment schedule and mortgage balance are now immaterial under the updated February 2026 rules.
 
 **Using leasehold property:** Leasehold is not valid for Golden Visa eligibility, even at AED 2M+. Must be freehold.
 

@@ -18,7 +18,7 @@ highlights:
   - "Boulevard frontage"
   - "More of a community feel"
   - "Good for families wanting Downtown without high-rise"
-metaDescription: "BLVD Crescent Downtown Dubai building profile - low-rise premium Emaar residences on Mohammed Bin Rashid Boulevard. Prices and key details and data."
+metaDescription: "BLVD Crescent Downtown Dubai building profile - low-rise premium Emaar residences on Mohammed Bin Rashid Boulevard."
 heroImage: "https://images.unsplash.com/photo-1735320867968-c4b022ed9fdd?w=1400&q=80&auto=format"
 heroImageAlt: "Finance and property investment concept"
 location:
@@ -43,28 +43,8 @@ Finishes are a clear step above standard Emaar. Being a 2020 completion with a p
 
 The four-bedroom units are particularly noteworthy. Finding a four-bed apartment in Downtown that is not a penthouse or a serviced residence is rare, and BLVD Crescent fills that gap for families who need the space.
 
-## Service Charges
-
-Service charges sit between AED 18 and 22 per square foot per year. This is higher than older Downtown buildings, reflecting the newer amenities and premium positioning. For a two-bedroom at 1,400 square feet, annual service charges run roughly AED 25,200 to 30,800. For a four-bedroom at 2,500 square feet, you are looking at AED 45,000 to 55,000 per year. These are not insignificant numbers, and you need to factor them into any yield calculation.
-
-The amenity provision justifies some of that premium - the pool area, gym, and common spaces are well maintained and less crowded than in larger buildings.
-
-## Rental Market
-
-One-beds typically lease for AED 100,000 to 130,000 per year, two-beds for AED 150,000 to 200,000, three-beds for AED 220,000 to 280,000, and four-beds for AED 300,000 to 380,000. These are premium rents, but tenants at this level expect a premium product, and BLVD Crescent delivers.
-
-The tenant profile skews towards families, senior professionals, and executives who want a quieter, more refined Downtown experience. These are not transient renters - lease renewals are common, which means lower turnover costs for landlords.
-
-Yields tend to be lower than the Downtown average - around 4.5% to 5.5% net - because the higher purchase price per square foot compresses returns. This is not a yield play. It is a capital appreciation and lifestyle proposition.
-
 ## Who It Suits
 
 BLVD Crescent is built for families and professionals who want to live in Downtown without the constant buzz of tower life. If you have children and want a calmer environment with a Boulevard address, this is one of a handful of buildings that genuinely works. It also appeals to downsizers from villas who want apartment living but cannot stomach a 450 square foot studio on the 45th floor.
 
 It is not the right building for yield-focused investors. The entry price is higher, the service charges are elevated, and the returns are modest compared to studio-heavy towers. If you are buying purely on numbers, look at Boulevard Central or 29 Boulevard instead.
-
-## My Take
-
-BLVD Crescent is one of my favourite buildings in Downtown for a very specific buyer. If you are a family that wants to live on the Boulevard in a well-finished, low-density building with space to breathe, there are very few alternatives. The four-bedroom units fill a genuine gap in the market, and the overall feel of the building is closer to a boutique residence than a mass-market tower.
-
-The premium you pay per square foot is real, and you will not get aggressive yields. But that is not why people buy here. They buy because they walked through the lobby, noticed it was quiet, saw the layout of the apartment, and realised this was actually somewhere they could live long-term. In a district full of investment stock and tourist-heavy towers, BLVD Crescent offers something different - a home. And in Downtown Dubai, that is rarer than you might think.

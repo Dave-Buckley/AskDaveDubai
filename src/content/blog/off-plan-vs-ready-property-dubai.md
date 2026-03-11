@@ -44,7 +44,7 @@ These plans allow buyers to acquire property without needing full capital upfron
 
 **No income until handover.** You cannot rent out or occupy an off-plan property until you receive keys. If your investment thesis depends on rental income to service a payment plan, you need to fund the plan from elsewhere.
 
-**Golden Visa ineligibility until handover.** If you're targeting the AED 2M Golden Visa pathway, off-plan does not qualify until handover and the DLD issues a full title deed.
+**Golden Visa eligibility.** As of February 2026, off-plan properties now qualify for the Golden Visa provided the total value reaches AED 2M. Previously this required handover and a full title deed.
 
 **Limited mortgage financing.** UAE banks will only lend up to 50% LTV on off-plan properties - more conservative than ready property (80% LTV for residents). If you need significant leverage, off-plan makes mortgage financing more challenging.
 

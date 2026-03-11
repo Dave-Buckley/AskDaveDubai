@@ -15,10 +15,9 @@ tagline: "Mid-range twin towers with canal views and quiet positioning"
 highlights:
   - "Quieter location on the edge of Downtown"
   - "Dubai Water Canal views from many units"
-  - "Reasonable service charges"
   - "Larger layouts than newer buildings"
   - "Good for families wanting less hustle"
-metaDescription: "Downtown Views Dubai building profile - twin towers with canal views on the quieter side of Downtown. Prices, service charges, and key details and data."
+metaDescription: "Downtown Views Dubai building profile - twin towers with canal views on the quieter side of Downtown."
 heroImage: "https://images.unsplash.com/photo-1642874836561-b76b1c6478fe?w=1400&q=80&auto=format"
 heroImageAlt: "Lush greenery and Dubai parklands"
 location:
@@ -40,22 +39,8 @@ The unit mix here starts at one-bedroom and goes up to three-bedroom, with no st
 
 Kitchens are semi-closed in many of the larger units, which is a plus for families. Balconies are a standard feature, and canal-facing units genuinely benefit from unobstructed water views that are unlikely to be built out. The finishes are mid-range Emaar standard - decent but not luxury. Expect tiled flooring, standard cabinetry, and clean but unremarkable bathrooms.
 
-## Service Charges
-
-Service charges sit between AED 15 and 19 per square foot per year. For a two-bedroom of around 1,300 square feet, that works out to roughly AED 19,500 to 24,700 per year. That is competitive for Downtown and reflects the building's age and established management. No nasty surprises here - the community is mature and charges have been stable.
-
-## Rental Market
-
-One-bedrooms typically lease for AED 80,000 to 110,000 per year, two-beds for AED 120,000 to 160,000, and three-beds for AED 170,000 to 220,000. Tenants here tend to be families and working professionals who want a quieter Downtown experience. The canal-side setting attracts people who appreciate outdoor space and a calmer environment while still being a short drive or Metro ride from the action.
-
-Yields are decent but not exceptional - you are looking at around 5.5% to 6.5% net depending on the unit. This is more of a lifestyle-plus-investment play than a pure yield machine.
-
 ## Who It Suits
 
 Downtown Views works well for families, couples, and professionals who want a Downtown postcode without the tourist traffic and noise of Boulevard living. The larger layouts make it genuinely liveable for longer-term residents, and the canal views give it a different feel to the typical Burj-and-Mall orientation of central Downtown.
 
 It is less suited to investors hunting maximum yield - without studios, you miss the entry-level rental market. And if you want to be in the thick of the Boulevard atmosphere, this location will feel a bit removed.
-
-## My Take
-
-Downtown Views is the sensible choice in Downtown. It does not have the wow factor of Address Sky View or the prestige of Opera Grand, but it offers something those towers do not - space, quiet, and genuine value. The canal views are underrated, and as the canal-side area continues to develop with restaurants and walkways, this location is only going to improve. I rate this building for anyone who wants to actually live in Downtown rather than just own an apartment there. The layouts are forgiving, the charges are fair, and the community is settled. Not the most exciting recommendation I will ever make, but a solid one.

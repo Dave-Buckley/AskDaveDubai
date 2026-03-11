@@ -20,7 +20,7 @@ highlights:
   - "Serviced residences with housekeeping and concierge"
   - "Strong short-term rental performance"
   - "Premium DIFC and fountain views from upper floors"
-metaDescription: "Address Dubai Mall building profile - branded hotel residences connected to the world's most visited mall. Service charges, prices, and key details and data."
+metaDescription: "Address Dubai Mall building profile - branded hotel residences connected to the world's most visited mall."
 heroImage: "https://images.unsplash.com/photo-1735320862956-371e2ed96007?w=1400&q=80&auto=format"
 heroImageAlt: "Luxury Dubai hotel with city views"
 location:
@@ -47,20 +47,10 @@ The interiors are finished to Address Hotels standards, which means quality fixt
 
 ## Service Charges and Running Costs
 
-This is where the branded residence reality kicks in. Service charges range from AED 45 to 65 per square foot per year, reflecting the full hotel services, staffing levels, and facility maintenance. For a one-bedroom of 900 square feet, that is roughly AED 40,000 to 58,000 per year. That is significant, and it is the main consideration for any buyer.
+This is where the branded residence reality kicks in. For a one-bedroom of 900 square feet, that is roughly AED 40,000 to 58,000 per year. That is significant, and it is the main consideration for any buyer.
 
 You are paying for 24/7 concierge, housekeeping, valet parking, pool and gym maintenance at hotel standard, and the overall brand experience. Whether that premium is worth it depends entirely on how much you value the convenience and service.
-
-## Investment Profile
-
-Address Dubai Mall performs well as a short-term rental property. The DTCM holiday home licence is available, and the combination of the Address brand, the Mall connection, and the Burj Khalifa views makes it extremely attractive to tourists. Nightly rates can be strong, particularly during the winter season, DSF, and peak holiday periods.
-
-For long-term rentals, the high service charges compress yields compared to non-branded buildings. Net yields typically sit around 4 to 5 percent after service charges, which is lower than what you would achieve in a standard Emaar building nearby.
 
 ## Who It Suits
 
 Short-term rental investors who want premium nightly rates and high occupancy. End users who prioritise convenience and hotel-level services above all else. Buyers who want a turnkey, fully serviced residence without managing anything themselves.
-
-## My Take
-
-Address Dubai Mall is a lifestyle choice more than a pure investment play. The service charges are high, but you are getting genuine hotel-level services and unmatched convenience. If you plan to live here or run it as a managed holiday home, it makes sense. If you are purely focused on net yield, you will find better returns elsewhere in Downtown. The Mall connection is its unique selling point, and nothing else in the district replicates that.

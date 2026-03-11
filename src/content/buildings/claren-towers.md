@@ -18,7 +18,7 @@ highlights:
   - "Podium-level pool, gym, and landscaped deck"
   - "Boulevard views from many units"
   - "Good build quality by Emaar"
-metaDescription: "Claren Towers Downtown Dubai building profile - newer twin-tower Emaar residence. Prices, service charges, layouts, and key details and data."
+metaDescription: "Claren Towers Downtown Dubai building profile - newer twin-tower Emaar residence."
 heroImage: "https://images.unsplash.com/photo-1678522791889-d358476fc75f?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai skyline with golden sunset haze"
 location:
@@ -42,17 +42,7 @@ Tower 1, being the taller of the two, offers superior views from upper floors. M
 
 The podium level features a swimming pool, a modern gym, and a landscaped outdoor deck area. It is well designed and maintained, offering a genuinely pleasant space to use rather than just a box-ticking exercise. There are also retail units at ground level, adding convenience without you having to leave the building complex.
 
-Compared to branded towers, the amenities are more modest, but that is reflected in the service charges. You get what you need without paying for facilities you might never use.
-
-## Service Charges
-
-Service charges at Claren range from AED 16 to 22 per square foot per year. For a two-bedroom of 1,300 square feet, that translates to roughly AED 21,000 to AED 28,600 annually. This puts Claren in the mid-range for Downtown - more than the older buildings like The Lofts or South Ridge, but substantially less than branded residences where charges can exceed AED 40 per square foot.
-
-For a building of this age and specification, the charges are fair. You are paying for a well-maintained, modern building without the luxury tax.
-
-## Resale and Rental Market
-
-Claren trades at AED 2,200 to 2,800 per square foot, which positions it competitively among Downtown's newer non-branded buildings. Capital appreciation since handover has been solid, driven by the general upward trend in Downtown values and the building's growing reputation among residents.
+Compared to branded towers, the amenities are more modest, but that is reflected in the service charges. You get what you need without paying for facilities you might never use. Capital appreciation since handover has been solid, driven by the general upward trend in Downtown values and the building's growing reputation among residents.
 
 Rental demand is strong across all unit types. The modern finishes and Boulevard positioning make Claren attractive to tenants who want something relatively new without the rental premiums of branded towers. One and two-bedroom units move particularly fast, and holiday home operations perform well here thanks to the Burj Khalifa views and contemporary interiors that photograph well on booking platforms.
 
@@ -61,9 +51,3 @@ Rental demand is strong across all unit types. The modern finishes and Boulevard
 Claren is a versatile building. It works for owner-occupiers who want modern finishes and a good location without the ongoing cost of a branded address. It suits investors targeting the mid-to-upper rental market in Downtown. And it is a strong option for holiday home operators who need a building that looks good in listing photos and delivers a quality guest experience.
 
 It is less suited to buyers who prioritise maximum space - the unit sizes are efficient but not as generous as the 2009-era buildings. If you need a large three-bedroom with room to spare, The Lofts or South Ridge will give you more square footage for less money.
-
-## My Take
-
-Claren Towers is what I consider the new standard for non-branded living in Downtown. It takes the best of Emaar's recent design thinking - better layouts, modern finishes, good amenity spaces - and delivers it without the branded surcharge. I often recommend Claren alongside Boulevard Point when clients want something newer but are not interested in paying for a hotel brand they will never use.
-
-The build quality is genuinely good. After a few years of occupancy, the building has held up well, which is always the real test. If you are buying in Downtown today and your budget sits in the mid-range, Claren should be on your viewing list. It represents the kind of straightforward, well-executed residential building that makes Downtown work as a place to actually live, not just invest.

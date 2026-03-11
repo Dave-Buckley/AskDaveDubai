@@ -20,7 +20,7 @@ highlights:
   - "Waterfront promenade and retail"
   - "5 mins from Downtown Dubai"
 lifestyle: "Creek Harbour is a long-term bet. The infrastructure is impressive, the views of the creek and Ras Al Khor are unique, and when the Creek Tower eventually completes, this will be the next Downtown. Right now it's quieter - ideal for those who want space and future upside."
-investment: "Early-stage appreciation play. Off-plan has been strong. When Creek Tower completes and the Metro arrives, expect Downtown-style valuations. Buy now for the upside."
+investment: "Early-stage appreciation potential. Off-plan demand has been strong. When Creek Tower completes and the Metro arrives, valuations may increase. Worth evaluating for long-term investors."
 transport: "Car-dependent currently. Metro Green Line extension planned. Ras Al Khor Road and Al Khail Road connect to city."
 pros:
   - "Future capital appreciation potential"

@@ -13,13 +13,10 @@ serviceCharge: "AED 13-16/sqft/yr"
 avgPricePerSqft: "AED 1,800-2,300"
 tagline: "Budget-friendly Downtown tower with some of the lowest service charges"
 highlights:
-  - "Among the lowest service charges in Downtown Dubai"
-  - "Affordable price per square foot"
   - "Good sized units with practical layouts"
   - "Pool, gym, and children's play area"
   - "Walking distance to the Boulevard"
-  - "Strong rental yields for investors"
-metaDescription: "Upper Crest Downtown Dubai building profile - budget-friendly tower with low service charges. Prices, unit types, and key details and data."
+metaDescription: "Upper Crest Downtown Dubai building profile - budget-friendly tower with low."
 heroImage: "https://images.unsplash.com/photo-1629892665176-2c27769e6775?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai residential tower exterior"
 location:
@@ -43,20 +40,6 @@ One-bedroom apartments range from 750 to 900 square feet. Two-bedroom units are 
 
 The fit-out is functional. It gets the job done without impressing, which is reflected in the price point. Some owners have renovated their units to bring them up to a more contemporary standard.
 
-## Service Charges
-
-This is Upper Crest's strongest selling point. Service charges sit in the AED 13 to 16 per square foot range, which is among the lowest in Downtown Dubai. For a one-bedroom of 800 square feet, annual charges are roughly AED 10,000 to 12,800. That is a significant saving compared to branded buildings where charges can be three to four times higher.
-
-## Investment Profile
-
-Upper Crest is a yield play, plain and simple. The combination of low purchase prices and low service charges means net rental yields can reach 7 to 9 percent, which is outstanding for a Downtown address. The tenant profile is typically budget-conscious professionals who want to say they live in Downtown without paying premium rents.
-
-Capital appreciation has been slower than the core Downtown buildings, which is the trade-off you accept. This is about yield, not capital growth.
-
 ## Who It Suits
 
 Yield-focused investors who want maximum returns from a Downtown address. Budget-conscious tenants and buyers. First-time investors entering the Dubai market with a limited budget.
-
-## My Take
-
-Upper Crest is the building that proves you do not need a massive budget to invest in Downtown Dubai. It is not pretty, it is not prestigious, and nobody is going to be impressed when you tell them the building name. But the numbers work. If you are investing for yield and you can stomach a less polished product, Upper Crest delivers some of the strongest returns in the district. I always tell clients to consider what they are optimising for. If the answer is yield, this building should be in the conversation.

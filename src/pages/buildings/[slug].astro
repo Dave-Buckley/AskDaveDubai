@@ -126,7 +126,7 @@ const holidayInfo = holidayLabels[building.data.holidayHome] || holidayLabels.ch
         <!-- Bottom CTA -->
         <div class="mt-12 p-6 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-xl text-center">
           <p class="font-heading text-xl font-semibold mb-2">Interested in {building.data.name}?</p>
-          <p class="text-[var(--color-paper)]/75 text-sm mb-4">I can pull current listings, recent transactions, and give you an honest view on this building.</p>
+          <p class="text-[var(--color-paper)]/75 text-sm mb-4">Get in touch for current listings, pricing, and availability in this building.</p>
           <div class="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href={whatsappUrl}
@@ -168,38 +168,16 @@ const holidayInfo = holidayLabels[building.data.holidayHome] || holidayLabels.ch
               <dt class="text-sm text-[var(--color-ink-muted)]">Completed</dt>
               <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{building.data.completionYear}</dd>
             </div>
-            <div class="flex justify-between items-start py-2 border-b border-[var(--color-border)]">
-              <dt class="text-sm text-[var(--color-ink-muted)]">Floors</dt>
-              <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{building.data.floors}</dd>
-            </div>
             {building.data.totalUnits && (
               <div class="flex justify-between items-start py-2 border-b border-[var(--color-border)]">
                 <dt class="text-sm text-[var(--color-ink-muted)]">Total Units</dt>
                 <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{building.data.totalUnits}</dd>
               </div>
             )}
-            <div class="flex justify-between items-start py-2 border-b border-[var(--color-border)]">
-              <dt class="text-sm text-[var(--color-ink-muted)]">Avg Price/sqft</dt>
-              <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{building.data.avgPricePerSqft}</dd>
-            </div>
-            <div class="flex justify-between items-start py-2 border-b border-[var(--color-border)]">
-              <dt class="text-sm text-[var(--color-ink-muted)]">Service Charge</dt>
-              <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{building.data.serviceCharge}</dd>
-            </div>
             {building.data.branded && building.data.brandName && (
               <div class="flex justify-between items-start py-2 border-b border-[var(--color-border)]">
                 <dt class="text-sm text-[var(--color-ink-muted)]">Brand</dt>
                 <dd class="text-sm font-medium text-[var(--color-ink)] text-right">{building.data.brandName}</dd>
-              </div>
-            )}
-            {building.data.holidayHome !== 'check' && (
-              <div class="flex justify-between items-center py-2 border-b border-[var(--color-border)]">
-                <dt class="text-sm text-[var(--color-ink-muted)]">Holiday Homes</dt>
-                <dd>
-                  <span class={`px-2 py-0.5 text-xs font-medium rounded ${holidayInfo.color}`}>
-                    {holidayInfo.text}
-                  </span>
-                </dd>
               </div>
             )}
             <div class="flex justify-between items-center py-2">

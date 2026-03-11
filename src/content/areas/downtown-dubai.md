@@ -50,9 +50,9 @@ order: 1
 
 Downtown Dubai is the most recognisable neighbourhood in the UAE. Built around the Burj Khalifa, it draws tourists, residents, and investors from across the world. Properties range from studio apartments in older towers to palatial penthouses in the Burj Khalifa itself, with Emaar dominating development and hotel brands like Address and Vida managing several buildings.
 
-The investor market here is extraordinarily deep. You will never struggle to sell a quality Downtown unit. Short-term rental demand is among the highest in the city, particularly during peak season (October to April) and major events like New Year's Eve, when the Burj Khalifa fireworks draw global visitors.
+The investor market here is extraordinarily deep. Quality Downtown units have historically maintained strong resale demand. Short-term rental demand is among the highest in the city, particularly during peak season (October to April) and major events like New Year's Eve, when the Burj Khalifa fireworks draw global visitors.
 
-For investors: Downtown is a hold-forever asset class. For end-users: expect to pay for proximity to Dubai's greatest concentration of amenities.
+For long-term investors: Downtown has historically shown strong holding value and liquidity. For end-users: expect to pay for proximity to Dubai's greatest concentration of amenities.
 
 ## Residential Buildings
 

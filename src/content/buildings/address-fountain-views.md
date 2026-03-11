@@ -19,7 +19,7 @@ highlights:
   - "Full Address hotel services"
   - "Connected to Dubai Mall"
   - "Large pool deck and leisure facilities"
-metaDescription: "Address Fountain Views building profile - three-tower Address branded residence with Dubai Fountain views. Prices, service charges, and key details."
+metaDescription: "Address Fountain Views building profile - three-tower Address branded residence with Dubai Fountain views."
 heroImage: "https://images.unsplash.com/photo-1735320860732-d7f92aed9587?w=1400&q=80&auto=format"
 heroImageAlt: "Dubai Fountain and Burj Khalifa views"
 location:
@@ -44,36 +44,6 @@ The key differentiator is the views. Units in Tower 1 (the tallest at 65 floors)
 
 Finishes are consistent across all three towers - neutral palettes, quality fixtures, and the usual Address standard. The podium level includes a large pool deck, gym, and leisure facilities shared across the towers.
 
-## Service Charges
-
-Service charges range from AED 28-36 per square foot per year. The scale of the complex helps keep charges slightly below Address Downtown, though they are still well above non-branded residential buildings. You are paying for concierge, housekeeping availability, pool and gym maintenance, security, and the upkeep of hotel-grade common areas.
-
-With 800 residential units plus hotel rooms, the operating costs are spread across a larger base, which helps. But do not expect bargain service charges - this is still a hotel-branded product.
-
-## Rental Market
-
-The short-term rental market is strong here, particularly for fountain-facing units. Tourists will pay a premium for a view of the fountain show from their balcony, and the Address name adds credibility on booking platforms. During peak months, fountain-view units command excellent nightly rates.
-
-The challenge is supply. With 800 residential units, many of which are investor-owned and operated as holiday homes, you are competing against a large pool of similar listings. Pricing needs to be competitive, and the quality of your furnishing and listing presentation matters more here than in a building with fewer units.
-
-Long-term rentals work well for the larger units. Families and executives appreciate the hotel services, the Mall connectivity, and the address itself.
-
-## Resale Market
-
-Resale liquidity is solid given the volume of units and the brand recognition. Entry prices are generally lower per square foot than Address Downtown, making this a slightly more accessible route to fountain-adjacent Address living.
-
-The three-tower setup means there is usually something available on the market, which is good for buyers but can work against sellers if multiple units are listed at the same time. Pricing strategy matters here - overpriced units sit while competitively priced ones move quickly.
-
 ## Who It Suits
 
 Address Fountain Views is a strong option for investors who want Address branding and fountain proximity at a lower per-square-foot cost than Address Downtown. It also works for end-users who want to live close to Dubai Mall with hotel services but do not need the prestige of the original Address tower.
-
-## My Take
-
-Address Fountain Views gives you a lot of what Address Downtown offers at a lower price point. The fountain views from the right units are excellent, the Mall connectivity is convenient, and the Address services are the same across the brand.
-
-The honest trade-off is scale. With 800 units across three towers, this feels more like a large-scale resort complex than an exclusive residential tower. The pool deck gets busy, the lifts serve a lot of residents, and you are one of many owners in the building. If exclusivity matters to you, this is not the Address property to buy.
-
-For investors, the key question is yield. The lower entry price compared to Address Downtown should translate to better percentage returns, but the competition from other units in the same building can squeeze your nightly rates. You need to be realistic about occupancy levels and factor in management fees on top of the service charges.
-
-If you want the Address name and fountain views without paying the absolute premium, this is your best bet. Just choose your tower and floor carefully - the view from a unit on a lower floor of Tower 3 is a completely different product to a high-floor unit in Tower 1.

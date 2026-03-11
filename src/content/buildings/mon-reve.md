@@ -19,7 +19,7 @@ highlights:
   - "Boutique scale with only 280 units"
   - "Contemporary design with high-quality fit-out"
   - "Emaar community management"
-metaDescription: "Mon Reve Downtown Dubai building profile - new Emaar boutique tower in the Opera District. Service charges, prices, unit types, and key details and data."
+metaDescription: "Mon Reve Downtown Dubai building profile - new Emaar boutique tower in the Opera District."
 heroImage: "https://images.unsplash.com/photo-1570206993210-3c90379d3521?w=1400&q=80&auto=format"
 heroImageAlt: "Modern luxury residential building"
 location:
@@ -43,20 +43,6 @@ The unit mix covers one, two, and three-bedroom apartments. Layouts are modern a
 
 Floor-to-ceiling windows are standard, and many units benefit from views of the Opera District, the Boulevard, and partial Burj Khalifa sightlines from higher floors.
 
-## Service Charges
-
-As a new building, service charges are still settling, but early indications put them in the AED 18 to 22 per square foot range, consistent with other recent Emaar developments in the area. This is a reasonable level for the quality of finish and the Emaar management standard.
-
-## Investment Profile
-
-Mon Reve benefits from the Opera District's growing reputation. The area around Dubai Opera has become one of Downtown's most desirable sub-districts, driven by the cultural venue itself and the restaurant and retail offering that has developed around it. Property values in this pocket have shown consistent growth.
-
-For investors, the new build means lower maintenance costs in the early years and strong appeal to tenants who want contemporary finishes. Yields should sit in the 5 to 6 percent range, which is solid for this quality level.
-
 ## Who It Suits
 
 End users who want a brand new Emaar apartment in a premium location. Couples and professionals who value the Opera District lifestyle. Investors targeting tenants who prefer newer buildings with modern finishes.
-
-## My Take
-
-Mon Reve is a building I am genuinely excited about. The Opera District is the part of Downtown that I think has the most upside over the next few years, and Mon Reve is one of the best new buildings in that area. It does not have the scale or the height of Grande or the branded cachet of the Address, but the boutique feel, the quality of finish, and the location all add up. If you are looking for a new build in Downtown's best neighbourhood within a neighbourhood, Mon Reve is worth viewing.

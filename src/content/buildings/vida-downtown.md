@@ -19,7 +19,7 @@ highlights:
   - "Rooftop pool with Burj Khalifa backdrop"
   - "Lower unit count means less crowded facilities"
   - "Walking distance to Dubai Opera"
-metaDescription: "Vida Downtown building profile - boutique hotel-branded residence by Emaar. Prices, service charges, rental yields, and key details and data."
+metaDescription: "Vida Downtown building profile - boutique hotel-branded residence by Emaar."
 heroImage: "https://images.unsplash.com/photo-1735320862956-371e2ed96007?w=1400&q=80&auto=format"
 heroImageAlt: "Downtown Dubai towers and palm trees near Opera District"
 location:
@@ -46,34 +46,6 @@ The interiors lean toward a contemporary, minimalist design with lighter tones t
 
 Views vary by floor and position. Higher floors offer decent Burj Khalifa angles, while lower units look out over the surrounding low-rise Opera District or toward Sheikh Zayed Road.
 
-## Service Charges
-
-Here is where Vida Downtown demands attention - service charges run AED 35-45 per square foot per year. That is high, even by hotel-branded standards. The smaller unit count means the operating costs are spread across fewer owners, which pushes the per-square-foot charge up. You are paying for hotel services, a curated lobby experience, pool and gym maintenance, and the general upkeep of a boutique property.
-
-For studio owners in particular, the service charge can represent a significant chunk of annual costs relative to rental income. Run the numbers carefully before buying.
-
-## Rental Market
-
-Short-term rentals perform reasonably well, driven by the Vida brand, the boutique feel, and the Opera District location. Guests who stay here tend to be younger travellers and couples who prefer a lifestyle hotel over a large-scale resort. The building appeals to a specific demographic, which works in your favour if you position your listing correctly.
-
-Long-term rentals attract young professionals and couples who want Downtown living with hotel perks but prefer a more intimate environment than the larger Address buildings. Demand is consistent but the smaller unit sizes limit the tenant pool to singles and couples.
-
-## Resale Market
-
-The resale market is steady but less liquid than the Address properties simply because there are fewer units and it is a smaller, less well-known brand internationally. Vida is gaining recognition, but it does not carry the same instant name recognition as Address, particularly with overseas buyers.
-
-That said, the boutique positioning and lower unit count mean there is usually limited supply on the market at any given time, which supports pricing.
-
 ## Who It Suits
 
 Vida Downtown is ideal for buyers who value design and atmosphere over scale and views. It suits younger investors, owner-occupiers who want a boutique hotel experience, and buyers who prefer the quieter Opera District side of Downtown over the busier Mall area.
-
-## My Take
-
-Vida Downtown has genuine charm. It is a building with personality, and in a neighbourhood full of large-scale towers, that counts for something. La Serre on the ground floor is a real asset, and the rooftop pool is pleasant without being overcrowded.
-
-The concern is the service charge. At AED 35-45 per square foot, it is one of the highest in Downtown on a per-square-foot basis. For a studio owner, that is a meaningful annual cost that directly impacts your net return. You need to factor this in honestly when comparing yields against other buildings.
-
-The other consideration is brand recognition. Vida is growing but it is not Address. If you are buying for short-term rentals and your target guest is an international tourist searching on a booking platform, the Address name carries more immediate weight. Vida appeals to a more discerning traveller who knows what they are looking for.
-
-If you like the building and the vibe, and the numbers work after accounting for service charges, it is a solid choice. Just do not buy a Vida studio purely on projected yields without understanding the cost base first.
